@@ -1,0 +1,60 @@
+---
+import site from '../../config/site.json';
+import '../styles.css';
+const { title, description, noindex = false, staleAt = null } = Astro.props;
+const canonical = new URL(Astro.url.pathname, site.url).href;
+const fullTitle = title ? `${title} | ${site.name}` : site.name;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta name="theme-color" content="#2f6b3a" />
+  </head>
+  <body data-stale-at={staleAt}>
+    {/* This page is static and rebuilt once a day. If the daily job stops, this tiny script
+        (no network, no tracking) hides any forecast-based answer once it is too old. */}
+    {staleAt && (
+      <script is:inline>
+        (function () {
+          var at = Date.parse(document.body.getAttribute('data-stale-at'));
+          if (at && Date.now() > at) document.documentElement.classList.add('stale');
+        })();
+      </script>
+    )}
+    <header class="site-header">
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span>Plant Yet?</a>
+      <nav aria-label="Main">
+        <a href="/#towns">Towns</a>
+        <a href="/crops/">Crops</a>
+        <a href="/about/">Method</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>
+        Guidance only. Frost dates are 30-year averages and forecasts change; your yard may run colder or warmer
+        than the nearest weather station. <a href="/about/">How the answer is decided</a>.
+      </p>
+      <p>
+        Data: <a href="https://www.weather.gov/documentation/services-web-api">National Weather Service</a>,
+        <a href="https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals">NOAA NCEI Climate Normals</a>,
+        <a href="https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html">U.S. Census Bureau</a>,
+        <a href="https://www.usgs.gov/3d-elevation-program">USGS</a>, and university extension services.
+        A free project from Inside the Towns. No tracking, no cookies.
+      </p>
+    </footer>
+  </body>
+</html>

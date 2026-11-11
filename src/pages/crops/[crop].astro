@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import { crops, windowText, host, fmtShortDate } from '../../lib/data.mjs';
+export function getStaticPaths() {
+  return crops.map((crop) => ({ params: { crop: crop.slug }, props: { crop } }));
+}
+const { crop } = Astro.props;
+const lower = crop.name.toLowerCase();
+const range = (o) => (o.min === o.max ? `${o.min}` : `${o.min}–${o.max}`);
+const facts = [
+  crop.frostCategory && { label: 'Frost category', value: crop.frostCategory.value.charAt(0).toUpperCase() + crop.frostCategory.value.slice(1), src: crop.frostCategory },
+  crop.plantWindow && { label: 'Plant outdoors', value: windowText(crop.plantWindow), src: crop.plantWindow },
+  crop.indoorStartWeeks && { label: 'Start seeds indoors', value: `${range(crop.indoorStartWeeks)} weeks before typical last frost`, src: crop.indoorStartWeeks },
+  crop.minNightTempF && { label: 'Plant when nights stay above', value: `${crop.minNightTempF.value}°F`, src: crop.minNightTempF },
+  crop.damageThresholdF && { label: 'Cover at or below', value: `${crop.damageThresholdF.value}°F`, src: crop.damageThresholdF },
+  crop.daysToHarvest && { label: 'Days to harvest', value: range(crop.daysToHarvest), src: crop.daysToHarvest },
+].filter(Boolean);
+const sources = [...new Map([...facts.map((f) => f.src), ...crop.tips].map((s) => [s.url, s])).values()];
+---
+<Base title={`${crop.name}: when to plant in Colorado`} description={`When to plant ${lower} in Colorado: frost category, planting window relative to last frost, minimum night temperature and growing tips, each with its university extension source.`}>
+  <p class="breadcrumb"><a href="/crops/">Crops</a> › {crop.name}</p>
+  <h1>{crop.name}</h1>
+  <p class="lede">What Plant Yet? knows about {lower}, and where each number comes from. For today's answer, <a href="/#towns">pick your town</a>.</p>
+
+  <h2>Planting numbers</h2>
+  <dl class="facts card">
+    {facts.map((f) => (
+      <div>
+        <dt>{f.label}</dt>
+        <dd>
+          {f.value}
+          <span class="src muted">
+            {f.src.basis === 'category' && crop.frostCategory && <>Given for {crop.frostCategory.value} crops as a group. </>}
+            Source: <a href={f.src.url}>{f.src.sourceName || host(f.src.url)}</a>
+          </span>
+        </dd>
+      </div>
+    ))}
+  </dl>
+  {crop.leftOut?.length > 0 && (
+    <p class="small muted">
+      Left out because we found no university extension source for it: {crop.leftOut.join(', ')}. We don't estimate.
+    </p>
+  )}
+
+  {crop.tips.length > 0 && (
+    <>
+      <h2>Growing tips</h2>
+      <ul class="tips">
+        {crop.tips.map((t) => (
+          <li>{t.text} <span class="src muted">(<a href={t.url}>{t.sourceName || host(t.url)}</a>)</span></li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <h2>Sources</h2>
+  <ul class="small">
+    {sources.map((s) => (
+      <li><a href={s.url}>{s.sourceName || host(s.url)}</a> — checked {fmtShortDate(s.fetched)}</li>
+    ))}
+  </ul>
+  <p class="small muted">Guidance only. Extension advice is written for typical conditions; your soil, variety and microclimate matter.</p>
+</Base>

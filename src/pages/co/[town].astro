@@ -1,0 +1,147 @@
+---
+import Base from '../../layouts/Base.astro';
+import { towns, crops, townView, STATUS, ORDER, answers, site, frostRule, fmtTime, fmtDate, fmtMonthDay, fmtShortDate, nightShort, staleAt } from '../../lib/data.mjs';
+
+export function getStaticPaths() {
+  return towns.map((town) => ({ params: { town: town.slug }, props: { town } }));
+}
+const { town } = Astro.props;
+const v = townView(town);
+const { station, forecast, match, answer } = v;
+const head = answer.headline;
+const st = STATUS[head.s];
+const hasAnswers = Boolean(answer.crops);
+const rows = hasAnswers
+  ? crops
+      .map((c) => ({ crop: c, a: answer.crops[c.slug] }))
+      .sort((x, y) => ORDER.indexOf(x.a.s) - ORDER.indexOf(y.a.s) || x.crop.name.localeCompare(y.crop.name))
+  : [];
+const description = station
+  ? `Should you plant, wait, or cover tonight in ${town.name}, Colorado? Today's answer from the NWS forecast and ${town.name}'s 30-year frost dates (typical last frost ${fmtMonthDay(station.lastSpring.p50)}).`
+  : `Tonight's low and the 7-night forecast for ${town.name}, Colorado. No weather station with a 30-year frost record is close enough to give planting dates.`;
+---
+<Base title={`Can I plant yet in ${town.name}?`} description={description} noindex={!station} staleAt={forecast ? staleAt(forecast.fetchedAt) : null}>
+  <p class="breadcrumb"><a href="/">Colorado</a> › {town.name}</p>
+  <h1>Can I plant yet in {town.name}?</h1>
+
+  <section class={`answer fresh-only ${st.cls}`} aria-label="Today's answer">
+    <span class="word">{head.word}</span>
+    <p class="why">{head.r}</p>
+    <p class="when">
+      Answer for {fmtDate(answers.date)}.
+      {forecast && <>Forecast fetched {fmtTime(forecast.fetchedAt)}.</>}
+    </p>
+  </section>
+  <section class="answer stale-only s-unavailable" aria-label="Forecast unavailable">
+    <span class="word">Forecast unavailable</span>
+    <p class="why">
+      {forecast
+        ? <>The last forecast we fetched for {town.name} is from {fmtTime(forecast.fetchedAt)} — more than {site.staleAfterHours} hours old, so we won't answer from it.</>
+        : <>No forecast could be fetched for {town.name}.</>}
+    </p>
+    <p class="when">Check the <a href={v.nwsPage}>National Weather Service forecast for {town.name}</a>.</p>
+  </section>
+
+  <h2>The numbers</h2>
+  <dl class="numbers">
+    {forecast ? (
+      <>
+        <div class="fresh-only">
+          <dt>Tonight's low</dt>
+          <dd>{forecast.tonight.lowF}°F<small>{forecast.tonight.name}</small></dd>
+        </div>
+        <div class="fresh-only">
+          <dt>Lowest of next 7 nights</dt>
+          <dd>{forecast.min7.lowF}°F<small>{forecast.min7.name}</small></dd>
+        </div>
+      </>
+    ) : (
+      <div class="wide"><dt>Forecast</dt><dd>Unavailable</dd></div>
+    )}
+    {station ? (
+      <>
+        <div>
+          <dt>Typical last frost</dt>
+          <dd>{fmtMonthDay(station.lastSpring.p50)}<small>1 year in 10 it comes after {fmtMonthDay(station.lastSpring.p10)}</small></dd>
+        </div>
+        <div>
+          <dt>Typical first frost</dt>
+          <dd>{fmtMonthDay(station.firstFall.p50)}<small>1 year in 10 it comes before {fmtMonthDay(station.firstFall.p10)}</small></dd>
+        </div>
+        <div class="wide">
+          <dt>Frost record from</dt>
+          <dd>
+            <a href={station.url}>{station.name.replace(/, CO US$/, '')}</a>
+            <small>
+              Station {station.id}, {match.distanceMi} mi away, {Math.abs(match.elevDiffFt) < 1 ? 'same elevation' : `${Math.abs(match.elevDiffFt).toLocaleString('en-US')} ft ${match.elevDiffFt > 0 ? 'higher' : 'lower'}`}
+              ({station.elevFt.toLocaleString('en-US')} ft). NOAA 1991–2020 normals, 32°F.
+            </small>
+          </dd>
+        </div>
+      </>
+    ) : (
+      <div class="wide">
+        <dt>Frost record</dt>
+        <dd>
+          No nearby frost record
+          <small>
+            No station with complete 1991–2020 freeze data is within {frostRule.maxMiles} miles and {frostRule.maxElevDiffFt} ft of {town.name}'s elevation.
+            {match?.nearestRejected && <> The closest one ({match.nearestRejected.name.replace(/ US$/, '')}) is {match.nearestRejected.distanceMi} mi away and {Math.abs(match.nearestRejected.elevDiffFt).toLocaleString('en-US')} ft {match.nearestRejected.elevDiffFt > 0 ? 'higher' : 'lower'}, so we don't borrow its dates.</>}
+          </small>
+        </dd>
+      </div>
+    )}
+    <div class="wide">
+      <dt>Forecast</dt>
+      <dd>
+        {forecast ? <>Fetched {fmtTime(forecast.fetchedAt)}</> : 'Not available'}
+        <small>
+          <a href={v.nwsPage}>National Weather Service</a>{v.grid && <>, grid {v.grid.wfo} {v.grid.x},{v.grid.y}</>}.
+          {town.name} sits at {town.elevation.ft.toLocaleString('en-US')} ft (<a href={town.elevation.url}>USGS</a>).
+        </small>
+      </dd>
+    </div>
+  </dl>
+
+  {forecast && (
+    <div class="fresh-only">
+      <h3>Lows for the next {forecast.nights.length} nights</h3>
+      <ol class="nights">
+        {forecast.nights.map((n) => (
+          <li class={n.lowF <= 32 ? 'frost' : ''}><b>{n.lowF}°</b>{nightShort(n)}</li>
+        ))}
+      </ol>
+    </div>
+  )}
+
+  {hasAnswers && (
+    <section class="fresh-only">
+      <h2>Crop by crop in {town.name}</h2>
+      <table class="crops">
+        <caption>Each answer uses {town.name}'s frost dates and tonight's forecast. Tap a crop for tips and sources.</caption>
+        <thead><tr><th scope="col">Crop</th><th scope="col">Today</th><th scope="col">Why</th></tr></thead>
+        <tbody>
+          {rows.map(({ crop, a }) => (
+            <tr>
+              <th scope="row"><a href={`/crops/${crop.slug}/`}>{crop.name}</a></th>
+              <td><span class={`badge ${STATUS[a.s].cls}`}>{STATUS[a.s].label}</span></td>
+              <td class="why">{a.r}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  )}
+  {!station && (
+    <p class="card">
+      We only give planting dates when a long-term weather station is close by and at a similar elevation, because frost dates in
+      Colorado change fast with altitude. The forecast numbers above are still for {town.name} itself.
+      <a href="/about/">Read how matching works.</a>
+    </p>
+  )}
+  <p class="small muted">
+    Town list and location: <a href={town.coords.url}>U.S. Census Bureau Gazetteer</a> (fetched {fmtShortDate(town.coords.fetched)}).
+    Elevation fetched {fmtShortDate(town.elevation.fetched)}.
+    {station && <>Frost normals fetched {fmtShortDate(station.fetched)}.</>}
+  </p>
+</Base>
