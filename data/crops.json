@@ -302,7 +302,7 @@
   },
   {
    "slug": "cantaloupe",
-   "name": "Cantaloupe / muskmelon",
+   "name": "Cantaloupe",
    "type": "vegetable",
    "frostCategory": {
     "value": "very tender",
@@ -1847,7 +1847,7 @@
   },
   {
    "slug": "summer-squash",
-   "name": "Summer squash / zucchini",
+   "name": "Summer squash",
    "type": "vegetable",
    "frostCategory": {
     "value": "tender",

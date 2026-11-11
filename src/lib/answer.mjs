@@ -95,8 +95,8 @@ export function cropAnswer({ crop, station, forecast, today }) {
   const nightMin = crop.nightMinF?.value ?? null;
   const damage = crop.coldToleranceF?.value ?? null;
   const gate = nightMin ?? damage;
-  const needs = nightMin !== null ? `needs nights above ${nightMin}°F` : `is at risk at ${damage}°F or colder`;
   const name = plural(crop.name).toLowerCase();
+  const needs = nightMin !== null ? `${name} needs nights above ${nightMin}°F` : `cold limit for ${name} is ${damage}°F`;
 
   // COVER TONIGHT — only while the crop is normally in the ground.
   if (damage !== null && today >= cur.open && today <= cur.seasonEnd && tonight.lowF <= damage) {
@@ -113,9 +113,9 @@ export function cropAnswer({ crop, station, forecast, today }) {
       return { s: 'nodata', r: `${windowText}, but no extension source gives a cold limit for ${name}, so we can't check the forecast for it.` };
     }
     if (min7.lowF > gate) {
-      return { s: 'plant', r: `${windowText}. Coldest of the next 7 nights: ${min7.lowF}°F (${name} ${needs}).` };
+      return { s: 'plant', r: `${windowText}. Coldest of the next 7 nights: ${min7.lowF}°F (${needs}).` };
     }
-    return { s: 'wait', r: `${min7.lowF}°F forecast ${nightLabel(min7)}; ${name} ${needs}.` };
+    return { s: 'wait', r: `${min7.lowF}°F forecast ${nightLabel(min7)}; ${needs}.` };
   }
 
   // Before this year's window.

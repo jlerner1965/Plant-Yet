@@ -30,10 +30,10 @@ const items = towns.map((t) => ({ slug: t.slug, name: t.name, s: answers.towns[t
         ))}
       </div>
       <p class="small muted">
-        {fmtDate(answers.date)}. Of {towns.length} towns:
-        {s.offseason > 0 && <>{s.offseason} are in the off-season, </>}
-        {s.unavailable > 0 && <>{s.unavailable} have no current forecast, </>}
-        {s.norecord} have no nearby frost record.
+        {fmtDate(answers.date)}, all {towns.length} towns.
+        {s.offseason > 0 && <>Off-season: {s.offseason}. </>}
+        {s.unavailable > 0 && <>No current forecast: {s.unavailable}. </>}
+        No nearby frost record: {s.norecord}.
         Forecasts fetched {fmtTime(forecastsMeta.lastRun)}.
       </p>
     </div>
