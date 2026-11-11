@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import { towns, answers, forecastsMeta, STATUS, site, fmtTime, fmtDate, staleAt } from '../lib/data.mjs';
+const s = answers.summary;
+const tiles = [
+  { key: 'plant', n: s.plant, label: 'Plant' },
+  { key: 'wait', n: s.wait, label: 'Wait' },
+  { key: 'cover', n: s.cover, label: 'Cover tonight' },
+];
+const items = towns.map((t) => ({ slug: t.slug, name: t.name, s: answers.towns[t.slug].headline.s }));
+---
+<Base
+  title="Can I plant yet? Colorado planting answers, town by town"
+  description={`Should you plant, wait, or cover tonight? A daily answer for all ${towns.length} incorporated Colorado towns, from the National Weather Service forecast and NOAA 30-year frost dates.`}
+  staleAt={staleAt(forecastsMeta.lastRun)}
+>
+  <h1>Can I plant yet?</h1>
+  <p class="lede">One answer a day for every town in Colorado: plant, wait, or cover tonight.</p>
+
+  <label for="q" class="small muted">Find your town</label>
+  <input id="q" class="search" type="search" placeholder="Berthoud, Erie, Pueblo…" autocomplete="off" autocapitalize="words" spellcheck="false" />
+  <p id="none" class="muted" hidden>No incorporated Colorado town matches that. Try the nearest town.</p>
+
+  <section aria-labelledby="today">
+    <h2 id="today">Today across Colorado</h2>
+    <div class="fresh-only">
+      <div class="tiles">
+        {tiles.map((t) => (
+          <div class={`tile ${STATUS[t.key].cls}`}><b>{t.n}</b><span>{t.label}</span></div>
+        ))}
+      </div>
+      <p class="small muted">
+        {fmtDate(answers.date)}, all {towns.length} towns.
+        {s.offseason > 0 && <>Off-season: {s.offseason}. </>}
+        {s.unavailable > 0 && <>No current forecast: {s.unavailable}. </>}
+        No nearby frost record: {s.norecord}.
+        Forecasts fetched {fmtTime(forecastsMeta.lastRun)}.
+      </p>
+    </div>
+    <p class="stale-only card s-unavailable">
+      <strong>Forecast unavailable.</strong> Our last update was {fmtTime(forecastsMeta.lastRun)}, more than {site.staleAfterHours} hours ago, so today's counts aren't shown.
+    </p>
+  </section>
+
+  <section aria-labelledby="towns">
+    <h2 id="towns">All {towns.length} towns</h2>
+    <ul class="legend fresh-only" aria-hidden="true">
+      <li><span class="dot s-plant"></span>Plant</li>
+      <li><span class="dot s-wait"></span>Wait</li>
+      <li><span class="dot s-cover"></span>Cover tonight</li>
+      <li><span class="dot s-off"></span>Off-season</li>
+      <li><span class="dot s-norecord"></span>No answer</li>
+    </ul>
+    <ul class="townlist" id="list">
+      {items.map((t) => (
+        <li data-n={t.name.toLowerCase()}>
+          <a href={`/co/${t.slug}/`}>
+            <span class={`dot fresh-only ${STATUS[t.s].cls}`} title={STATUS[t.s].label}></span>{t.name}
+            <span class="fresh-only" style="position:absolute;left:-9999px">: {STATUS[t.s].label}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+  <script is:inline>
+    (function () {
+      var q = document.getElementById('q'), items = document.querySelectorAll('#list li'), none = document.getElementById('none');
+      function norm(s) { return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').trim(); }
+      q.addEventListener('input', function () {
+        var v = norm(q.value), shown = 0;
+        items.forEach(function (li) {
+          var hit = norm(li.getAttribute('data-n')).indexOf(v) !== -1;
+          li.hidden = !hit;
+          if (hit) shown++;
+        });
+        none.hidden = shown > 0;
+      });
+      q.addEventListener('keydown', function (e) {
+        if (e.key !== 'Enter') return;
+        var first = document.querySelector('#list li:not([hidden]) a');
+        if (first && q.value.trim()) location.href = first.href;
+      });
+    })();
+  </script>
+</Base>

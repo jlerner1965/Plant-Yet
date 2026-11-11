@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import { crops, windowText, host, fmtShortDate } from '../../lib/data.mjs';
+export function getStaticPaths() {
+  return crops.map((crop) => ({ params: { crop: crop.slug }, props: { crop } }));
+}
+const { crop } = Astro.props;
+const lower = crop.name.toLowerCase();
+const range = (o) => (o.min === o.max ? `${o.min}` : `${o.min}–${o.max}`);
+const facts = [
+  crop.frostCategory && { label: 'Frost category', value: crop.frostCategory.value.charAt(0).toUpperCase() + crop.frostCategory.value.slice(1), src: crop.frostCategory },
+  crop.plantWindow && { label: 'Plant outdoors', value: windowText(crop.plantWindow), src: crop.plantWindow },
+  crop.indoorStartWeeks && { label: 'Start seeds indoors', value: `${crop.indoorStartWeeks.max === null ? `At least ${crop.indoorStartWeeks.min}` : range(crop.indoorStartWeeks)} weeks before ${crop.indoorStartWeeks.relativeTo === 'transplant date' ? 'planting out' : 'typical last frost'}`, src: crop.indoorStartWeeks },
+  crop.nightMinF && { label: 'Plant out when nights stay above', value: `${crop.nightMinF.value}°F`, src: crop.nightMinF },
+  crop.coldToleranceF && { label: 'Cover at or below', value: `${crop.coldToleranceF.value}°F`, src: crop.coldToleranceF },
+  crop.minDaytimeTempF && { label: 'Grows once daytime temperatures reach', value: `${crop.minDaytimeTempF.value}°F`, src: crop.minDaytimeTempF },
+  crop.daysToHarvest && { label: 'Days to harvest', value: range(crop.daysToHarvest), src: crop.daysToHarvest },
+].filter(Boolean);
+const gate = crop.nightMinF?.value ?? crop.coldToleranceF?.value ?? null;
+const sources = [...new Map([...facts.map((f) => f.src), ...crop.tips].map((s) => [s.url, s])).values()];
+---
+<Base title={`${crop.name}: when to plant in Colorado`} description={`When to plant ${lower} in Colorado: frost category, planting window relative to last frost, minimum night temperature and growing tips, each with its university extension source.`}>
+  <p class="breadcrumb"><a href="/crops/">Crops</a> › {crop.name}</p>
+  <h1>{crop.name}</h1>
+  <p class="lede">What Plant Yet? knows about {lower}, and where each number comes from. For today's answer, <a href="/#towns">pick your town</a>.</p>
+
+  <h2>Planting numbers</h2>
+  <dl class="facts card">
+    {facts.map((f) => (
+      <div>
+        <dt>{f.label}</dt>
+        <dd>
+          {f.value}
+          <span class="src muted">
+            {f.src.basis === 'category' && crop.frostCategory && <>Given for {crop.frostCategory.value} crops as a group. </>}
+            Source: <a href={f.src.url}>{f.src.sourceName || host(f.src.url)}</a>
+          </span>
+        </dd>
+      </div>
+    ))}
+  </dl>
+  {crop.leftOut?.length > 0 && (
+    <p class="small muted">
+      Left out because we found no university extension source for it: {crop.leftOut.join(', ')}. We don't estimate.
+    </p>
+  )}
+
+  {crop.tips.length > 0 && (
+    <>
+      <h2>Growing tips</h2>
+      <ul class="tips">
+        {crop.tips.map((t) => (
+          <li>{t.text} <span class="src muted">(<a href={t.url}>{t.sourceName || host(t.url)}</a>)</span></li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  <h2>How the answer uses this</h2>
+  <p>
+    {crop.plantWindow
+      ? <>The planting window opens {windowText(crop.plantWindow).toLowerCase().replace(/^from /, '')} in your town{crop.daysToHarvest ? <> and stays open while a planting still has {crop.daysToHarvest.max} days to mature before the typical first fall frost</> : crop.plantWindow.endWeeks === null ? <>; no source gives a last planting date, so it runs to the typical first fall frost</> : null}.</>
+      : <>No planting window is sourced, so no answer is given.</>}
+    {gate !== null
+      ? <> Inside the window the answer is <strong>Plant</strong> when the coldest of the next 7 nights stays above {gate}°F{crop.nightMinF ? '' : ' (no source gives a minimum night temperature, so the cold-damage temperature is used)'}.</>
+      : <> No source gives a cold limit for {lower}, so it never gets a Plant answer — only its dates.</>}
+    {crop.coldToleranceF && <> <strong>Cover tonight</strong> shows when tonight's low is {crop.coldToleranceF.value}°F or colder while {lower} is normally in the ground.</>}
+  </p>
+
+  <h2>Sources</h2>
+  <ul class="small">
+    {sources.map((s) => (
+      <li><a href={s.url}>{s.sourceName || host(s.url)}</a> — checked {fmtShortDate(s.fetched)}</li>
+    ))}
+  </ul>
+  <p class="small muted">Guidance only. Extension advice is written for typical conditions; your soil, variety and microclimate matter.</p>
+</Base>

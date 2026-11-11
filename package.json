@@ -1,0 +1,22 @@
+{
+  "name": "plant-yet",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Plant Yet? — should I plant, wait, or cover tonight? One page for every incorporated Colorado town.",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node --test test/*.test.mjs",
+    "data:towns": "node scripts/build-towns.mjs",
+    "data:stations": "node scripts/build-stations.mjs",
+    "data:crops": "node scripts/verify-crops.mjs",
+    "daily": "node scripts/daily.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  }
+}

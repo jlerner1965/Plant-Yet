@@ -1,0 +1,80 @@
+name: Daily forecast
+
+# 4:30 am Denver time, every day. GitHub cron is UTC-only, so there is one entry for
+# daylight time (UTC-6) and one for standard time (UTC-7); the guard step keeps the right one.
+on:
+  schedule:
+    - cron: '30 10 * * *' # 4:30 am MDT
+    - cron: '30 11 * * *' # 4:30 am MST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-forecast
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Only run the cron entry that matches Denver's current UTC offset
+        id: guard
+        run: |
+          offset=$(TZ=America/Denver date +%z)
+          run=true
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ "${{ github.event.schedule }}" = "30 10 * * *" ] && [ "$offset" != "-0600" ]; then run=false; fi
+            if [ "${{ github.event.schedule }}" = "30 11 * * *" ] && [ "$offset" != "-0700" ]; then run=false; fi
+          fi
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+          echo "Denver offset $offset, run=$run"
+
+      - uses: actions/checkout@v4
+        if: steps.guard.outputs.run == 'true'
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        if: steps.guard.outputs.run == 'true'
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+        if: steps.guard.outputs.run == 'true'
+
+      # Fetches forecasts and computes answers. Exits 1 and writes nothing if >10% of towns fail;
+      # the failure summary lands on this run's Summary page and in the artifact below.
+      - name: Fetch forecasts and compute answers
+        if: steps.guard.outputs.run == 'true'
+        run: node scripts/daily.mjs
+        env:
+          NWS_CONTACT_EMAIL: ${{ vars.NWS_CONTACT_EMAIL }}
+
+      - name: Check the site still builds with the new data
+        if: steps.guard.outputs.run == 'true'
+        run: npm test && npm run build
+
+      - name: Commit the JSON (this push triggers the Vercel deploy)
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/forecasts.json data/answers.json data/gridpoints.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily forecast $(TZ=America/Denver date +%F)"
+            git push
+          fi
+
+      - name: Keep the failure summary
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-failure
+          path: daily-failure.md
+          if-no-files-found: ignore

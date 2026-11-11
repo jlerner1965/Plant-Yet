@@ -1,0 +1,11 @@
+{
+  "name": "Plant Yet?",
+  "url": "https://plantyet.insidethetowns.com",
+  "timeZone": "America/Denver",
+  "nwsContactEmail": "",
+  "staleAfterHours": 36,
+  "maxFailureShare": 0.1,
+  "stationMaxMiles": 25,
+  "stationMaxElevDiffFt": 500,
+  "nwsDelayMs": 350
+}

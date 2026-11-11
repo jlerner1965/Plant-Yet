@@ -1,0 +1,1455 @@
+{
+ "about": "Town -> nearest station with complete freeze normals within 25 miles and 500 ft of elevation. stationId null = \"No nearby frost record\".",
+ "rule": {
+  "maxMiles": 25,
+  "maxElevDiffFt": 500
+ },
+ "computed": "2026-11-11",
+ "towns": {
+  "aguilar": {
+   "stationId": "USC00058781",
+   "distanceMi": 17.5,
+   "elevDiffFt": -100
+  },
+  "akron": {
+   "stationId": "USW00024015",
+   "distanceMi": 0.3,
+   "elevDiffFt": -14
+  },
+  "alamosa": {
+   "stationId": "USC00050128",
+   "distanceMi": 1.1,
+   "elevDiffFt": -4
+  },
+  "alma": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00052816",
+    "name": "FAIRPLAY S PARK RD, CO US",
+    "distanceMi": 6,
+    "elevDiffFt": -613
+   }
+  },
+  "antonito": {
+   "stationId": "USC00055322",
+   "distanceMi": 7.6,
+   "elevDiffFt": -195
+  },
+  "arriba": {
+   "stationId": "USC00052932",
+   "distanceMi": 11.3,
+   "elevDiffFt": -316
+  },
+  "arvada": {
+   "stationId": "USC00058995",
+   "distanceMi": 4.4,
+   "elevDiffFt": -109
+  },
+  "aspen": {
+   "stationId": "USC00050372",
+   "distanceMi": 0.7,
+   "elevDiffFt": 249
+  },
+  "ault": {
+   "stationId": "USC00053553",
+   "distanceMi": 13.1,
+   "elevDiffFt": -233
+  },
+  "aurora": {
+   "stationId": "USC00051547",
+   "distanceMi": 8.3,
+   "elevDiffFt": 102
+  },
+  "avon": {
+   "stationId": "USC00058575",
+   "distanceMi": 8.6,
+   "elevDiffFt": 398
+  },
+  "basalt": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USW00093073",
+    "name": "ASPEN PITKIN CO AP, CO US",
+    "distanceMi": 13.9,
+    "elevDiffFt": 1158
+   }
+  },
+  "bayfield": {
+   "stationId": "USC00054254",
+   "distanceMi": 10.8,
+   "elevDiffFt": -427
+  },
+  "bennett": {
+   "stationId": "USW00003017",
+   "distanceMi": 13.7,
+   "elevDiffFt": -101
+  },
+  "berthoud": {
+   "stationId": "USC00055116",
+   "distanceMi": 9.9,
+   "elevDiffFt": -54
+  },
+  "bethune": {
+   "stationId": "USW00003026",
+   "distanceMi": 8.5,
+   "elevDiffFt": -62
+  },
+  "black-hawk": {
+   "stationId": "USC00053629",
+   "distanceMi": 12,
+   "elevDiffFt": -84
+  },
+  "blanca": {
+   "stationId": "USC00050776",
+   "distanceMi": 4.2,
+   "elevDiffFt": -53
+  },
+  "blue-river": {
+   "stationId": "USC00052816",
+   "distanceMi": 15.8,
+   "elevDiffFt": 99
+  },
+  "bonanza": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00057337",
+    "name": "SAGUACHE, CO US",
+    "distanceMi": 14.6,
+    "elevDiffFt": -1824
+   }
+  },
+  "boone": {
+   "stationId": "USC00058157",
+   "distanceMi": 12.8,
+   "elevDiffFt": 390
+  },
+  "boulder": {
+   "stationId": "USC00050848",
+   "distanceMi": 2.4,
+   "elevDiffFt": 214
+  },
+  "bow-mar": {
+   "stationId": "USC00055402",
+   "distanceMi": 0.9,
+   "elevDiffFt": 79
+  },
+  "branson": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00291450",
+    "name": "CAPULIN, NM US",
+    "distanceMi": 20.1,
+    "elevDiffFt": 552
+   }
+  },
+  "breckenridge": {
+   "stationId": "USC00052816",
+   "distanceMi": 19.4,
+   "elevDiffFt": 402
+  },
+  "brighton": {
+   "stationId": "USC00050950",
+   "distanceMi": 2.7,
+   "elevDiffFt": -16
+  },
+  "brookside": {
+   "stationId": "USC00051294",
+   "distanceMi": 3.7,
+   "elevDiffFt": -4
+  },
+  "broomfield": {
+   "stationId": "USC00055984",
+   "distanceMi": 4.3,
+   "elevDiffFt": 72
+  },
+  "brush": {
+   "stationId": "USC00053038",
+   "distanceMi": 12.3,
+   "elevDiffFt": 136
+  },
+  "buena-vista": {
+   "stationId": "USC00051071",
+   "distanceMi": 0.8,
+   "elevDiffFt": -47
+  },
+  "burlington": {
+   "stationId": "USC00051121",
+   "distanceMi": 0.6,
+   "elevDiffFt": -6
+  },
+  "calhan": {
+   "stationId": "USC00057287",
+   "distanceMi": 16.3,
+   "elevDiffFt": -473
+  },
+  "campo": {
+   "stationId": "USC00051268",
+   "distanceMi": 6.7,
+   "elevDiffFt": -237
+  },
+  "canon-city": {
+   "stationId": "USC00051294",
+   "distanceMi": 1.3,
+   "elevDiffFt": 73
+  },
+  "carbonate": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00057618",
+    "name": "SHOSHONE, CO US",
+    "distanceMi": 13.6,
+    "elevDiffFt": -4890
+   }
+  },
+  "carbondale": {
+   "stationId": "USC00053359",
+   "distanceMi": 10.1,
+   "elevDiffFt": -307
+  },
+  "castle-pines": {
+   "stationId": "USC00051401",
+   "distanceMi": 4,
+   "elevDiffFt": -147
+  },
+  "castle-rock": {
+   "stationId": "USC00051401",
+   "distanceMi": 3.7,
+   "elevDiffFt": -96
+  },
+  "cedaredge": {
+   "stationId": "USC00051743",
+   "distanceMi": 23.8,
+   "elevDiffFt": -126
+  },
+  "centennial": {
+   "stationId": "USW00093067",
+   "distanceMi": 1.6,
+   "elevDiffFt": 143
+  },
+  "center": {
+   "stationId": "USC00051458",
+   "distanceMi": 3.7,
+   "elevDiffFt": 30
+  },
+  "central-city": {
+   "stationId": "USC00051681",
+   "distanceMi": 9.6,
+   "elevDiffFt": 153
+  },
+  "cheraw": {
+   "stationId": "USC00051539",
+   "distanceMi": 0.5,
+   "elevDiffFt": 13
+  },
+  "cherry-hills-village": {
+   "stationId": "USC00051547",
+   "distanceMi": 6.2,
+   "elevDiffFt": 236
+  },
+  "cheyenne-wells": {
+   "stationId": "USC00051564",
+   "distanceMi": 2.8,
+   "elevDiffFt": -78
+  },
+  "city-of-creede": {
+   "stationId": "USC00054734",
+   "distanceMi": 24.5,
+   "elevDiffFt": -144
+  },
+  "coal-creek": {
+   "stationId": "USC00051294",
+   "distanceMi": 8.1,
+   "elevDiffFt": 32
+  },
+  "cokedale": {
+   "stationId": "USC00058436",
+   "distanceMi": 3.6,
+   "elevDiffFt": -22
+  },
+  "collbran": {
+   "stationId": "USC00051743",
+   "distanceMi": 0.9,
+   "elevDiffFt": 35
+  },
+  "colorado-springs": {
+   "stationId": "USW00093037",
+   "distanceMi": 5.6,
+   "elevDiffFt": -157
+  },
+  "columbine-valley": {
+   "stationId": "USC00055402",
+   "distanceMi": 2.4,
+   "elevDiffFt": 266
+  },
+  "commerce-city": {
+   "stationId": "USC00050950",
+   "distanceMi": 4.7,
+   "elevDiffFt": -162
+  },
+  "cortez": {
+   "stationId": "USC00051886",
+   "distanceMi": 1.1,
+   "elevDiffFt": -16
+  },
+  "craig": {
+   "stationId": "USW00024046",
+   "distanceMi": 2.3,
+   "elevDiffFt": -7
+  },
+  "crawford": {
+   "stationId": "USC00051609",
+   "distanceMi": 18.3,
+   "elevDiffFt": 299
+  },
+  "crested-butte": {
+   "stationId": "USC00058184",
+   "distanceMi": 20.1,
+   "elevDiffFt": 314
+  },
+  "crestone": {
+   "stationId": "USC00051964",
+   "distanceMi": 1,
+   "elevDiffFt": 36
+  },
+  "cripple-creek": {
+   "stationId": "USC00051977",
+   "distanceMi": 3.5,
+   "elevDiffFt": -283
+  },
+  "crook": {
+   "stationId": "USC00051996",
+   "distanceMi": 0.1,
+   "elevDiffFt": 0
+  },
+  "crowley": {
+   "stationId": "USC00056131",
+   "distanceMi": 7.2,
+   "elevDiffFt": -40
+  },
+  "dacono": {
+   "stationId": "USC00055116",
+   "distanceMi": 10.1,
+   "elevDiffFt": -170
+  },
+  "de-beque": {
+   "stationId": "USC00056266",
+   "distanceMi": 15.6,
+   "elevDiffFt": -202
+  },
+  "deer-trail": {
+   "stationId": "USC00051179",
+   "distanceMi": 9.6,
+   "elevDiffFt": -87
+  },
+  "del-norte": {
+   "stationId": "USC00052184",
+   "distanceMi": 2.6,
+   "elevDiffFt": -38
+  },
+  "delta": {
+   "stationId": "USC00052196",
+   "distanceMi": 3.3,
+   "elevDiffFt": 109
+  },
+  "denver": {
+   "stationId": "USW00023062",
+   "distanceMi": 0.6,
+   "elevDiffFt": -6
+  },
+  "dillon": {
+   "stationId": "USC00053530",
+   "distanceMi": 22.6,
+   "elevDiffFt": -372
+  },
+  "dinosaur": {
+   "stationId": "USC00052286",
+   "distanceMi": 1.8,
+   "elevDiffFt": 85
+  },
+  "dolores": {
+   "stationId": "USC00059278",
+   "distanceMi": 10.7,
+   "elevDiffFt": 145
+  },
+  "dove-creek": {
+   "stationId": "USC00052342",
+   "distanceMi": 0.3,
+   "elevDiffFt": 23
+  },
+  "durango": {
+   "stationId": "USC00052441",
+   "distanceMi": 2.1,
+   "elevDiffFt": 217
+  },
+  "eads": {
+   "stationId": "USC00052446",
+   "distanceMi": 0.4,
+   "elevDiffFt": -2
+  },
+  "eagle": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00057618",
+    "name": "SHOSHONE, CO US",
+    "distanceMi": 22.2,
+    "elevDiffFt": -665
+   }
+  },
+  "eaton": {
+   "stationId": "USC00053553",
+   "distanceMi": 8.6,
+   "elevDiffFt": -107
+  },
+  "eckley": {
+   "stationId": "USC00059295",
+   "distanceMi": 12.4,
+   "elevDiffFt": 241
+  },
+  "edgewater": {
+   "stationId": "USC00054762",
+   "distanceMi": 3.1,
+   "elevDiffFt": 272
+  },
+  "elizabeth": {
+   "stationId": "USC00052631",
+   "distanceMi": 1.8,
+   "elevDiffFt": 51
+  },
+  "empire": {
+   "stationId": "USC00053261",
+   "distanceMi": 3.9,
+   "elevDiffFt": -60
+  },
+  "englewood": {
+   "stationId": "USC00055402",
+   "distanceMi": 4.2,
+   "elevDiffFt": 271
+  },
+  "erie": {
+   "stationId": "USC00055116",
+   "distanceMi": 9.2,
+   "elevDiffFt": -124
+  },
+  "estes-park": {
+   "stationId": "USC00052761",
+   "distanceMi": 1.5,
+   "elevDiffFt": 217
+  },
+  "evans": {
+   "stationId": "USC00053553",
+   "distanceMi": 4.4,
+   "elevDiffFt": 39
+  },
+  "fairplay": {
+   "stationId": "USC00052816",
+   "distanceMi": 0.3,
+   "elevDiffFt": 63
+  },
+  "federal-heights": {
+   "stationId": "USC00055984",
+   "distanceMi": 2.3,
+   "elevDiffFt": 0
+  },
+  "firestone": {
+   "stationId": "USC00055116",
+   "distanceMi": 6.9,
+   "elevDiffFt": 94
+  },
+  "flagler": {
+   "stationId": "USC00052932",
+   "distanceMi": 1.1,
+   "elevDiffFt": -33
+  },
+  "fleming": {
+   "stationId": "USC00052947",
+   "distanceMi": 2.6,
+   "elevDiffFt": 18
+  },
+  "florence": {
+   "stationId": "USC00051294",
+   "distanceMi": 8.8,
+   "elevDiffFt": 134
+  },
+  "fort-collins": {
+   "stationId": "USC00053005",
+   "distanceMi": 2.2,
+   "elevDiffFt": 11
+  },
+  "fort-lupton": {
+   "stationId": "USC00050950",
+   "distanceMi": 9.8,
+   "elevDiffFt": 103
+  },
+  "fort-morgan": {
+   "stationId": "USC00053038",
+   "distanceMi": 4.3,
+   "elevDiffFt": 60
+  },
+  "fountain": {
+   "stationId": "USC00052668",
+   "distanceMi": 15.6,
+   "elevDiffFt": 166
+  },
+  "fowler": {
+   "stationId": "USC00056131",
+   "distanceMi": 17.1,
+   "elevDiffFt": -27
+  },
+  "foxfield": {
+   "stationId": "USW00093067",
+   "distanceMi": 3.6,
+   "elevDiffFt": 74
+  },
+  "fraser": {
+   "stationId": "USC00053261",
+   "distanceMi": 16.1,
+   "elevDiffFt": -374
+  },
+  "frederick": {
+   "stationId": "USC00055116",
+   "distanceMi": 7,
+   "elevDiffFt": 1
+  },
+  "frisco": {
+   "stationId": "USC00053530",
+   "distanceMi": 23.4,
+   "elevDiffFt": -349
+  },
+  "fruita": {
+   "stationId": "USC00053146",
+   "distanceMi": 0.8,
+   "elevDiffFt": -9
+  },
+  "garden-city": {
+   "stationId": "USC00053553",
+   "distanceMi": 0.7,
+   "elevDiffFt": 16
+  },
+  "genoa": {
+   "stationId": "USC00053258",
+   "distanceMi": 0.2,
+   "elevDiffFt": -6
+  },
+  "georgetown": {
+   "stationId": "USC00053261",
+   "distanceMi": 0.9,
+   "elevDiffFt": 62
+  },
+  "gilcrest": {
+   "stationId": "USC00053553",
+   "distanceMi": 9.2,
+   "elevDiffFt": -35
+  },
+  "glendale": {
+   "stationId": "USC00052223",
+   "distanceMi": 4.2,
+   "elevDiffFt": -123
+  },
+  "glenwood-springs": {
+   "stationId": "USC00053359",
+   "distanceMi": 2.4,
+   "elevDiffFt": -454
+  },
+  "golden": {
+   "stationId": "USC00054762",
+   "distanceMi": 4.8,
+   "elevDiffFt": -128
+  },
+  "granada": {
+   "stationId": "USC00054076",
+   "distanceMi": 9.8,
+   "elevDiffFt": -84
+  },
+  "granby": {
+   "stationId": "USC00053500",
+   "distanceMi": 8.8,
+   "elevDiffFt": 295
+  },
+  "grand-junction": {
+   "stationId": "USC00053486",
+   "distanceMi": 3.1,
+   "elevDiffFt": 178
+  },
+  "grand-lake": {
+   "stationId": "USC00053500",
+   "distanceMi": 4.8,
+   "elevDiffFt": -90
+  },
+  "greeley": {
+   "stationId": "USC00053553",
+   "distanceMi": 3.9,
+   "elevDiffFt": -157
+  },
+  "green-mountain-falls": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00057309",
+    "name": "RUXTON PARK, CO US",
+    "distanceMi": 6.9,
+    "elevDiffFt": 1181
+   }
+  },
+  "greenwood-village": {
+   "stationId": "USC00051547",
+   "distanceMi": 4.3,
+   "elevDiffFt": 8
+  },
+  "grover": {
+   "stationId": "USC00481547",
+   "distanceMi": 16.9,
+   "elevDiffFt": 360
+  },
+  "gunnison": {
+   "stationId": "USC00051713",
+   "distanceMi": 11.4,
+   "elevDiffFt": 296
+  },
+  "gypsum": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00057618",
+    "name": "SHOSHONE, CO US",
+    "distanceMi": 14.8,
+    "elevDiffFt": -536
+   }
+  },
+  "hartman": {
+   "stationId": "USC00054076",
+   "distanceMi": 6.8,
+   "elevDiffFt": -186
+  },
+  "haswell": {
+   "stationId": "USC00052446",
+   "distanceMi": 21.1,
+   "elevDiffFt": -329
+  },
+  "haxtun": {
+   "stationId": "USC00052947",
+   "distanceMi": 12,
+   "elevDiffFt": 224
+  },
+  "hayden": {
+   "stationId": "USC00053867",
+   "distanceMi": 0.5,
+   "elevDiffFt": 122
+  },
+  "hillrose": {
+   "stationId": "USC00059213",
+   "distanceMi": 17.4,
+   "elevDiffFt": 205
+  },
+  "holly": {
+   "stationId": "USC00054076",
+   "distanceMi": 0.5,
+   "elevDiffFt": 4
+  },
+  "holyoke": {
+   "stationId": "USC00054082",
+   "distanceMi": 3.4,
+   "elevDiffFt": 47
+  },
+  "hooper": {
+   "stationId": "USC00051458",
+   "distanceMi": 14.8,
+   "elevDiffFt": 114
+  },
+  "hot-sulphur-springs": {
+   "stationId": "USC00059096",
+   "distanceMi": 5.9,
+   "elevDiffFt": -78
+  },
+  "hotchkiss": {
+   "stationId": "USC00056306",
+   "distanceMi": 6.1,
+   "elevDiffFt": 251
+  },
+  "hudson": {
+   "stationId": "USC00050950",
+   "distanceMi": 16.4,
+   "elevDiffFt": 46
+  },
+  "hugo": {
+   "stationId": "USC00054172",
+   "distanceMi": 1,
+   "elevDiffFt": -19
+  },
+  "idaho-springs": {
+   "stationId": "USC00053261",
+   "distanceMi": 10.8,
+   "elevDiffFt": 360
+  },
+  "ignacio": {
+   "stationId": "USC00054254",
+   "distanceMi": 6.2,
+   "elevDiffFt": 25
+  },
+  "iliff": {
+   "stationId": "USC00057950",
+   "distanceMi": 11.7,
+   "elevDiffFt": 138
+  },
+  "jamestown": {
+   "stationId": "USC00052761",
+   "distanceMi": 17,
+   "elevDiffFt": 481
+  },
+  "johnstown": {
+   "stationId": "USC00055236",
+   "distanceMi": 12.7,
+   "elevDiffFt": 240
+  },
+  "julesburg": {
+   "stationId": "USC00054413",
+   "distanceMi": 0.2,
+   "elevDiffFt": 9
+  },
+  "keenesburg": {
+   "stationId": "USC00053553",
+   "distanceMi": 18.5,
+   "elevDiffFt": -202
+  },
+  "kersey": {
+   "stationId": "USC00053553",
+   "distanceMi": 6.4,
+   "elevDiffFt": 91
+  },
+  "keystone": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00051186",
+    "name": "CABIN CREEK, CO US",
+    "distanceMi": 12.3,
+    "elevDiffFt": 639
+   }
+  },
+  "kim": {
+   "stationId": "USC00054546",
+   "distanceMi": 9.6,
+   "elevDiffFt": -445
+  },
+  "kiowa": {
+   "stationId": "USC00052631",
+   "distanceMi": 9.5,
+   "elevDiffFt": 192
+  },
+  "kit-carson": {
+   "stationId": "USC00054603",
+   "distanceMi": 0.2,
+   "elevDiffFt": 15
+  },
+  "kremmling": {
+   "stationId": "USC00054664",
+   "distanceMi": 0.5,
+   "elevDiffFt": 63
+  },
+  "la-jara": {
+   "stationId": "USC00055322",
+   "distanceMi": 7.2,
+   "elevDiffFt": 89
+  },
+  "la-junta": {
+   "stationId": "USC00054724",
+   "distanceMi": 0.3,
+   "elevDiffFt": -35
+  },
+  "la-salle": {
+   "stationId": "USC00053553",
+   "distanceMi": 3.7,
+   "elevDiffFt": 35
+  },
+  "la-veta": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00058781",
+    "name": "WALSENBURG 1 NW, CO US",
+    "distanceMi": 14.4,
+    "elevDiffFt": -730
+   }
+  },
+  "lafayette": {
+   "stationId": "USC00055984",
+   "distanceMi": 8.1,
+   "elevDiffFt": 140
+  },
+  "lake-city": {
+   "stationId": "USC00054734",
+   "distanceMi": 0.3,
+   "elevDiffFt": -196
+  },
+  "lakeside": {
+   "stationId": "USC00058995",
+   "distanceMi": 3.1,
+   "elevDiffFt": 41
+  },
+  "lakewood": {
+   "stationId": "USC00054762",
+   "distanceMi": 3.5,
+   "elevDiffFt": -17
+  },
+  "lamar": {
+   "stationId": "USC00054770",
+   "distanceMi": 1.5,
+   "elevDiffFt": -6
+  },
+  "larkspur": {
+   "stationId": "USC00055734",
+   "distanceMi": 8.8,
+   "elevDiffFt": 385
+  },
+  "las-animas": {
+   "stationId": "USC00054834",
+   "distanceMi": 0.6,
+   "elevDiffFt": -8
+  },
+  "leadville": {
+   "stationId": "USC00052816",
+   "distanceMi": 16.1,
+   "elevDiffFt": -122
+  },
+  "limon": {
+   "stationId": "USW00093010",
+   "distanceMi": 5.5,
+   "elevDiffFt": 5
+  },
+  "littleton": {
+   "stationId": "USC00055402",
+   "distanceMi": 3.2,
+   "elevDiffFt": 182
+  },
+  "lochbuie": {
+   "stationId": "USC00050950",
+   "distanceMi": 7.4,
+   "elevDiffFt": -29
+  },
+  "log-lane-village": {
+   "stationId": "USC00053038",
+   "distanceMi": 2.3,
+   "elevDiffFt": 68
+  },
+  "lone-tree": {
+   "stationId": "USW00093067",
+   "distanceMi": 3,
+   "elevDiffFt": -127
+  },
+  "longmont": {
+   "stationId": "USC00055116",
+   "distanceMi": 1.2,
+   "elevDiffFt": -31
+  },
+  "louisville": {
+   "stationId": "USC00050848",
+   "distanceMi": 6.7,
+   "elevDiffFt": 94
+  },
+  "loveland": {
+   "stationId": "USC00055236",
+   "distanceMi": 1.7,
+   "elevDiffFt": 80
+  },
+  "lyons": {
+   "stationId": "USC00055116",
+   "distanceMi": 10.7,
+   "elevDiffFt": -393
+  },
+  "manassa": {
+   "stationId": "USC00055322",
+   "distanceMi": 0.2,
+   "elevDiffFt": 5
+  },
+  "mancos": {
+   "stationId": "USC00055327",
+   "distanceMi": 1.5,
+   "elevDiffFt": -115
+  },
+  "manitou-springs": {
+   "stationId": "USW00093037",
+   "distanceMi": 12.5,
+   "elevDiffFt": -124
+  },
+  "manzanola": {
+   "stationId": "USC00057167",
+   "distanceMi": 10.6,
+   "elevDiffFt": -90
+  },
+  "marble": {
+   "stationId": "USW00093073",
+   "distanceMi": 20.2,
+   "elevDiffFt": -287
+  },
+  "mead": {
+   "stationId": "USC00055116",
+   "distanceMi": 6.2,
+   "elevDiffFt": -58
+  },
+  "meeker": {
+   "stationId": "USW00094050",
+   "distanceMi": 0.5,
+   "elevDiffFt": -53
+  },
+  "merino": {
+   "stationId": "USC00057950",
+   "distanceMi": 12.5,
+   "elevDiffFt": -66
+  },
+  "milliken": {
+   "stationId": "USC00053553",
+   "distanceMi": 10.5,
+   "elevDiffFt": -114
+  },
+  "minturn": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00058575",
+    "name": "VAIL, CO US",
+    "distanceMi": 7.3,
+    "elevDiffFt": -1775
+   }
+  },
+  "moffat": {
+   "stationId": "USC00051964",
+   "distanceMi": 12.1,
+   "elevDiffFt": 437
+  },
+  "monte-vista": {
+   "stationId": "USC00055706",
+   "distanceMi": 2,
+   "elevDiffFt": 31
+  },
+  "montezuma": {
+   "stationId": "USC00051186",
+   "distanceMi": 9.9,
+   "elevDiffFt": -282
+  },
+  "montrose": {
+   "stationId": "USC00055722",
+   "distanceMi": 1.6,
+   "elevDiffFt": -70
+  },
+  "monument": {
+   "stationId": "USC00055733",
+   "distanceMi": 1.8,
+   "elevDiffFt": -181
+  },
+  "morrison": {
+   "stationId": "USC00057249",
+   "distanceMi": 16.1,
+   "elevDiffFt": -289
+  },
+  "mount-crested-butte": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00058184",
+    "name": "TAYLOR PARK, CO US",
+    "distanceMi": 19.9,
+    "elevDiffFt": -559
+   }
+  },
+  "mountain-view": {
+   "stationId": "USC00058995",
+   "distanceMi": 3.2,
+   "elevDiffFt": 16
+  },
+  "mountain-village": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00056203",
+    "name": "OURAY, CO US",
+    "distanceMi": 12,
+    "elevDiffFt": -1671
+   }
+  },
+  "naturita": {
+   "stationId": "USC00058560",
+   "distanceMi": 14.5,
+   "elevDiffFt": -377
+  },
+  "nederland": {
+   "stationId": "USC00053629",
+   "distanceMi": 8.5,
+   "elevDiffFt": -235
+  },
+  "new-castle": {
+   "stationId": "USC00057033",
+   "distanceMi": 10.7,
+   "elevDiffFt": -356
+  },
+  "northglenn": {
+   "stationId": "USC00055984",
+   "distanceMi": 1.9,
+   "elevDiffFt": 22
+  },
+  "norwood": {
+   "stationId": "USC00056012",
+   "distanceMi": 0.4,
+   "elevDiffFt": 1
+  },
+  "nucla": {
+   "stationId": "USC00056320",
+   "distanceMi": 23.3,
+   "elevDiffFt": -304
+  },
+  "nunn": {
+   "stationId": "USW00094074",
+   "distanceMi": 6.7,
+   "elevDiffFt": 176
+  },
+  "oak-creek": {
+   "stationId": "USC00059265",
+   "distanceMi": 8.5,
+   "elevDiffFt": 418
+  },
+  "olathe": {
+   "stationId": "USW00093013",
+   "distanceMi": 8.5,
+   "elevDiffFt": 416
+  },
+  "olney-springs": {
+   "stationId": "USC00056131",
+   "distanceMi": 12.1,
+   "elevDiffFt": -70
+  },
+  "ophir": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00056203",
+    "name": "OURAY, CO US",
+    "distanceMi": 14.4,
+    "elevDiffFt": -1883
+   }
+  },
+  "orchard-city": {
+   "stationId": "USC00052196",
+   "distanceMi": 5.5,
+   "elevDiffFt": -358
+  },
+  "ordway": {
+   "stationId": "USC00056131",
+   "distanceMi": 1.3,
+   "elevDiffFt": -6
+  },
+  "otis": {
+   "stationId": "USC00050109",
+   "distanceMi": 9.5,
+   "elevDiffFt": 210
+  },
+  "ouray": {
+   "stationId": "USC00056205",
+   "distanceMi": 0.1,
+   "elevDiffFt": 31
+  },
+  "ovid": {
+   "stationId": "USC00054413",
+   "distanceMi": 6.7,
+   "elevDiffFt": -54
+  },
+  "pagosa-springs": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00292608",
+    "name": "DULCE, NM US",
+    "distanceMi": 22.6,
+    "elevDiffFt": -541
+   }
+  },
+  "palisade": {
+   "stationId": "USC00056266",
+   "distanceMi": 0.5,
+   "elevDiffFt": 32
+  },
+  "palmer-lake": {
+   "stationId": "USC00055734",
+   "distanceMi": 2.4,
+   "elevDiffFt": -58
+  },
+  "paoli": {
+   "stationId": "USC00054082",
+   "distanceMi": 8.3,
+   "elevDiffFt": -115
+  },
+  "paonia": {
+   "stationId": "USC00056306",
+   "distanceMi": 2,
+   "elevDiffFt": -95
+  },
+  "parachute": {
+   "stationId": "USW00003016",
+   "distanceMi": 18.4,
+   "elevDiffFt": 435
+  },
+  "parker": {
+   "stationId": "USC00056323",
+   "distanceMi": 1.5,
+   "elevDiffFt": 58
+  },
+  "peetz": {
+   "stationId": "USW00024030",
+   "distanceMi": 11.8,
+   "elevDiffFt": -123
+  },
+  "pierce": {
+   "stationId": "USW00094074",
+   "distanceMi": 11.1,
+   "elevDiffFt": 297
+  },
+  "pitkin": {
+   "stationId": "USC00058184",
+   "distanceMi": 15.3,
+   "elevDiffFt": -51
+  },
+  "platteville": {
+   "stationId": "USC00055116",
+   "distanceMi": 13.4,
+   "elevDiffFt": 146
+  },
+  "poncha-springs": {
+   "stationId": "USC00057370",
+   "distanceMi": 3.1,
+   "elevDiffFt": -309
+  },
+  "pritchett": {
+   "stationId": "USW00003028",
+   "distanceMi": 14.7,
+   "elevDiffFt": -444
+  },
+  "pueblo": {
+   "stationId": "USC00058992",
+   "distanceMi": 4.9,
+   "elevDiffFt": -11
+  },
+  "ramah": {
+   "stationId": "USC00055427",
+   "distanceMi": 17.3,
+   "elevDiffFt": -269
+  },
+  "rangely": {
+   "stationId": "USC00056832",
+   "distanceMi": 0.6,
+   "elevDiffFt": 11
+  },
+  "raymer-new-raymer": {
+   "stationId": "USC00055922",
+   "distanceMi": 0.1,
+   "elevDiffFt": 4
+  },
+  "red-cliff": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00058575",
+    "name": "VAIL, CO US",
+    "distanceMi": 9,
+    "elevDiffFt": -530
+   }
+  },
+  "rico": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00056520",
+    "name": "PLACERVILLE, CO US",
+    "distanceMi": 22.7,
+    "elevDiffFt": -1391
+   }
+  },
+  "ridgway": {
+   "stationId": "USC00057020",
+   "distanceMi": 0.5,
+   "elevDiffFt": 86
+  },
+  "rifle": {
+   "stationId": "USW00003016",
+   "distanceMi": 2.5,
+   "elevDiffFt": -24
+  },
+  "rockvale": {
+   "stationId": "USC00051294",
+   "distanceMi": 7.4,
+   "elevDiffFt": -106
+  },
+  "rocky-ford": {
+   "stationId": "USC00057167",
+   "distanceMi": 1.7,
+   "elevDiffFt": -14
+  },
+  "romeo": {
+   "stationId": "USC00055322",
+   "distanceMi": 2.5,
+   "elevDiffFt": -41
+  },
+  "rye": {
+   "stationId": "USC00057317",
+   "distanceMi": 1,
+   "elevDiffFt": 314
+  },
+  "saguache": {
+   "stationId": "USC00057337",
+   "distanceMi": 0.2,
+   "elevDiffFt": -1
+  },
+  "salida": {
+   "stationId": "USC00057370",
+   "distanceMi": 1,
+   "elevDiffFt": 66
+  },
+  "san-luis": {
+   "stationId": "USC00057430",
+   "distanceMi": 0.5,
+   "elevDiffFt": -45
+  },
+  "sanford": {
+   "stationId": "USC00055322",
+   "distanceMi": 6.3,
+   "elevDiffFt": 96
+  },
+  "sawpit": {
+   "stationId": "USC00056520",
+   "distanceMi": 3.1,
+   "elevDiffFt": -179
+  },
+  "sedgwick": {
+   "stationId": "USC00057515",
+   "distanceMi": 4.8,
+   "elevDiffFt": 405
+  },
+  "seibert": {
+   "stationId": "USC00057519",
+   "distanceMi": 0.2,
+   "elevDiffFt": -5
+  },
+  "severance": {
+   "stationId": "USC00053006",
+   "distanceMi": 9.7,
+   "elevDiffFt": 72
+  },
+  "sheridan": {
+   "stationId": "USC00055402",
+   "distanceMi": 3.2,
+   "elevDiffFt": 322
+  },
+  "sheridan-lake": {
+   "stationId": "USC00057582",
+   "distanceMi": 0.2,
+   "elevDiffFt": 0
+  },
+  "silt": {
+   "stationId": "USC00057033",
+   "distanceMi": 4,
+   "elevDiffFt": 17
+  },
+  "silver-cliff": {
+   "stationId": "USC00058931",
+   "distanceMi": 3.6,
+   "elevDiffFt": -489
+  },
+  "silver-plume": {
+   "stationId": "USC00053530",
+   "distanceMi": 16.4,
+   "elevDiffFt": -446
+  },
+  "silverthorne": {
+   "stationId": "USC00058575",
+   "distanceMi": 14.2,
+   "elevDiffFt": -489
+  },
+  "silverton": {
+   "stationId": "USC00057050",
+   "distanceMi": 22.6,
+   "elevDiffFt": 191
+  },
+  "simla": {
+   "stationId": "USC00055427",
+   "distanceMi": 12.7,
+   "elevDiffFt": -150
+  },
+  "snowmass-village": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USW00093073",
+    "name": "ASPEN PITKIN CO AP, CO US",
+    "distanceMi": 4.1,
+    "elevDiffFt": -1083
+   }
+  },
+  "south-fork": {
+   "stationId": "USC00052184",
+   "distanceMi": 18.4,
+   "elevDiffFt": -370
+  },
+  "springfield": {
+   "stationId": "USW00003028",
+   "distanceMi": 8.4,
+   "elevDiffFt": 14
+  },
+  "starkville": {
+   "stationId": "USC00058436",
+   "distanceMi": 3,
+   "elevDiffFt": -45
+  },
+  "steamboat-springs": {
+   "stationId": "USC00057936",
+   "distanceMi": 0.9,
+   "elevDiffFt": 15
+  },
+  "sterling": {
+   "stationId": "USC00057950",
+   "distanceMi": 1,
+   "elevDiffFt": 41
+  },
+  "stratton": {
+   "stationId": "USC00058008",
+   "distanceMi": 0.2,
+   "elevDiffFt": -14
+  },
+  "sugar-city": {
+   "stationId": "USC00056131",
+   "distanceMi": 3.8,
+   "elevDiffFt": 4
+  },
+  "superior": {
+   "stationId": "USC00050848",
+   "distanceMi": 7.1,
+   "elevDiffFt": -7
+  },
+  "swink": {
+   "stationId": "USC00057167",
+   "distanceMi": 4,
+   "elevDiffFt": 47
+  },
+  "telluride": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00056203",
+    "name": "OURAY, CO US",
+    "distanceMi": 9.9,
+    "elevDiffFt": -911
+   }
+  },
+  "thornton": {
+   "stationId": "USC00055984",
+   "distanceMi": 4.1,
+   "elevDiffFt": 212
+  },
+  "timnath": {
+   "stationId": "USC00053006",
+   "distanceMi": 4.1,
+   "elevDiffFt": 35
+  },
+  "trinidad": {
+   "stationId": "USC00058429",
+   "distanceMi": 0.4,
+   "elevDiffFt": -10
+  },
+  "two-buttes": {
+   "stationId": "USC00058793",
+   "distanceMi": 13.4,
+   "elevDiffFt": -125
+  },
+  "vail": {
+   "stationId": "USC00058575",
+   "distanceMi": 0.5,
+   "elevDiffFt": 62
+  },
+  "victor": {
+   "stationId": "USC00051977",
+   "distanceMi": 6.8,
+   "elevDiffFt": -409
+  },
+  "vilas": {
+   "stationId": "USC00058793",
+   "distanceMi": 8.2,
+   "elevDiffFt": -179
+  },
+  "vona": {
+   "stationId": "USC00057519",
+   "distanceMi": 6.7,
+   "elevDiffFt": 204
+  },
+  "walden": {
+   "stationId": null,
+   "nearestRejected": {
+    "stationId": "USC00057296",
+    "name": "RUSTIC 9WSW, CO US",
+    "distanceMi": 30,
+    "elevDiffFt": -398
+   }
+  },
+  "walsenburg": {
+   "stationId": "USC00058781",
+   "distanceMi": 0.8,
+   "elevDiffFt": -10
+  },
+  "walsh": {
+   "stationId": "USC00058793",
+   "distanceMi": 1.1,
+   "elevDiffFt": 19
+  },
+  "ward": {
+   "stationId": "USW00094075",
+   "distanceMi": 2.9,
+   "elevDiffFt": 321
+  },
+  "wellington": {
+   "stationId": "USC00053006",
+   "distanceMi": 8.5,
+   "elevDiffFt": -269
+  },
+  "westcliffe": {
+   "stationId": "USC00058931",
+   "distanceMi": 0.2,
+   "elevDiffFt": -5
+  },
+  "westminster": {
+   "stationId": "USC00055984",
+   "distanceMi": 2.9,
+   "elevDiffFt": 65
+  },
+  "wheat-ridge": {
+   "stationId": "USC00058995",
+   "distanceMi": 0.7,
+   "elevDiffFt": 40
+  },
+  "wiggins": {
+   "stationId": "USC00053038",
+   "distanceMi": 10.9,
+   "elevDiffFt": -174
+  },
+  "wiley": {
+   "stationId": "USW00003013",
+   "distanceMi": 6.1,
+   "elevDiffFt": -34
+  },
+  "williamsburg": {
+   "stationId": "USC00051294",
+   "distanceMi": 6,
+   "elevDiffFt": -405
+  },
+  "windsor": {
+   "stationId": "USC00053006",
+   "distanceMi": 8.8,
+   "elevDiffFt": 119
+  },
+  "winter-park": {
+   "stationId": "USC00051186",
+   "distanceMi": 15.9,
+   "elevDiffFt": -89
+  },
+  "woodland-park": {
+   "stationId": "USC00054742",
+   "distanceMi": 23,
+   "elevDiffFt": 53
+  },
+  "wray": {
+   "stationId": "USC00059243",
+   "distanceMi": 1.2,
+   "elevDiffFt": 30
+  },
+  "yampa": {
+   "stationId": "USC00059265",
+   "distanceMi": 0.3,
+   "elevDiffFt": -21
+  },
+  "yuma": {
+   "stationId": "USC00059295",
+   "distanceMi": 0.3,
+   "elevDiffFt": 10
+  }
+ }
+}

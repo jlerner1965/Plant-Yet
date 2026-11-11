@@ -1,0 +1,4659 @@
+{
+ "about": "Every incorporated Colorado municipality (Census LSAD 25 = city, 43 = town). Coordinates are the Census internal point; elevation is the USGS 3DEP value at that point.",
+ "sources": {
+  "list": {
+   "name": "U.S. Census Bureau 2025 Gazetteer Files — Places, Colorado",
+   "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+   "fetched": "2026-11-11"
+  },
+  "elevation": {
+   "name": "USGS Elevation Point Query Service (3DEP)",
+   "url": "https://epqs.nationalmap.gov/v1/json"
+  }
+ },
+ "count": 273,
+ "towns": [
+  {
+   "slug": "aguilar",
+   "name": "Aguilar",
+   "kind": "town",
+   "geoid": "0800760",
+   "lat": 37.403626,
+   "lon": -104.655036,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6392,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.655036&y=37.403626&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "akron",
+   "name": "Akron",
+   "kind": "town",
+   "geoid": "0800925",
+   "lat": 40.163466,
+   "lon": -103.220274,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4677,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.220274&y=40.163466&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "alamosa",
+   "name": "Alamosa",
+   "kind": "city",
+   "geoid": "0801090",
+   "lat": 37.474528,
+   "lon": -105.876956,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7544,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.876956&y=37.474528&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "alma",
+   "name": "Alma",
+   "kind": "town",
+   "geoid": "0801530",
+   "lat": 39.286131,
+   "lon": -106.068893,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 10608,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.068893&y=39.286131&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "antonito",
+   "name": "Antonito",
+   "kind": "town",
+   "geoid": "0802355",
+   "lat": 37.076246,
+   "lon": -106.010332,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7890,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.010332&y=37.076246&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "arriba",
+   "name": "Arriba",
+   "kind": "town",
+   "geoid": "0803235",
+   "lat": 39.284326,
+   "lon": -103.274032,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5237,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.274032&y=39.284326&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "arvada",
+   "name": "Arvada",
+   "kind": "city",
+   "geoid": "0803455",
+   "lat": 39.833728,
+   "lon": -105.150306,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5507,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.150306&y=39.833728&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "aspen",
+   "name": "Aspen",
+   "kind": "city",
+   "geoid": "0803620",
+   "lat": 39.195154,
+   "lon": -106.836807,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7926,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.836807&y=39.195154&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "ault",
+   "name": "Ault",
+   "kind": "town",
+   "geoid": "0803950",
+   "lat": 40.589208,
+   "lon": -104.73943,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4948,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.73943&y=40.589208&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "aurora",
+   "name": "Aurora",
+   "kind": "city",
+   "geoid": "0804000",
+   "lat": 39.709537,
+   "lon": -104.720509,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5545,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.720509&y=39.709537&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "avon",
+   "name": "Avon",
+   "kind": "town",
+   "geoid": "0804110",
+   "lat": 39.641891,
+   "lon": -106.51581,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7906,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.51581&y=39.641891&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "basalt",
+   "name": "Basalt",
+   "kind": "town",
+   "geoid": "0804935",
+   "lat": 39.368585,
+   "lon": -107.04876,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6562,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.04876&y=39.368585&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "bayfield",
+   "name": "Bayfield",
+   "kind": "town",
+   "geoid": "0805265",
+   "lat": 37.234615,
+   "lon": -107.593744,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6975,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.593744&y=37.234615&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "bennett",
+   "name": "Bennett",
+   "kind": "town",
+   "geoid": "0806090",
+   "lat": 39.741727,
+   "lon": -104.428719,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5515,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.428719&y=39.741727&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "berthoud",
+   "name": "Berthoud",
+   "kind": "town",
+   "geoid": "0806255",
+   "lat": 40.284675,
+   "lon": -104.965515,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5004,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.965515&y=40.284675&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "bethune",
+   "name": "Bethune",
+   "kind": "town",
+   "geoid": "0806530",
+   "lat": 39.303822,
+   "lon": -102.423414,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4254,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.423414&y=39.303822&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "black-hawk",
+   "name": "Black Hawk",
+   "kind": "city",
+   "geoid": "0807025",
+   "lat": 39.801649,
+   "lon": -105.493494,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8054,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.493494&y=39.801649&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "blanca",
+   "name": "Blanca",
+   "kind": "town",
+   "geoid": "0807190",
+   "lat": 37.439268,
+   "lon": -105.513544,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7762,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.513544&y=37.439268&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "blue-river",
+   "name": "Blue River",
+   "kind": "town",
+   "geoid": "0807410",
+   "lat": 39.448464,
+   "lon": -106.036777,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9896,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.036777&y=39.448464&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "bonanza",
+   "name": "Bonanza",
+   "kind": "town",
+   "geoid": "0807571",
+   "inactive": true,
+   "lat": 38.296617,
+   "lon": -106.141869,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9525,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.141869&y=38.296617&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "boone",
+   "name": "Boone",
+   "kind": "town",
+   "geoid": "0807795",
+   "lat": 38.250596,
+   "lon": -104.26099,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4492,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.26099&y=38.250596&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "boulder",
+   "name": "Boulder",
+   "kind": "city",
+   "geoid": "0807850",
+   "lat": 40.024431,
+   "lon": -105.251251,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5270,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.251251&y=40.024431&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "bow-mar",
+   "name": "Bow Mar",
+   "kind": "town",
+   "geoid": "0808070",
+   "lat": 39.626594,
+   "lon": -105.050914,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5531,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.050914&y=39.626594&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "branson",
+   "name": "Branson",
+   "kind": "town",
+   "geoid": "0808345",
+   "lat": 37.015493,
+   "lon": -103.883777,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6288,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.883777&y=37.015493&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "breckenridge",
+   "name": "Breckenridge",
+   "kind": "town",
+   "geoid": "0808400",
+   "lat": 39.49948,
+   "lon": -106.043247,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9593,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.043247&y=39.49948&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "brighton",
+   "name": "Brighton",
+   "kind": "city",
+   "geoid": "0808675",
+   "lat": 39.965676,
+   "lon": -104.794056,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5032,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.794056&y=39.965676&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "brookside",
+   "name": "Brookside",
+   "kind": "town",
+   "geoid": "0809115",
+   "lat": 38.413495,
+   "lon": -105.190945,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5382,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.190945&y=38.413495&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "broomfield",
+   "name": "Broomfield",
+   "kind": "city",
+   "geoid": "0809280",
+   "lat": 39.953877,
+   "lon": -105.050898,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5335,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.050898&y=39.953877&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "brush",
+   "name": "Brush",
+   "kind": "city",
+   "geoid": "0809555",
+   "lat": 40.259263,
+   "lon": -103.636334,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4240,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.636334&y=40.259263&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "buena-vista",
+   "name": "Buena Vista",
+   "kind": "town",
+   "geoid": "0810105",
+   "lat": 38.829903,
+   "lon": -106.140729,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8001,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.140729&y=38.829903&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "burlington",
+   "name": "Burlington",
+   "kind": "city",
+   "geoid": "0810600",
+   "lat": 39.304169,
+   "lon": -102.271412,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4168,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.271412&y=39.304169&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "calhan",
+   "name": "Calhan",
+   "kind": "town",
+   "geoid": "0811260",
+   "lat": 39.034031,
+   "lon": -104.30021,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6527,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.30021&y=39.034031&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "campo",
+   "name": "Campo",
+   "kind": "town",
+   "geoid": "0811645",
+   "lat": 37.104711,
+   "lon": -102.578798,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4342,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.578798&y=37.104711&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "carbonate",
+   "name": "Carbonate",
+   "kind": "town",
+   "geoid": "0812030",
+   "lat": 39.746462,
+   "lon": -107.340127,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 10882,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.340127&y=39.746462&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "carbondale",
+   "name": "Carbondale",
+   "kind": "town",
+   "geoid": "0812045",
+   "lat": 39.395559,
+   "lon": -107.21502,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6202,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.21502&y=39.395559&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "castle-pines",
+   "name": "Castle Pines",
+   "kind": "city",
+   "geoid": "0812387",
+   "lat": 39.46249,
+   "lon": -104.870584,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6332,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.870584&y=39.46249&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "castle-rock",
+   "name": "Castle Rock",
+   "kind": "town",
+   "geoid": "0812415",
+   "lat": 39.376194,
+   "lon": -104.852922,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6281,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.852922&y=39.376194&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "canon-city",
+   "name": "Cañon City",
+   "kind": "city",
+   "geoid": "0811810",
+   "lat": 38.441886,
+   "lon": -105.220899,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5305,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.220899&y=38.441886&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "cedaredge",
+   "name": "Cedaredge",
+   "kind": "town",
+   "geoid": "0812635",
+   "lat": 38.894097,
+   "lon": -107.925485,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6135,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.925485&y=38.894097&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "centennial",
+   "name": "Centennial",
+   "kind": "city",
+   "geoid": "0812815",
+   "lat": 39.590856,
+   "lon": -104.863754,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5740,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.863754&y=39.590856&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "center",
+   "name": "Center",
+   "kind": "town",
+   "geoid": "0812855",
+   "lat": 37.752299,
+   "lon": -106.110364,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7643,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.110364&y=37.752299&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "central-city",
+   "name": "Central City",
+   "kind": "city",
+   "geoid": "0812900",
+   "lat": 39.795366,
+   "lon": -105.508965,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8797,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.508965&y=39.795366&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "cheraw",
+   "name": "Cheraw",
+   "kind": "town",
+   "geoid": "0813460",
+   "lat": 38.10766,
+   "lon": -103.511022,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4134,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.511022&y=38.10766&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "cherry-hills-village",
+   "name": "Cherry Hills Village",
+   "kind": "city",
+   "geoid": "0813845",
+   "lat": 39.637418,
+   "lon": -104.94747,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5411,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.94747&y=39.637418&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "cheyenne-wells",
+   "name": "Cheyenne Wells",
+   "kind": "town",
+   "geoid": "0814175",
+   "lat": 38.819202,
+   "lon": -102.35203,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4281,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.35203&y=38.819202&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "city-of-creede",
+   "name": "City of Creede",
+   "kind": "town",
+   "geoid": "0814765",
+   "lat": 37.848597,
+   "lon": -106.925146,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8811,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.925146&y=37.848597&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "coal-creek",
+   "name": "Coal Creek",
+   "kind": "town",
+   "geoid": "0815330",
+   "lat": 38.362171,
+   "lon": -105.142199,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5346,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.142199&y=38.362171&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "cokedale",
+   "name": "Cokedale",
+   "kind": "town",
+   "geoid": "0815550",
+   "lat": 37.144223,
+   "lon": -104.62159,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6332,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.62159&y=37.144223&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "collbran",
+   "name": "Collbran",
+   "kind": "town",
+   "geoid": "0815605",
+   "lat": 39.240009,
+   "lon": -107.963517,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5974,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.963517&y=39.240009&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "colorado-springs",
+   "name": "Colorado Springs",
+   "kind": "city",
+   "geoid": "0816000",
+   "lat": 38.867255,
+   "lon": -104.760749,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6338,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.760749&y=38.867255&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "columbine-valley",
+   "name": "Columbine Valley",
+   "kind": "town",
+   "geoid": "0816385",
+   "lat": 39.599568,
+   "lon": -105.030885,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5344,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.030885&y=39.599568&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "commerce-city",
+   "name": "Commerce City",
+   "kind": "city",
+   "geoid": "0816495",
+   "lat": 39.882792,
+   "lon": -104.794908,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5178,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.794908&y=39.882792&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "cortez",
+   "name": "Cortez",
+   "kind": "city",
+   "geoid": "0817375",
+   "lat": 37.349783,
+   "lon": -108.576687,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6183,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.576687&y=37.349783&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "craig",
+   "name": "Craig",
+   "kind": "city",
+   "geoid": "0817760",
+   "lat": 40.51706,
+   "lon": -107.555396,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6193,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.555396&y=40.51706&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "crawford",
+   "name": "Crawford",
+   "kind": "town",
+   "geoid": "0817925",
+   "lat": 38.705044,
+   "lon": -107.609596,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6591,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.609596&y=38.705044&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "crested-butte",
+   "name": "Crested Butte",
+   "kind": "town",
+   "geoid": "0818310",
+   "lat": 38.86779,
+   "lon": -106.977261,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8865,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.977261&y=38.86779&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "crestone",
+   "name": "Crestone",
+   "kind": "town",
+   "geoid": "0818420",
+   "lat": 37.994529,
+   "lon": -105.696206,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7968,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.696206&y=37.994529&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "cripple-creek",
+   "name": "Cripple Creek",
+   "kind": "city",
+   "geoid": "0818530",
+   "lat": 38.746582,
+   "lon": -105.184981,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9518,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.184981&y=38.746582&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "crook",
+   "name": "Crook",
+   "kind": "town",
+   "geoid": "0818640",
+   "lat": 40.858782,
+   "lon": -102.80138,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3709,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.80138&y=40.858782&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "crowley",
+   "name": "Crowley",
+   "kind": "town",
+   "geoid": "0818750",
+   "lat": 38.193506,
+   "lon": -103.859744,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4352,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.859744&y=38.193506&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "dacono",
+   "name": "Dacono",
+   "kind": "city",
+   "geoid": "0819080",
+   "lat": 40.063521,
+   "lon": -104.946804,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5120,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.946804&y=40.063521&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "de-beque",
+   "name": "De Beque",
+   "kind": "town",
+   "geoid": "0819355",
+   "lat": 39.309989,
+   "lon": -108.204999,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4953,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.204999&y=39.309989&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "deer-trail",
+   "name": "Deer Trail",
+   "kind": "town",
+   "geoid": "0819630",
+   "lat": 39.617,
+   "lon": -104.043851,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5188,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.043851&y=39.617&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "del-norte",
+   "name": "Del Norte",
+   "kind": "town",
+   "geoid": "0819795",
+   "lat": 37.677975,
+   "lon": -106.353018,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7883,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.353018&y=37.677975&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "delta",
+   "name": "Delta",
+   "kind": "city",
+   "geoid": "0819850",
+   "lat": 38.757371,
+   "lon": -108.087986,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4918,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.087986&y=38.757371&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "denver",
+   "name": "Denver",
+   "kind": "city",
+   "geoid": "0820000",
+   "lat": 39.76185,
+   "lon": -104.881105,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5292,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.881105&y=39.76185&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "dillon",
+   "name": "Dillon",
+   "kind": "town",
+   "geoid": "0820440",
+   "lat": 39.625881,
+   "lon": -106.043728,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9047,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.043728&y=39.625881&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "dinosaur",
+   "name": "Dinosaur",
+   "kind": "town",
+   "geoid": "0820495",
+   "lat": 40.239861,
+   "lon": -109.006795,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5875,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-109.006795&y=40.239861&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "dolores",
+   "name": "Dolores",
+   "kind": "town",
+   "geoid": "0820770",
+   "lat": 37.474584,
+   "lon": -108.499503,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6945,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.499503&y=37.474584&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "dove-creek",
+   "name": "Dove Creek",
+   "kind": "town",
+   "geoid": "0821265",
+   "lat": 37.766842,
+   "lon": -108.907173,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6840,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.907173&y=37.766842&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "durango",
+   "name": "Durango",
+   "kind": "city",
+   "geoid": "0822035",
+   "lat": 37.264534,
+   "lon": -107.874124,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6544,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.874124&y=37.264534&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "eads",
+   "name": "Eads",
+   "kind": "town",
+   "geoid": "0822145",
+   "lat": 38.481648,
+   "lon": -102.779823,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4214,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.779823&y=38.481648&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "eagle",
+   "name": "Eagle",
+   "kind": "town",
+   "geoid": "0822200",
+   "lat": 39.64322,
+   "lon": -106.821344,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6657,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.821344&y=39.64322&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "eaton",
+   "name": "Eaton",
+   "kind": "town",
+   "geoid": "0822860",
+   "lat": 40.525685,
+   "lon": -104.712987,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4822,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.712987&y=40.525685&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "eckley",
+   "name": "Eckley",
+   "kind": "town",
+   "geoid": "0823025",
+   "lat": 40.112405,
+   "lon": -102.488291,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3893,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.488291&y=40.112405&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "edgewater",
+   "name": "Edgewater",
+   "kind": "city",
+   "geoid": "0823135",
+   "lat": 39.75085,
+   "lon": -105.06262,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5368,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.06262&y=39.75085&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "elizabeth",
+   "name": "Elizabeth",
+   "kind": "town",
+   "geoid": "0823740",
+   "lat": 39.35966,
+   "lon": -104.608525,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6560,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.608525&y=39.35966&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "empire",
+   "name": "Empire",
+   "kind": "town",
+   "geoid": "0824620",
+   "lat": 39.75944,
+   "lon": -105.681677,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8580,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.681677&y=39.75944&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "englewood",
+   "name": "Englewood",
+   "kind": "city",
+   "geoid": "0824785",
+   "lat": 39.646979,
+   "lon": -104.994465,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5339,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.994465&y=39.646979&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "erie",
+   "name": "Erie",
+   "kind": "town",
+   "geoid": "0824950",
+   "lat": 40.040287,
+   "lon": -105.03831,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5074,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.03831&y=40.040287&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "estes-park",
+   "name": "Estes Park",
+   "kind": "town",
+   "geoid": "0825115",
+   "lat": 40.367046,
+   "lon": -105.533861,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7595,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.533861&y=40.367046&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "evans",
+   "name": "Evans",
+   "kind": "city",
+   "geoid": "0825280",
+   "lat": 40.350165,
+   "lon": -104.748355,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4676,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.748355&y=40.350165&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "fairplay",
+   "name": "Fairplay",
+   "kind": "town",
+   "geoid": "0825610",
+   "lat": 39.224332,
+   "lon": -105.998396,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9932,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.998396&y=39.224332&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "federal-heights",
+   "name": "Federal Heights",
+   "kind": "city",
+   "geoid": "0826270",
+   "lat": 39.864973,
+   "lon": -105.01534,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5407,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.01534&y=39.864973&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "firestone",
+   "name": "Firestone",
+   "kind": "town",
+   "geoid": "0826600",
+   "lat": 40.155676,
+   "lon": -104.948619,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4856,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.948619&y=40.155676&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "flagler",
+   "name": "Flagler",
+   "kind": "town",
+   "geoid": "0826765",
+   "lat": 39.296609,
+   "lon": -103.064642,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4954,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.064642&y=39.296609&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "fleming",
+   "name": "Fleming",
+   "kind": "town",
+   "geoid": "0826875",
+   "lat": 40.682075,
+   "lon": -102.839631,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4238,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.839631&y=40.682075&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "florence",
+   "name": "Florence",
+   "kind": "city",
+   "geoid": "0827040",
+   "lat": 38.379615,
+   "lon": -105.10023,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5244,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.10023&y=38.379615&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "fort-collins",
+   "name": "Fort Collins",
+   "kind": "city",
+   "geoid": "0827425",
+   "lat": 40.548216,
+   "lon": -105.064833,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4993,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.064833&y=40.548216&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "fort-lupton",
+   "name": "Fort Lupton",
+   "kind": "city",
+   "geoid": "0827700",
+   "lat": 40.083545,
+   "lon": -104.803367,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4913,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.803367&y=40.083545&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "fort-morgan",
+   "name": "Fort Morgan",
+   "kind": "city",
+   "geoid": "0827810",
+   "lat": 40.253003,
+   "lon": -103.788652,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4316,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.788652&y=40.253003&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "fountain",
+   "name": "Fountain",
+   "kind": "city",
+   "geoid": "0827865",
+   "lat": 38.68902,
+   "lon": -104.680559,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5573,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.680559&y=38.68902&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "fowler",
+   "name": "Fowler",
+   "kind": "town",
+   "geoid": "0827975",
+   "lat": 38.130619,
+   "lon": -104.026096,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4339,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.026096&y=38.130619&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "foxfield",
+   "name": "Foxfield",
+   "kind": "town",
+   "geoid": "0828105",
+   "lat": 39.58814,
+   "lon": -104.785741,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5809,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.785741&y=39.58814&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "fraser",
+   "name": "Fraser",
+   "kind": "town",
+   "geoid": "0828305",
+   "lat": 39.923294,
+   "lon": -105.805268,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8894,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.805268&y=39.923294&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "frederick",
+   "name": "Frederick",
+   "kind": "town",
+   "geoid": "0828360",
+   "lat": 40.105907,
+   "lon": -104.974497,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4949,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.974497&y=40.105907&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "frisco",
+   "name": "Frisco",
+   "kind": "town",
+   "geoid": "0828690",
+   "lat": 39.578482,
+   "lon": -106.090973,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9024,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.090973&y=39.578482&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "fruita",
+   "name": "Fruita",
+   "kind": "city",
+   "geoid": "0828745",
+   "lat": 39.155567,
+   "lon": -108.729584,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4507,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.729584&y=39.155567&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "garden-city",
+   "name": "Garden City",
+   "kind": "town",
+   "geoid": "0829185",
+   "lat": 40.394591,
+   "lon": -104.689494,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4699,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.689494&y=40.394591&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "genoa",
+   "name": "Genoa",
+   "kind": "town",
+   "geoid": "0829680",
+   "lat": 39.278218,
+   "lon": -103.498717,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5599,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.498717&y=39.278218&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "georgetown",
+   "name": "Georgetown",
+   "kind": "town",
+   "geoid": "0829735",
+   "lat": 39.717886,
+   "lon": -105.694488,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8458,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.694488&y=39.717886&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "gilcrest",
+   "name": "Gilcrest",
+   "kind": "town",
+   "geoid": "0829955",
+   "lat": 40.284156,
+   "lon": -104.782024,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4750,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.782024&y=40.284156&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "glendale",
+   "name": "Glendale",
+   "kind": "city",
+   "geoid": "0830340",
+   "lat": 39.703052,
+   "lon": -104.936157,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5351,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.936157&y=39.703052&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "glenwood-springs",
+   "name": "Glenwood Springs",
+   "kind": "city",
+   "geoid": "0830780",
+   "lat": 39.547132,
+   "lon": -107.342556,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6349,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.342556&y=39.547132&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "golden",
+   "name": "Golden",
+   "kind": "city",
+   "geoid": "0830835",
+   "lat": 39.742483,
+   "lon": -105.210561,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5768,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.210561&y=39.742483&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "granada",
+   "name": "Granada",
+   "kind": "town",
+   "geoid": "0831550",
+   "lat": 38.062973,
+   "lon": -102.311591,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3485,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.311591&y=38.062973&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "granby",
+   "name": "Granby",
+   "kind": "town",
+   "geoid": "0831605",
+   "lat": 40.064803,
+   "lon": -105.919386,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7993,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.919386&y=40.064803&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "grand-junction",
+   "name": "Grand Junction",
+   "kind": "city",
+   "geoid": "0831660",
+   "lat": 39.089062,
+   "lon": -108.567452,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4648,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.567452&y=39.089062&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "grand-lake",
+   "name": "Grand Lake",
+   "kind": "town",
+   "geoid": "0831715",
+   "lat": 40.246542,
+   "lon": -105.826435,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8378,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.826435&y=40.246542&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "greeley",
+   "name": "Greeley",
+   "kind": "city",
+   "geoid": "0832155",
+   "lat": 40.414034,
+   "lon": -104.771043,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4872,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.771043&y=40.414034&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "green-mountain-falls",
+   "name": "Green Mountain Falls",
+   "kind": "town",
+   "geoid": "0832650",
+   "lat": 38.934954,
+   "lon": -105.019664,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7879,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.019664&y=38.934954&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "greenwood-village",
+   "name": "Greenwood Village",
+   "kind": "city",
+   "geoid": "0833035",
+   "lat": 39.615934,
+   "lon": -104.911688,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5639,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.911688&y=39.615934&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "grover",
+   "name": "Grover",
+   "kind": "town",
+   "geoid": "0833310",
+   "lat": 40.869111,
+   "lon": -104.225932,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5077,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.225932&y=40.869111&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "gunnison",
+   "name": "Gunnison",
+   "kind": "city",
+   "geoid": "0833640",
+   "lat": 38.547978,
+   "lon": -106.924604,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7710,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.924604&y=38.547978&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "gypsum",
+   "name": "Gypsum",
+   "kind": "town",
+   "geoid": "0833695",
+   "lat": 39.620164,
+   "lon": -106.956357,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6528,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.956357&y=39.620164&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "hartman",
+   "name": "Hartman",
+   "kind": "town",
+   "geoid": "0834520",
+   "lat": 38.121128,
+   "lon": -102.221608,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3587,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.221608&y=38.121128&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "haswell",
+   "name": "Haswell",
+   "kind": "town",
+   "geoid": "0834740",
+   "lat": 38.452492,
+   "lon": -103.16498,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4541,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.16498&y=38.452492&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "haxtun",
+   "name": "Haxtun",
+   "kind": "town",
+   "geoid": "0834960",
+   "lat": 40.641733,
+   "lon": -102.629858,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4032,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.629858&y=40.641733&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "hayden",
+   "name": "Hayden",
+   "kind": "town",
+   "geoid": "0835070",
+   "lat": 40.492217,
+   "lon": -107.264325,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6345,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.264325&y=40.492217&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "hillrose",
+   "name": "Hillrose",
+   "kind": "town",
+   "geoid": "0836610",
+   "lat": 40.324495,
+   "lon": -103.522206,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4169,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.522206&y=40.324495&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "holly",
+   "name": "Holly",
+   "kind": "town",
+   "geoid": "0837215",
+   "lat": 38.055639,
+   "lon": -102.124589,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3397,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.124589&y=38.055639&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "holyoke",
+   "name": "Holyoke",
+   "kind": "city",
+   "geoid": "0837270",
+   "lat": 40.582101,
+   "lon": -102.297192,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3733,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.297192&y=40.582101&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "hooper",
+   "name": "Hooper",
+   "kind": "town",
+   "geoid": "0837380",
+   "lat": 37.745976,
+   "lon": -105.877735,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7559,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.877735&y=37.745976&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "hot-sulphur-springs",
+   "name": "Hot Sulphur Springs",
+   "kind": "town",
+   "geoid": "0837600",
+   "lat": 40.074902,
+   "lon": -106.10317,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7696,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.10317&y=40.074902&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "hotchkiss",
+   "name": "Hotchkiss",
+   "kind": "town",
+   "geoid": "0837545",
+   "lat": 38.798994,
+   "lon": -107.713385,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5330,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.713385&y=38.798994&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "hudson",
+   "name": "Hudson",
+   "kind": "town",
+   "geoid": "0837820",
+   "lat": 40.091746,
+   "lon": -104.593741,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4970,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.593741&y=40.091746&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "hugo",
+   "name": "Hugo",
+   "kind": "town",
+   "geoid": "0837875",
+   "lat": 39.136179,
+   "lon": -103.473138,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5044,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.473138&y=39.136179&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "idaho-springs",
+   "name": "Idaho Springs",
+   "kind": "city",
+   "geoid": "0838370",
+   "lat": 39.749349,
+   "lon": -105.503759,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8160,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.503759&y=39.749349&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "ignacio",
+   "name": "Ignacio",
+   "kind": "town",
+   "geoid": "0838535",
+   "lat": 37.118004,
+   "lon": -107.637557,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6523,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.637557&y=37.118004&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "iliff",
+   "name": "Iliff",
+   "kind": "town",
+   "geoid": "0838590",
+   "lat": 40.759177,
+   "lon": -103.066102,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3836,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.066102&y=40.759177&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "jamestown",
+   "name": "Jamestown",
+   "kind": "town",
+   "geoid": "0839195",
+   "lat": 40.123001,
+   "lon": -105.393143,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7331,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.393143&y=40.123001&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "johnstown",
+   "name": "Johnstown",
+   "kind": "town",
+   "geoid": "0839855",
+   "lat": 40.307248,
+   "lon": -104.911205,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4840,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.911205&y=40.307248&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "julesburg",
+   "name": "Julesburg",
+   "kind": "town",
+   "geoid": "0839965",
+   "lat": 40.984864,
+   "lon": -102.262708,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3468,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.262708&y=40.984864&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "keenesburg",
+   "name": "Keenesburg",
+   "kind": "town",
+   "geoid": "0840185",
+   "lat": 40.155173,
+   "lon": -104.56342,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4917,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.56342&y=40.155173&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "kersey",
+   "name": "Kersey",
+   "kind": "town",
+   "geoid": "0840515",
+   "lat": 40.395585,
+   "lon": -104.578334,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4624,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.578334&y=40.395585&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "keystone",
+   "name": "Keystone",
+   "kind": "town",
+   "geoid": "0840550",
+   "lat": 39.607093,
+   "lon": -105.931987,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9381,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.931987&y=39.607093&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "kim",
+   "name": "Kim",
+   "kind": "town",
+   "geoid": "0840570",
+   "lat": 37.247062,
+   "lon": -103.353411,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5702,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.353411&y=37.247062&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "kiowa",
+   "name": "Kiowa",
+   "kind": "town",
+   "geoid": "0840790",
+   "lat": 39.34364,
+   "lon": -104.458142,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6419,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.458142&y=39.34364&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "kit-carson",
+   "name": "Kit Carson",
+   "kind": "town",
+   "geoid": "0841010",
+   "lat": 38.762828,
+   "lon": -102.795476,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4287,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.795476&y=38.762828&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "kremmling",
+   "name": "Kremmling",
+   "kind": "town",
+   "geoid": "0841560",
+   "lat": 40.056542,
+   "lon": -106.378216,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7397,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.378216&y=40.056542&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "la-jara",
+   "name": "La Jara",
+   "kind": "town",
+   "geoid": "0842055",
+   "lat": 37.273524,
+   "lon": -105.959721,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7606,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.959721&y=37.273524&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "la-junta",
+   "name": "La Junta",
+   "kind": "city",
+   "geoid": "0842110",
+   "lat": 37.979414,
+   "lon": -103.547336,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4124,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.547336&y=37.979414&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "la-salle",
+   "name": "La Salle",
+   "kind": "town",
+   "geoid": "0843605",
+   "lat": 40.348669,
+   "lon": -104.706108,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4680,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.706108&y=40.348669&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "la-veta",
+   "name": "La Veta",
+   "kind": "town",
+   "geoid": "0844100",
+   "lat": 37.508562,
+   "lon": -105.008487,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7022,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.008487&y=37.508562&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "lafayette",
+   "name": "Lafayette",
+   "kind": "city",
+   "geoid": "0841835",
+   "lat": 39.994814,
+   "lon": -105.099676,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5267,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.099676&y=39.994814&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "lake-city",
+   "name": "Lake City",
+   "kind": "town",
+   "geoid": "0842330",
+   "lat": 38.021603,
+   "lon": -107.310707,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8863,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.310707&y=38.021603&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "lakeside",
+   "name": "Lakeside",
+   "kind": "town",
+   "geoid": "0842495",
+   "lat": 39.779075,
+   "lon": -105.057825,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5357,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.057825&y=39.779075&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "lakewood",
+   "name": "Lakewood",
+   "kind": "city",
+   "geoid": "0843000",
+   "lat": 39.698939,
+   "lon": -105.117573,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5657,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.117573&y=39.698939&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "lamar",
+   "name": "Lamar",
+   "kind": "city",
+   "geoid": "0843110",
+   "lat": 38.075971,
+   "lon": -102.614723,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3633,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.614723&y=38.075971&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "larkspur",
+   "name": "Larkspur",
+   "kind": "town",
+   "geoid": "0843550",
+   "lat": 39.229573,
+   "lon": -104.885679,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6695,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.885679&y=39.229573&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "las-animas",
+   "name": "Las Animas",
+   "kind": "city",
+   "geoid": "0843660",
+   "lat": 38.069668,
+   "lon": -103.223229,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3898,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.223229&y=38.069668&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "leadville",
+   "name": "Leadville",
+   "kind": "city",
+   "geoid": "0844320",
+   "lat": 39.247277,
+   "lon": -106.29346,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 10117,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.29346&y=39.247277&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "limon",
+   "name": "Limon",
+   "kind": "town",
+   "geoid": "0844980",
+   "lat": 39.265074,
+   "lon": -103.685911,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5359,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.685911&y=39.265074&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "littleton",
+   "name": "Littleton",
+   "kind": "city",
+   "geoid": "0845255",
+   "lat": 39.590375,
+   "lon": -105.020084,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5428,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.020084&y=39.590375&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "lochbuie",
+   "name": "Lochbuie",
+   "kind": "town",
+   "geoid": "0845530",
+   "lat": 40.009141,
+   "lon": -104.726505,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5045,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.726505&y=40.009141&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "log-lane-village",
+   "name": "Log Lane Village",
+   "kind": "town",
+   "geoid": "0845695",
+   "lat": 40.269734,
+   "lon": -103.82896,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4308,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.82896&y=40.269734&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "lone-tree",
+   "name": "Lone Tree",
+   "kind": "city",
+   "geoid": "0845955",
+   "lat": 39.530851,
+   "lon": -104.870959,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6010,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.870959&y=39.530851&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "longmont",
+   "name": "Longmont",
+   "kind": "city",
+   "geoid": "0845970",
+   "lat": 40.168199,
+   "lon": -105.100522,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4981,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.100522&y=40.168199&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "louisville",
+   "name": "Louisville",
+   "kind": "city",
+   "geoid": "0846355",
+   "lat": 39.969576,
+   "lon": -105.143271,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5390,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.143271&y=39.969576&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "loveland",
+   "name": "Loveland",
+   "kind": "city",
+   "geoid": "0846465",
+   "lat": 40.416905,
+   "lon": -105.063111,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5000,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.063111&y=40.416905&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "lyons",
+   "name": "Lyons",
+   "kind": "town",
+   "geoid": "0847070",
+   "lat": 40.22305,
+   "lon": -105.268665,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5343,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.268665&y=40.22305&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "manassa",
+   "name": "Manassa",
+   "kind": "town",
+   "geoid": "0848060",
+   "lat": 37.173841,
+   "lon": -105.937275,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7690,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.937275&y=37.173841&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "mancos",
+   "name": "Mancos",
+   "kind": "town",
+   "geoid": "0848115",
+   "lat": 37.346641,
+   "lon": -108.293841,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7012,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.293841&y=37.346641&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "manitou-springs",
+   "name": "Manitou Springs",
+   "kind": "city",
+   "geoid": "0848445",
+   "lat": 38.857539,
+   "lon": -104.912861,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6305,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.912861&y=38.857539&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "manzanola",
+   "name": "Manzanola",
+   "kind": "town",
+   "geoid": "0848500",
+   "lat": 38.108758,
+   "lon": -103.866804,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4260,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.866804&y=38.108758&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "marble",
+   "name": "Marble",
+   "kind": "town",
+   "geoid": "0848555",
+   "lat": 39.071665,
+   "lon": -107.190749,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8007,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.190749&y=39.071665&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "mead",
+   "name": "Mead",
+   "kind": "town",
+   "geoid": "0849600",
+   "lat": 40.226999,
+   "lon": -104.988323,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5008,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.988323&y=40.226999&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "meeker",
+   "name": "Meeker",
+   "kind": "town",
+   "geoid": "0849875",
+   "lat": 40.049953,
+   "lon": -107.894584,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6443,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.894584&y=40.049953&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "merino",
+   "name": "Merino",
+   "kind": "town",
+   "geoid": "0850040",
+   "lat": 40.483705,
+   "lon": -103.353675,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4040,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.353675&y=40.483705&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "milliken",
+   "name": "Milliken",
+   "kind": "town",
+   "geoid": "0850480",
+   "lat": 40.310509,
+   "lon": -104.858412,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4829,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.858412&y=40.310509&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "minturn",
+   "name": "Minturn",
+   "kind": "town",
+   "geoid": "0850920",
+   "lat": 39.535574,
+   "lon": -106.381575,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 10079,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.381575&y=39.535574&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "moffat",
+   "name": "Moffat",
+   "kind": "town",
+   "geoid": "0851250",
+   "lat": 38.005734,
+   "lon": -105.910118,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7567,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.910118&y=38.005734&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "monte-vista",
+   "name": "Monte Vista",
+   "kind": "city",
+   "geoid": "0851635",
+   "lat": 37.57854,
+   "lon": -106.149915,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7664,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.149915&y=37.57854&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "montezuma",
+   "name": "Montezuma",
+   "kind": "town",
+   "geoid": "0851690",
+   "lat": 39.581477,
+   "lon": -105.86764,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 10302,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.86764&y=39.581477&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "montrose",
+   "name": "Montrose",
+   "kind": "city",
+   "geoid": "0851745",
+   "lat": 38.468783,
+   "lon": -107.858959,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5859,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.858959&y=38.468783&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "monument",
+   "name": "Monument",
+   "kind": "town",
+   "geoid": "0851800",
+   "lat": 39.074406,
+   "lon": -104.844221,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7002,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.844221&y=39.074406&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "morrison",
+   "name": "Morrison",
+   "kind": "town",
+   "geoid": "0852075",
+   "lat": 39.636357,
+   "lon": -105.205959,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6406,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.205959&y=39.636357&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "mount-crested-butte",
+   "name": "Mount Crested Butte",
+   "kind": "town",
+   "geoid": "0852570",
+   "lat": 38.908302,
+   "lon": -106.960587,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9738,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.960587&y=38.908302&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "mountain-view",
+   "name": "Mountain View",
+   "kind": "town",
+   "geoid": "0852350",
+   "lat": 39.774776,
+   "lon": -105.056711,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5382,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.056711&y=39.774776&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "mountain-village",
+   "name": "Mountain Village",
+   "kind": "town",
+   "geoid": "0852550",
+   "lat": 37.932416,
+   "lon": -107.857737,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9511,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.857737&y=37.932416&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "naturita",
+   "name": "Naturita",
+   "kind": "town",
+   "geoid": "0853120",
+   "lat": 38.218344,
+   "lon": -108.566633,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5398,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.566633&y=38.218344&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "nederland",
+   "name": "Nederland",
+   "kind": "town",
+   "geoid": "0853175",
+   "lat": 39.963815,
+   "lon": -105.505864,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8205,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.505864&y=39.963815&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "new-castle",
+   "name": "New Castle",
+   "kind": "town",
+   "geoid": "0853395",
+   "lat": 39.577645,
+   "lon": -107.526453,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5825,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.526453&y=39.577645&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "northglenn",
+   "name": "Northglenn",
+   "kind": "city",
+   "geoid": "0854330",
+   "lat": 39.911627,
+   "lon": -104.982148,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5385,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.982148&y=39.911627&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "norwood",
+   "name": "Norwood",
+   "kind": "town",
+   "geoid": "0854880",
+   "lat": 38.128399,
+   "lon": -108.29225,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7019,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.29225&y=38.128399&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "nucla",
+   "name": "Nucla",
+   "kind": "town",
+   "geoid": "0854935",
+   "lat": 38.266687,
+   "lon": -108.548695,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5751,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.548695&y=38.266687&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "nunn",
+   "name": "Nunn",
+   "kind": "town",
+   "geoid": "0855045",
+   "lat": 40.71371,
+   "lon": -104.788848,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5214,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.788848&y=40.71371&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "oak-creek",
+   "name": "Oak Creek",
+   "kind": "town",
+   "geoid": "0855155",
+   "lat": 40.274024,
+   "lon": -106.957639,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7439,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.957639&y=40.274024&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "olathe",
+   "name": "Olathe",
+   "kind": "town",
+   "geoid": "0855540",
+   "lat": 38.608531,
+   "lon": -107.983278,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5343,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.983278&y=38.608531&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "olney-springs",
+   "name": "Olney Springs",
+   "kind": "town",
+   "geoid": "0855705",
+   "lat": 38.166274,
+   "lon": -103.944491,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4382,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.944491&y=38.166274&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "ophir",
+   "name": "Ophir",
+   "kind": "town",
+   "geoid": "0855870",
+   "lat": 37.85681,
+   "lon": -107.831242,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9723,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.831242&y=37.85681&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "orchard-city",
+   "name": "Orchard City",
+   "kind": "town",
+   "geoid": "0855980",
+   "lat": 38.818125,
+   "lon": -107.96727,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5385,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.96727&y=38.818125&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "ordway",
+   "name": "Ordway",
+   "kind": "town",
+   "geoid": "0856145",
+   "lat": 38.220834,
+   "lon": -103.756585,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4318,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.756585&y=38.220834&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "otis",
+   "name": "Otis",
+   "kind": "town",
+   "geoid": "0856365",
+   "lat": 40.150126,
+   "lon": -102.962138,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4332,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.962138&y=40.150126&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "ouray",
+   "name": "Ouray",
+   "kind": "city",
+   "geoid": "0856420",
+   "lat": 38.027543,
+   "lon": -107.673348,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7687,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.673348&y=38.027543&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "ovid",
+   "name": "Ovid",
+   "kind": "town",
+   "geoid": "0856475",
+   "lat": 40.960755,
+   "lon": -102.388336,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3531,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.388336&y=40.960755&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "pagosa-springs",
+   "name": "Pagosa Springs",
+   "kind": "town",
+   "geoid": "0856860",
+   "lat": 37.263422,
+   "lon": -107.003565,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7334,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.003565&y=37.263422&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "palisade",
+   "name": "Palisade",
+   "kind": "town",
+   "geoid": "0856970",
+   "lat": 39.107931,
+   "lon": -108.35733,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4719,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.35733&y=39.107931&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "palmer-lake",
+   "name": "Palmer Lake",
+   "kind": "town",
+   "geoid": "0857025",
+   "lat": 39.115801,
+   "lon": -104.909206,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7138,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.909206&y=39.115801&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "paoli",
+   "name": "Paoli",
+   "kind": "town",
+   "geoid": "0857245",
+   "lat": 40.612764,
+   "lon": -102.471758,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3895,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.471758&y=40.612764&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "paonia",
+   "name": "Paonia",
+   "kind": "town",
+   "geoid": "0857300",
+   "lat": 38.869797,
+   "lon": -107.592084,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5676,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.592084&y=38.869797&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "parachute",
+   "name": "Parachute",
+   "kind": "town",
+   "geoid": "0857400",
+   "lat": 39.446642,
+   "lon": -108.054907,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5095,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.054907&y=39.446642&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "parker",
+   "name": "Parker",
+   "kind": "town",
+   "geoid": "0857630",
+   "lat": 39.505946,
+   "lon": -104.775828,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5846,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.775828&y=39.505946&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "peetz",
+   "name": "Peetz",
+   "kind": "town",
+   "geoid": "0858235",
+   "lat": 40.961823,
+   "lon": -103.113809,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4432,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.113809&y=40.961823&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "pierce",
+   "name": "Pierce",
+   "kind": "town",
+   "geoid": "0859005",
+   "lat": 40.647584,
+   "lon": -104.780051,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5093,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.780051&y=40.647584&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "pitkin",
+   "name": "Pitkin",
+   "kind": "town",
+   "geoid": "0859830",
+   "lat": 38.608722,
+   "lon": -106.514918,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9230,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.514918&y=38.608722&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "platteville",
+   "name": "Platteville",
+   "kind": "town",
+   "geoid": "0860160",
+   "lat": 40.222815,
+   "lon": -104.833572,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4804,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.833572&y=40.222815&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "poncha-springs",
+   "name": "Poncha Springs",
+   "kind": "town",
+   "geoid": "0860600",
+   "lat": 38.521231,
+   "lon": -106.0721,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7469,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.0721&y=38.521231&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "pritchett",
+   "name": "Pritchett",
+   "kind": "town",
+   "geoid": "0861315",
+   "lat": 37.370009,
+   "lon": -102.858749,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4827,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.858749&y=37.370009&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "pueblo",
+   "name": "Pueblo",
+   "kind": "city",
+   "geoid": "0862000",
+   "lat": 38.269228,
+   "lon": -104.610816,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4664,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.610816&y=38.269228&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "ramah",
+   "name": "Ramah",
+   "kind": "town",
+   "geoid": "0862660",
+   "lat": 39.121427,
+   "lon": -104.167313,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6099,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.167313&y=39.121427&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "rangely",
+   "name": "Rangely",
+   "kind": "town",
+   "geoid": "0862880",
+   "lat": 40.087011,
+   "lon": -108.78326,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5266,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.78326&y=40.087011&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "raymer-new-raymer",
+   "name": "Raymer (New Raymer)",
+   "kind": "town",
+   "geoid": "0863045",
+   "lat": 40.607957,
+   "lon": -103.843576,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4779,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.843576&y=40.607957&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "red-cliff",
+   "name": "Red Cliff",
+   "kind": "town",
+   "geoid": "0863265",
+   "lat": 39.509291,
+   "lon": -106.369943,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8834,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.369943&y=39.509291&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "rico",
+   "name": "Rico",
+   "kind": "town",
+   "geoid": "0864090",
+   "lat": 37.689086,
+   "lon": -108.031677,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8774,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.031677&y=37.689086&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "ridgway",
+   "name": "Ridgway",
+   "kind": "town",
+   "geoid": "0864200",
+   "lat": 38.157178,
+   "lon": -107.754597,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6963,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.754597&y=38.157178&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "rifle",
+   "name": "Rifle",
+   "kind": "city",
+   "geoid": "0864255",
+   "lat": 39.537565,
+   "lon": -107.770344,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5554,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.770344&y=39.537565&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "rockvale",
+   "name": "Rockvale",
+   "kind": "town",
+   "geoid": "0864970",
+   "lat": 38.364425,
+   "lon": -105.164523,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5484,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.164523&y=38.364425&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "rocky-ford",
+   "name": "Rocky Ford",
+   "kind": "city",
+   "geoid": "0865190",
+   "lat": 38.049884,
+   "lon": -103.722102,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4184,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.722102&y=38.049884&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "romeo",
+   "name": "Romeo",
+   "kind": "town",
+   "geoid": "0865740",
+   "lat": 37.171822,
+   "lon": -105.985415,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7736,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.985415&y=37.171822&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "rye",
+   "name": "Rye",
+   "kind": "town",
+   "geoid": "0866895",
+   "lat": 37.921283,
+   "lon": -104.931935,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6827,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.931935&y=37.921283&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "saguache",
+   "name": "Saguache",
+   "kind": "town",
+   "geoid": "0867005",
+   "lat": 38.08627,
+   "lon": -106.141053,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7702,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.141053&y=38.08627&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "salida",
+   "name": "Salida",
+   "kind": "city",
+   "geoid": "0867280",
+   "lat": 38.530122,
+   "lon": -105.998397,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7094,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.998397&y=38.530122&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "san-luis",
+   "name": "San Luis",
+   "kind": "town",
+   "geoid": "0868105",
+   "lat": 37.202375,
+   "lon": -105.422506,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7988,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.422506&y=37.202375&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "sanford",
+   "name": "Sanford",
+   "kind": "town",
+   "geoid": "0867830",
+   "lat": 37.257407,
+   "lon": -105.900766,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7599,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.900766&y=37.257407&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "sawpit",
+   "name": "Sawpit",
+   "kind": "town",
+   "geoid": "0868655",
+   "lat": 37.994717,
+   "lon": -108.002136,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7562,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-108.002136&y=37.994717&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "sedgwick",
+   "name": "Sedgwick",
+   "kind": "town",
+   "geoid": "0868930",
+   "lat": 40.935512,
+   "lon": -102.525637,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3591,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.525637&y=40.935512&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "seibert",
+   "name": "Seibert",
+   "kind": "town",
+   "geoid": "0869040",
+   "lat": 39.297967,
+   "lon": -102.869524,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4711,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.869524&y=39.297967&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "severance",
+   "name": "Severance",
+   "kind": "town",
+   "geoid": "0869150",
+   "lat": 40.505944,
+   "lon": -104.863475,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4848,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.863475&y=40.505944&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "sheridan",
+   "name": "Sheridan",
+   "kind": "city",
+   "geoid": "0869645",
+   "lat": 39.647757,
+   "lon": -105.017457,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5288,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.017457&y=39.647757&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "sheridan-lake",
+   "name": "Sheridan Lake",
+   "kind": "town",
+   "geoid": "0869700",
+   "lat": 38.46671,
+   "lon": -102.294399,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4070,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.294399&y=38.46671&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "silt",
+   "name": "Silt",
+   "kind": "town",
+   "geoid": "0870195",
+   "lat": 39.547978,
+   "lon": -107.652736,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5452,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.652736&y=39.547978&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "silver-cliff",
+   "name": "Silver Cliff",
+   "kind": "town",
+   "geoid": "0870250",
+   "lat": 38.129203,
+   "lon": -105.399175,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8362,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.399175&y=38.129203&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "silver-plume",
+   "name": "Silver Plume",
+   "kind": "town",
+   "geoid": "0870360",
+   "lat": 39.695372,
+   "lon": -105.727021,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9121,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.727021&y=39.695372&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "silverthorne",
+   "name": "Silverthorne",
+   "kind": "town",
+   "geoid": "0870525",
+   "lat": 39.659909,
+   "lon": -106.089107,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8793,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.089107&y=39.659909&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "silverton",
+   "name": "Silverton",
+   "kind": "town",
+   "geoid": "0870580",
+   "lat": 37.810874,
+   "lon": -107.664743,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9301,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.664743&y=37.810874&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "simla",
+   "name": "Simla",
+   "kind": "town",
+   "geoid": "0870635",
+   "lat": 39.140847,
+   "lon": -104.082504,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5980,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.082504&y=39.140847&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "snowmass-village",
+   "name": "Snowmass Village",
+   "kind": "town",
+   "geoid": "0871755",
+   "lat": 39.216878,
+   "lon": -106.94397,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8803,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.94397&y=39.216878&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "south-fork",
+   "name": "South Fork",
+   "kind": "town",
+   "geoid": "0872395",
+   "lat": 37.669186,
+   "lon": -106.642851,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8215,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.642851&y=37.669186&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "springfield",
+   "name": "Springfield",
+   "kind": "town",
+   "geoid": "0873330",
+   "lat": 37.404914,
+   "lon": -102.618898,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4369,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.618898&y=37.404914&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "starkville",
+   "name": "Starkville",
+   "kind": "town",
+   "geoid": "0873715",
+   "lat": 37.116826,
+   "lon": -104.523296,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6355,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.523296&y=37.116826&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "steamboat-springs",
+   "name": "Steamboat Springs",
+   "kind": "city",
+   "geoid": "0873825",
+   "lat": 40.475578,
+   "lon": -106.822919,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6851,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.822919&y=40.475578&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "sterling",
+   "name": "Sterling",
+   "kind": "city",
+   "geoid": "0873935",
+   "lat": 40.620487,
+   "lon": -103.192582,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3933,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.192582&y=40.620487&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "stratton",
+   "name": "Stratton",
+   "kind": "town",
+   "geoid": "0874485",
+   "lat": 39.302884,
+   "lon": -102.60347,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4413,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.60347&y=39.302884&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "sugar-city",
+   "name": "Sugar City",
+   "kind": "town",
+   "geoid": "0874815",
+   "lat": 38.232773,
+   "lon": -103.663312,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4308,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.663312&y=38.232773&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "superior",
+   "name": "Superior",
+   "kind": "town",
+   "geoid": "0875640",
+   "lat": 39.93119,
+   "lon": -105.159085,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5491,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.159085&y=39.93119&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "swink",
+   "name": "Swink",
+   "kind": "town",
+   "geoid": "0875970",
+   "lat": 38.014068,
+   "lon": -103.628162,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4123,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-103.628162&y=38.014068&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "telluride",
+   "name": "Telluride",
+   "kind": "town",
+   "geoid": "0876795",
+   "lat": 37.940233,
+   "lon": -107.818152,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8751,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-107.818152&y=37.940233&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "thornton",
+   "name": "Thornton",
+   "kind": "city",
+   "geoid": "0877290",
+   "lat": 39.920433,
+   "lon": -104.941413,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5195,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.941413&y=39.920433&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "timnath",
+   "name": "Timnath",
+   "kind": "town",
+   "geoid": "0877510",
+   "lat": 40.535915,
+   "lon": -104.964361,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4885,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.964361&y=40.535915&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "trinidad",
+   "name": "Trinidad",
+   "kind": "city",
+   "geoid": "0878610",
+   "lat": 37.173157,
+   "lon": -104.490326,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6040,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.490326&y=37.173157&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "two-buttes",
+   "name": "Two Buttes",
+   "kind": "town",
+   "geoid": "0879270",
+   "lat": 37.560664,
+   "lon": -102.396556,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4103,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.396556&y=37.560664&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "vail",
+   "name": "Vail",
+   "kind": "town",
+   "geoid": "0880040",
+   "lat": 39.63778,
+   "lon": -106.362463,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8242,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.362463&y=39.63778&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "victor",
+   "name": "Victor",
+   "kind": "city",
+   "geoid": "0880865",
+   "lat": 38.708738,
+   "lon": -105.141887,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9644,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.141887&y=38.708738&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "vilas",
+   "name": "Vilas",
+   "kind": "town",
+   "geoid": "0881030",
+   "lat": 37.373664,
+   "lon": -102.447416,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4157,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.447416&y=37.373664&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "vona",
+   "name": "Vona",
+   "kind": "town",
+   "geoid": "0881690",
+   "lat": 39.302119,
+   "lon": -102.743352,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4502,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.743352&y=39.302119&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "walden",
+   "name": "Walden",
+   "kind": "town",
+   "geoid": "0882130",
+   "lat": 40.731584,
+   "lon": -106.281336,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8098,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.281336&y=40.731584&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "walsenburg",
+   "name": "Walsenburg",
+   "kind": "city",
+   "geoid": "0882350",
+   "lat": 37.630598,
+   "lon": -104.781719,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 6302,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.781719&y=37.630598&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "walsh",
+   "name": "Walsh",
+   "kind": "town",
+   "geoid": "0882460",
+   "lat": 37.386107,
+   "lon": -102.279933,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3959,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.279933&y=37.386107&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "ward",
+   "name": "Ward",
+   "kind": "town",
+   "geoid": "0882735",
+   "lat": 40.07304,
+   "lon": -105.514775,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 9507,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.514775&y=40.07304&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "wellington",
+   "name": "Wellington",
+   "kind": "town",
+   "geoid": "0883230",
+   "lat": 40.697652,
+   "lon": -105.006255,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5189,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.006255&y=40.697652&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "westcliffe",
+   "name": "Westcliffe",
+   "kind": "town",
+   "geoid": "0883450",
+   "lat": 38.134203,
+   "lon": -105.465306,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7878,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.465306&y=38.134203&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "westminster",
+   "name": "Westminster",
+   "kind": "city",
+   "geoid": "0883835",
+   "lat": 39.880122,
+   "lon": -105.061513,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5342,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.061513&y=39.880122&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "wheat-ridge",
+   "name": "Wheat Ridge",
+   "kind": "city",
+   "geoid": "0884440",
+   "lat": 39.772675,
+   "lon": -105.104801,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5358,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.104801&y=39.772675&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "wiggins",
+   "name": "Wiggins",
+   "kind": "town",
+   "geoid": "0884770",
+   "lat": 40.228945,
+   "lon": -104.072806,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4550,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.072806&y=40.228945&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "wiley",
+   "name": "Wiley",
+   "kind": "town",
+   "geoid": "0885045",
+   "lat": 38.154789,
+   "lon": -102.718941,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3738,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.718941&y=38.154789&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "williamsburg",
+   "name": "Williamsburg",
+   "kind": "town",
+   "geoid": "0885155",
+   "lat": 38.383984,
+   "lon": -105.170993,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 5783,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.170993&y=38.383984&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "windsor",
+   "name": "Windsor",
+   "kind": "town",
+   "geoid": "0885485",
+   "lat": 40.478273,
+   "lon": -104.915053,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4801,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-104.915053&y=40.478273&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "winter-park",
+   "name": "Winter Park",
+   "kind": "town",
+   "geoid": "0885705",
+   "lat": 39.878748,
+   "lon": -105.782858,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 10109,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.782858&y=39.878748&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "woodland-park",
+   "name": "Woodland Park",
+   "kind": "city",
+   "geoid": "0886090",
+   "lat": 38.998212,
+   "lon": -105.059019,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 8497,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-105.059019&y=38.998212&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "wray",
+   "name": "Wray",
+   "kind": "city",
+   "geoid": "0886310",
+   "lat": 40.07992,
+   "lon": -102.228597,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 3523,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.228597&y=40.07992&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "yampa",
+   "name": "Yampa",
+   "kind": "town",
+   "geoid": "0886475",
+   "lat": 40.153005,
+   "lon": -106.908527,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 7878,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-106.908527&y=40.153005&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  },
+  {
+   "slug": "yuma",
+   "name": "Yuma",
+   "kind": "city",
+   "geoid": "0886750",
+   "lat": 40.122511,
+   "lon": -102.715636,
+   "coords": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_gaz_place_08.txt",
+    "fetched": "2026-11-11"
+   },
+   "elevation": {
+    "ft": 4124,
+    "url": "https://epqs.nationalmap.gov/v1/json?x=-102.715636&y=40.122511&units=Feet&wkid=4326",
+    "fetched": "2026-11-11"
+   }
+  }
+ ]
+}

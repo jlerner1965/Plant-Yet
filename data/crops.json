@@ -1,0 +1,2890 @@
+{
+ "about": "Crop values used by Plant Yet?. Every value carries the URL of the university extension page it comes from, a verbatim quote from that page, and the date it was checked. Values with no source are null and listed in leftOut; nothing is estimated. Verify with: npm run data:crops",
+ "fields": {
+  "plantWindow": "weeks relative to the typical last spring frost (negative = before)",
+  "indoorStartWeeks": "weeks before last frost (or before transplanting, see relativeTo) to sow indoors; null = normally direct-sown or no source",
+  "daysToHarvest": "used only to work out the last useful planting date before first fall frost",
+  "nightMinF": "explicit minimum NIGHT temperature for planting out; when present it is the forecast check for Plant",
+  "coldToleranceF": "coldest temperature the source says the crop takes without serious damage; Cover tonight triggers at or below it, and it is the forecast check for Plant when nightMinF is null",
+  "minDaytimeTempF": "daytime growing minimum from the source; shown for reference, not used in the answer"
+ },
+ "checked": "2026-11-11",
+ "crops": [
+  {
+   "slug": "beet",
+   "name": "Beet",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "semi-hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beets, carrots, cauliflower, parsley, parsnips, potatoes, and Swiss chard",
+    "note": "Crop list appears under the page heading 'Semi-Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -2,
+    "endWeeks": 0,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 0-2 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the semi-hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": null,
+   "daysToHarvest": {
+    "min": 60,
+    "max": 80,
+    "url": "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden",
+    "quote": "Generally roots are mature 60-80 days from seeding, depending on variety.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Semi-hardy crops tolerate light frost (28–32°F), including beets, carrots, parsnip, lettuce, chard, garden pea (before flowering), Chinese cabbage, endive, radicchio, cauliflower, parsley and celery.",
+    "note": "Source says the crop tolerates light frost of 28-32°F; value is the lower bound of what is tolerated (damage expected below it).",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Semi-hardy vegetables grow with minimum daytime temperatures of 40°F to 50°F but are less tolerant of a frosty night.",
+    "note": "CSU states a DAYTIME minimum for the semi-hardy category, not a night temperature; source gives a range of 40-50°F; value is the lower bound",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Give root crops rich, well-drained soil with aged organic matter.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Root crops need a rich, well-drained soil, high in aged organic matter.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Mulch with dry grass clippings to cool summer soil and hold moisture.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Use organic mulch (like dry grass clippings) to cool the soil in summer, stabilize soil moisture, and control weeds.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Seed can go in once soil reaches 40°F.",
+     "url": "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden",
+     "quote": "Beets can be sown after soils reach 40°F.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Dig beets before heavy frosts or freezes in fall.",
+     "url": "https://extension.usu.edu/yardandgarden/research/beets-in-the-garden",
+     "quote": "Beets should be harvested before heavy frosts or freezes.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "On the Front Range, replant in mid-summer for tender roots in fall.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "For tender young root crops, replant in mid-summer (Front Range area) for fall harvest.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "broccoli",
+   "name": "Broccoli",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: broccoli, cabbage, kohlrabi, onions, lettuce, peas, radish, spinach, turnips",
+    "note": "Crop list appears under the page heading 'Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": -2,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 2-4 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 6,
+    "max": 8,
+    "relativeTo": "last frost",
+    "note": "CSU mountain-gardening fact sheet; names broccoli and cauliflower.",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-the-mountains/",
+    "quote": "can be sown indoors 6-8 weeks before the last frost and planted out two weeks before the last frost date for earlier yields.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 65,
+    "max": 65,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Broccoli 3 40° 80° 90° 18” ½” 3-10 65T 3",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column (T = counted from transplanting). Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.usu.edu/yardandgarden/research/broccoli-in-the-garden",
+    "quote": "is not seriously damaged by temperatures down to 28°F.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Hardy vegetables grow with daytime temperatures as low as 40°F and may survive a frosty nip.",
+    "note": "CSU states a DAYTIME minimum for the hardy category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Use transplants in spring; the seed dislikes cold soil.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Because seeds do not like cold soils, use transplants for spring planting.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "For the best-quality crop on the Front Range, direct-seed in early July for fall harvest.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "For a superior quality fall crop, direct seed the main planting in early July (Front Range area).",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Choose young transplants: about four inches tall and four weeks old.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "The ideal transplant is about four inches tall and about four weeks old.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Long, hot summer days make broccoli bolt.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Long days and hot weather in the summer cause broccoli to bolt and go to seed",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "For cabbageworms, spray Bt in the evening because sunlight breaks it down quickly.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Because Bt is rapidly broken down by sunlight, treat in the evening.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "cabbage",
+   "name": "Cabbage",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: broccoli, cabbage, kohlrabi, onions, lettuce, peas, radish, spinach, turnips",
+    "note": "Crop list appears under the page heading 'Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": -2,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 2-4 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 6,
+    "max": 7,
+    "relativeTo": "transplant date",
+    "url": "https://extension.usu.edu/yardandgarden/research/cabbage-in-the-garden",
+    "quote": "Generally 6-7 weeks are required to grow transplants to this size.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 85,
+    "max": 85,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Cabbage 3 40° 80° 90° 18” ½” 3-10 85T 3",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column (T = counted from transplanting). Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 25,
+    "basis": "crop",
+    "url": "https://extension.usu.edu/yardandgarden/research/cabbage-in-the-garden",
+    "quote": "is not seriously damaged by temperatures down to 25°F.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Hardy vegetables grow with daytime temperatures as low as 40°F and may survive a frosty nip.",
+    "note": "CSU states a DAYTIME minimum for the hardy category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Do not plant too early: two to three weeks below 50°F can make cabbage bolt.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Cabbage bolts if exposed to two to three weeks below 50ºF. Avoid planting too early in the spring.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Feed well; cole crops are heavy feeders.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Cole crops are heavy feeders of nitrogen, phosphorus, and potassium.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Mulch to keep moisture steady and weeds down.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Because cole crops are poor competitors, mulch to stabilize moisture and control weeds.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "On the Front Range (May 15 average last frost), set out transplants in early May.",
+     "url": "https://extension.colostate.edu/resource/sample-planting-guide-for-raised-bed-garden/",
+     "quote": "Early May: Broccoli, cabbage, & cauliflower from transplants.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "For cabbageworms, spray Bt in the evening because sunlight breaks it down quickly.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Because Bt is rapidly broken down by sunlight, treat in the evening.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "cantaloupe",
+   "name": "Cantaloupe",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "very tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: lima beans, cantaloupe, eggplant, pepper, pumpkin, winter squash and pumpkins, tomato, and watermelon",
+    "note": "Crop list appears under the page heading 'Very Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 2,
+    "endWeeks": null,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Typically 2+ weeks after the average last spring frost date.",
+    "note": "CSU #720 planting time for the very tender category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 2,
+    "max": 3,
+    "relativeTo": "transplant date",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "If using transplants, select small, young plants, not more than 2-3 weeks from seeding.",
+    "note": "CSU prefers direct seeding for vine crops; this is the maximum transplant age if started indoors.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 80,
+    "max": 95,
+    "note": "Stated for melons generally.",
+    "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+    "quote": "Melons need 80 to 95 days.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Very tender plants may be stunted, damaged, or killed at temperatures between 50 °F–32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). Source says stunting/damage can begin anywhere from 50°F down to 32°F; value is the frost end of that range.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 60,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "They need daytime temperatures above 60°F, and prefer temperatures of 70°F to 95°F.",
+    "note": "CSU states a DAYTIME minimum for the very tender category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Needs a long, warm season; most productive below about 5,000 feet elevation in Colorado.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Melons, pumpkins, and winter squash require a long, warm growing season and are most productive at elevations below 5,000 feet.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Ripe cantaloupes slip easily from the vine when lifted.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Ripe cantaloupes slip easily from the vine when picked up",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Direct seeding is reported to out-yield transplants.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Direct seeding is reported to give higher yields.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Hold off on organic mulch until the soil has warmed to 75°F.",
+     "url": "https://extension.usu.edu/yardandgarden/research/cantaloupe-in-the-garden",
+     "quote": "do not apply organic mulches until soils have warmed to 75°F.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Budget 80 to 95 days of warm weather for melons.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Melons need 80 to 95 days.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "carrot",
+   "name": "Carrot",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "semi-hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beets, carrots, cauliflower, parsley, parsnips, potatoes, and Swiss chard",
+    "note": "Crop list appears under the page heading 'Semi-Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -2,
+    "endWeeks": 0,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 0-2 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the semi-hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": null,
+   "daysToHarvest": {
+    "min": 70,
+    "max": 100,
+    "url": "https://extension.usu.edu/yardandgarden/research/carrots-in-the-garden",
+    "quote": "Generally roots are mature in 70-100 days from seeding.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "crop",
+    "note": "Tolerance statement: not seriously damaged down to 32°F. Oregon State says carrots tolerate light frost of 28-32°F.",
+    "url": "https://extension.usu.edu/yardandgarden/research/carrots-in-the-garden",
+    "quote": "Temperatures down to 32°F do not seriously damage plants.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Semi-hardy vegetables grow with minimum daytime temperatures of 40°F to 50°F but are less tolerant of a frosty night.",
+    "note": "CSU states a DAYTIME minimum for the semi-hardy category, not a night temperature; source gives a range of 40-50°F; value is the lower bound",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Keep soil moisture consistent.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Consistent soil moisture is necessary!",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Use only well-aged compost; fresh organic matter gives hairy, rough roots.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Hairy or rough root surface develops from too much fresh organic matter in the soil.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Mulch with dry grass clippings to shade root tops and prevent green shoulders.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Mulch with dry grass clippings to shade the crown of the root.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Poor emergence usually means crusted soil, seed sown too deep, or hot soil.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Failure of seedlings to emerge may arise from soil crusting, planting too deep, or high soil temperatures.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "On the Front Range, replant in mid-summer for tender roots in fall.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "For tender young root crops, replant in mid-summer (Front Range area) for fall harvest.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "cauliflower",
+   "name": "Cauliflower",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "semi-hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beets, carrots, cauliflower, parsley, parsnips, potatoes, and Swiss chard",
+    "note": "Crop list appears under the page heading 'Semi-Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -2,
+    "endWeeks": 0,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 0-2 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the semi-hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 6,
+    "max": 8,
+    "relativeTo": "last frost",
+    "note": "CSU mountain-gardening fact sheet; names broccoli and cauliflower.",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-the-mountains/",
+    "quote": "can be sown indoors 6-8 weeks before the last frost and planted out two weeks before the last frost date for earlier yields.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 55,
+    "max": 80,
+    "url": "https://yardandgarden.extension.iastate.edu/how-to/fall-planting-vegetables",
+    "quote": "Cauliflower 55-80 early to mid July (from transplants)",
+    "note": "Iowa State table row (columns: Vegetable, Days to Maturity, planting time for fall harvest). Table quote with cells joined by single spaces; source HTML has no whitespace between cells, so it fails if tags are stripped without inserting a space. Counted from transplants.",
+    "sourceName": "Iowa State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Semi-hardy crops tolerate light frost (28–32°F), including beets, carrots, parsnip, lettuce, chard, garden pea (before flowering), Chinese cabbage, endive, radicchio, cauliflower, parsley and celery.",
+    "note": "Source says the crop tolerates light frost of 28-32°F; value is the lower bound of what is tolerated (damage expected below it).",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Semi-hardy vegetables grow with minimum daytime temperatures of 40°F to 50°F but are less tolerant of a frosty night.",
+    "note": "CSU states a DAYTIME minimum for the semi-hardy category, not a night temperature; source gives a range of 40-50°F; value is the lower bound",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Summer heat and long days discolor the curds red-purple.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "cause cauliflower curds to develop a red-purple discoloration",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Avoid early stress (cold, drought, low nitrogen, transplant shock) or heads stay button-sized.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Factors that restrict early plant growth include nitrogen deficiency, cold temperatures, shock to young transplants, and drought stress.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "For the best-quality crop on the Front Range, direct-seed in early July for fall harvest.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "For a superior quality fall crop, direct seed the main planting in early July (Front Range area).",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Both freezing (32°F) and heat above 80°F reduce growth and head quality.",
+     "url": "https://extension.usu.edu/yardandgarden/research/cauliflower-in-the-garden",
+     "quote": "Low (32°F) or high (greater than 80°F) temperatures decrease plant growth, lower yields and decrease head quality.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Handle transplants gently and protect the growing tip from cold and cutworms.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Handle transplants carefully, control cutworms, and avoid planting in low temperatures.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "cucumber",
+   "name": "Cucumber",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beans, celery, corn, cucumbers, New Zealand spinach, summer squash",
+    "note": "Crop list appears under the page heading 'Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 1,
+    "endWeeks": null,
+    "basis": "crop",
+    "note": "CSU fact sheet 7.609 covers cucumbers, pumpkins, squash and melons together.",
+    "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+    "quote": "Delay planting until a week after the average last spring frost date for the area.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 2,
+    "max": 3,
+    "relativeTo": "transplant date",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "If using transplants, select small, young plants, not more than 2-3 weeks from seeding.",
+    "note": "CSU prefers direct seeding for vine crops; this is the maximum transplant age if started indoors.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 50,
+    "max": 65,
+    "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+    "quote": "Cucumbers and summer squash usually require 50 to 65 days for first production.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Tender plants may be significantly damaged or killed at or near 32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). CSU itself only says tender vegetables 'are intolerant of frost'.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 55,
+    "basis": "crop",
+    "note": "CSU GardenNotes #719 vine-crops section (cucumbers, melons, pumpkins, squash); a DAYTIME temperature, not night.",
+    "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+    "quote": "Daytime temperatures should consistently be above 55°F.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Wait until about a week after the average last frost, and until soil 2 inches down reaches 60°F.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Ideally, the temperature of the soil at a 2-inch depth should be 60 degrees F.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Roots hate disturbance: direct-seed, or start in pots and transplant without disturbing roots.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "None of these plants tolerate disturbance of their root system.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Water deeply every five to seven days rather than sprinkling lightly every day.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "It is better to irrigate thoroughly every five to seven days than to sprinkle lightly every day.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Pick often; fruit left on the vine stops new fruit from setting.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Fruits left on the plants will inhibit further fruit set until they mature.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Save space by letting cucumbers climb a fence or trellis.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Cucumbers can be planted next to fences or trellises, to which they will cling.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "eggplant",
+   "name": "Eggplant",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "very tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: lima beans, cantaloupe, eggplant, pepper, pumpkin, winter squash and pumpkins, tomato, and watermelon",
+    "note": "Crop list appears under the page heading 'Very Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 2,
+    "endWeeks": null,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Typically 2+ weeks after the average last spring frost date.",
+    "note": "CSU #720 planting time for the very tender category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 8,
+    "max": 8,
+    "relativeTo": "transplant date",
+    "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+    "quote": "Plants may be purchased or may be started indoors eight weeks before they are planted into the garden.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 60,
+    "max": 60,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Eggplant 4 60° 80° 90° 18-24” ¼” 7-14 60T 4",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column (T = counted from transplanting). Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": {
+    "value": 50,
+    "basis": "crop",
+    "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-eggplant",
+    "quote": "Transplant outdoors after nighttime low temperatures are above 50°F.",
+    "note": "Univ. of Minnesota.",
+    "sourceName": "University of Minnesota Extension",
+    "fetched": "2026-11-11"
+   },
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Very tender plants may be stunted, damaged, or killed at temperatures between 50 °F–32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). Source says stunting/damage can begin anywhere from 50°F down to 32°F; value is the frost end of that range.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 60,
+    "basis": "crop",
+    "note": "Sentence appears under the Eggplants, Peppers and Tomatoes headings of CSU GardenNotes #721; not specifically a night temperature.",
+    "url": "https://extension.colostate.edu/resource/sample-planting-guide-for-raised-bed-garden/",
+    "quote": "Plant in late May when temperatures are consistently above 60ºF.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Along the Front Range, sow indoors in early April and transplant to the garden around June 1.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "Along the Front Range, both peppers and eggplant can be sown indoors in early April for transplanting into the field on June 1.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Hot caps or cloches shield transplants from wind and frost and allow earlier planting.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "can protect the transplants from wind and frost and advance the date of transplanting.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Cut fruit off with hand pruners rather than pulling, to avoid damaging the plant.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "It is best to harvest eggplant and peppers with hand pruners to avoid damaging the plants.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Pick fruit young; older fruit with mature seeds can be tough.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "Older fruits with mature seeds can be tough; harvest young fruits for the best quality.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Keep soil evenly moist to prevent blossom-end rot.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "keep the soil uniformly moist to prevent damage to fruits.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": []
+  },
+  {
+   "slug": "kale",
+   "name": "Kale",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "note": "Kale is not listed in CSU #720. Utah State describes it as \"extremely hardy\" rather than assigning one of four classes; Iowa State also lists kale in its Hardy group.",
+    "url": "https://extension.usu.edu/yardandgarden/research/kale-in-the-garden",
+    "quote": "Mature plants are extremely hardy and can withstand very cold temperatures.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": null,
+    "basis": "crop",
+    "note": "CSU mountain-gardening fact sheet; kale is named in the list of frost-tolerant crops.",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-the-mountains/",
+    "quote": "You can direct-seed frost tolerant plants into the garden four weeks before the last frost date (kale",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 5,
+    "max": 6,
+    "relativeTo": "transplant date",
+    "note": "Optional: crop is commonly direct-sown.",
+    "url": "https://extension.usu.edu/yardandgarden/research/kale-in-the-garden",
+    "quote": "Generally 5-6 weeks are required to grow transplants to this size.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 55,
+    "max": 75,
+    "url": "https://yardandgarden.extension.iastate.edu/how-to/fall-planting-vegetables",
+    "quote": "Kale 55-75 mid July to early August",
+    "note": "Iowa State table row (columns: Vegetable, Days to Maturity, planting time for fall harvest). Table quote with cells joined by single spaces; source HTML has no whitespace between cells, so it fails if tags are stripped without inserting a space.",
+    "sourceName": "Iowa State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 25,
+    "basis": "crop",
+    "url": "https://extension.usu.edu/yardandgarden/research/kale-in-the-garden",
+    "quote": "Young plants are not seriously damaged by temperatures down to 25°F.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": null,
+   "tips": [
+    {
+     "text": "Can be direct-seeded about four weeks before the last frost date.",
+     "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-the-mountains/",
+     "quote": "You can direct-seed frost tolerant plants into the garden four weeks before the last frost date (kale",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Fall frosts improve the flavor.",
+     "url": "https://extension.usu.edu/yardandgarden/research/kale-in-the-garden",
+     "quote": "Frosts help improve the flavor of the fall planted crop.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Grows best when temperatures stay at or below 75°F.",
+     "url": "https://extension.usu.edu/yardandgarden/research/kale-in-the-garden",
+     "quote": "Kale grows best when temperatures do not exceed 75°F.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Keep soil from drying out; dry soil makes cole crops strong-flavored.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Cole crops are intolerant of drying. Dry soils quickly lead to strong flavors.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Add organic mulch once temperatures climb above 80°F.",
+     "url": "https://extension.usu.edu/yardandgarden/research/kale-in-the-garden",
+     "quote": "Apply organic mulches when temperatures increase above 80°F.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "kohlrabi",
+   "name": "Kohlrabi",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: broccoli, cabbage, kohlrabi, onions, lettuce, peas, radish, spinach, turnips",
+    "note": "Crop list appears under the page heading 'Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": -2,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 2-4 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 5,
+    "max": 6,
+    "relativeTo": "transplant date",
+    "note": "Optional: crop is commonly direct-sown.",
+    "url": "https://extension.usu.edu/yardandgarden/research/kohlrabi-in-the-garden",
+    "quote": "Generally 5-6 weeks are required to grow transplants to this size.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 50,
+    "max": 50,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Kohlrabi 3 40° 80° 90° 7-9” ½” 3-10 50",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column. Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Vegetables that can withstand heavy frost (below 28°F) include spinach, onions, garlic, leeks, rhubarb, rutabaga, broccoli, kohlrabi, kale, cabbage, collards, Brussels sprouts, corn salad, arugula, fava beans, radish, mustard greens, Austrian winter pea and turnip.",
+    "note": "Tolerance statement, not a kill temperature: Oregon State says kohlrabi withstands heavy frost below 28°F. Utah State cautions: \"Young plants may be damaged by hard frosts.\"",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Hardy vegetables grow with daytime temperatures as low as 40°F and may survive a frosty nip.",
+    "note": "CSU states a DAYTIME minimum for the hardy category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Harvest when the swollen stem is 2-3 inches across.",
+     "url": "https://extension.usu.edu/yardandgarden/research/kohlrabi-in-the-garden",
+     "quote": "Harvest kohlrabi when the stem enlarges to 2-3 inches in diameter.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Grow it in spring or fall; hot weather turns the stem woody.",
+     "url": "https://extension.usu.edu/yardandgarden/research/kohlrabi-in-the-garden",
+     "quote": "Hot weather causes the stem to become woody and tough.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Keep soil from drying out; dry soil makes cole crops strong-flavored.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Cole crops are intolerant of drying. Dry soils quickly lead to strong flavors.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Less cold-tough than its cabbage relatives; protect young plants from hard frost.",
+     "url": "https://extension.usu.edu/yardandgarden/research/kohlrabi-in-the-garden",
+     "quote": "Young plants may be damaged by hard frosts.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "lettuce",
+   "name": "Lettuce",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: broccoli, cabbage, kohlrabi, onions, lettuce, peas, radish, spinach, turnips",
+    "note": "Crop list appears under the page heading 'Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": -2,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 2-4 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 5,
+    "max": 6,
+    "relativeTo": "transplant date",
+    "note": "Optional: crop is commonly direct-sown.",
+    "url": "https://extension.usu.edu/yardandgarden/research/lettuce-in-the-garden",
+    "quote": "Generally 5-6 weeks are required to grow transplants to this size.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 60,
+    "max": 60,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Lettuce (leaf types) 35° 70° 70° 7-9” ¼” 4-10 60",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column. Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Semi-hardy crops tolerate light frost (28–32°F), including beets, carrots, parsnip, lettuce, chard, garden pea (before flowering), Chinese cabbage, endive, radicchio, cauliflower, parsley and celery.",
+    "note": "Source says the crop tolerates light frost of 28-32°F; value is the lower bound of what is tolerated (damage expected below it).",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Hardy vegetables grow with daytime temperatures as low as 40°F and may survive a frosty nip.",
+    "note": "CSU states a DAYTIME minimum for the hardy category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Keep soil moist with 1 to 1½ inches of water a week, rain included.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Keep soil moist with 1 to 1½ inches of water per week (including rain).",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Mulch with dry grass clippings to keep summer soil cool and produce sweeter leaves.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "reduces summer soil temperatures producing sweeter produce, conserves moisture, and controls weeds.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Sow again in mid to late summer for a fall crop.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Plant lettuce and spinach in mid to late summer to produce during cool fall weather.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Cut leaves and let plants regrow for a continuous harvest.",
+     "url": "https://extension.colostate.edu/resource/sample-planting-guide-for-raised-bed-garden/",
+     "quote": "Harvest leafy vegetables by cutting off the leaves. Plants will grow back for a continuous harvest.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Seed can go in once soil reaches 40°F.",
+     "url": "https://extension.usu.edu/yardandgarden/research/lettuce-in-the-garden",
+     "quote": "Lettuce can be sown after soils reach 40 degrees F",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "onion",
+   "name": "Onion",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: broccoli, cabbage, kohlrabi, onions, lettuce, peas, radish, spinach, turnips",
+    "note": "Crop list appears under the page heading 'Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": -2,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 2-4 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 10,
+    "max": 10,
+    "relativeTo": "last frost",
+    "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+    "quote": "Seed should be started indoors about ten weeks before the last spring frost.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 100,
+    "max": 120,
+    "url": "https://extension.usu.edu/yardandgarden/research/onions-in-the-garden",
+    "quote": "Bulb onions require 100-120 days to mature.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Vegetables that can withstand heavy frost (below 28°F) include spinach, onions, garlic, leeks, rhubarb, rutabaga, broccoli, kohlrabi, kale, cabbage, collards, Brussels sprouts, corn salad, arugula, fava beans, radish, mustard greens, Austrian winter pea and turnip.",
+    "note": "Tolerance statement, not a kill temperature: source says the crop withstands heavy frost BELOW 28°F; no exact damage temperature given.",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Hardy vegetables grow with daytime temperatures as low as 40°F and may survive a frosty nip.",
+    "note": "CSU states a DAYTIME minimum for the hardy category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "In Colorado, choose long-day or day-neutral varieties.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "In Colorado, plant only long-day or day-neutral varieties that start bulbing with day lengths of fourteen to sixteen hours and temperatures above 65ºF.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Set out transplants or sets between mid-April and mid-May.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Transplants or sets should be planted in the spring between mid-April to Mid-May.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Sets or plants are the easiest way to grow onions in much of Colorado.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "In much of Colorado, sets or plants are the best methods",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Snap off seed heads; they steal energy from the bulb.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Keep seed heads picked. They pull plant resources away from bulb development.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Mulch with dry grass clippings to cool soil, hold moisture and block weeds.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "The onion family thrives with organic mulch (like dry grass clippings), which cools the soil, conserves moisture, and controls weeds.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "pea",
+   "name": "Pea",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: broccoli, cabbage, kohlrabi, onions, lettuce, peas, radish, spinach, turnips",
+    "note": "Crop list appears under the page heading 'Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": -2,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 2-4 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": null,
+   "daysToHarvest": {
+    "min": 60,
+    "max": 70,
+    "url": "https://extension.usu.edu/yardandgarden/research/peas-in-the-garden",
+    "quote": "Peas require 60-70 days to mature depending on variety.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Semi-hardy crops tolerate light frost (28–32°F), including beets, carrots, parsnip, lettuce, chard, garden pea (before flowering), Chinese cabbage, endive, radicchio, cauliflower, parsley and celery.",
+    "note": "Source says the crop tolerates light frost of 28-32°F; value is the lower bound of what is tolerated (damage expected below it).",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Hardy vegetables grow with daytime temperatures as low as 40°F and may survive a frosty nip.",
+    "note": "CSU states a DAYTIME minimum for the hardy category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Sow as early as the soil can be worked and reaches 40°F, but not in wet soil.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Plant when soil temperatures reach 40ºF. Avoid planting in wet soils.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Earlier plantings yield more.",
+     "url": "https://extension.colostate.edu/resource/sample-planting-guide-for-raised-bed-garden/",
+     "quote": "Early plantings give higher yields.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Peas quit flowering and podding once it gets above 85°F.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+     "quote": "they will stop growing and not produce flowers or pods once temperatures get above 85°F",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Young plants shrug off light frost, but cover plants that are flowering if frost is forecast.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peas",
+     "quote": "Once the plants have started to flower and set a crop, frost can be damaging.",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Fall crops are possible but yield less and tend to get powdery mildew.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "yields of the fall crop can suffer and the vines are prone to powdery mildew in the fall.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "pepper",
+   "name": "Pepper",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "very tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: lima beans, cantaloupe, eggplant, pepper, pumpkin, winter squash and pumpkins, tomato, and watermelon",
+    "note": "Crop list appears under the page heading 'Very Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 2,
+    "endWeeks": null,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Typically 2+ weeks after the average last spring frost date.",
+    "note": "CSU #720 planting time for the very tender category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 8,
+    "max": 8,
+    "relativeTo": "transplant date",
+    "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+    "quote": "Plants may be purchased or may be started indoors eight weeks before they are planted into the garden.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 70,
+    "max": 70,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Pepper 4 60° 80° 90° 15-18” ¼” 10-20 70T 4",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column (T = counted from transplanting). Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": {
+    "value": 50,
+    "basis": "crop",
+    "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-peppers",
+    "quote": "Transplant outdoors after nighttime low temperatures are above 50°F.",
+    "note": "Univ. of Minnesota. Same page: bring hardening-off seedlings indoors if night temperatures drop below 55°F.",
+    "sourceName": "University of Minnesota Extension",
+    "fetched": "2026-11-11"
+   },
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Very tender plants may be stunted, damaged, or killed at temperatures between 50 °F–32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). Source says stunting/damage can begin anywhere from 50°F down to 32°F; value is the frost end of that range.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 60,
+    "basis": "crop",
+    "note": "Sentence appears under the Eggplants, Peppers and Tomatoes headings of CSU GardenNotes #721; not specifically a night temperature.",
+    "url": "https://extension.colostate.edu/resource/sample-planting-guide-for-raised-bed-garden/",
+    "quote": "Plant in late May when temperatures are consistently above 60ºF.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Along the Front Range, sow indoors in early April and transplant to the garden around June 1.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "Along the Front Range, both peppers and eggplant can be sown indoors in early April for transplanting into the field on June 1.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Night temperatures under 55°F cut pollen production and fruit set.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "Pollen production is curtailed when the night temperatures fall below 55 degrees, resulting in a poor fruit set.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Plastic mulch helps warm the soil; any mulch holds moisture and suppresses weeds.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "Plastic mulches can help warm the soil.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Keep a leafy canopy or use shade cloth so intense sun does not scald the fruit.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "Maintain a leafy canopy on plants or use a shade cloth to prevent sunscald.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Colorado's short season means large peppers are usually picked before they turn red.",
+     "url": "https://extension.colostate.edu/resource/peppers-and-eggplants/",
+     "quote": "Because the Colorado growing season is short, large peppers generally are harvested before they turn red",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": []
+  },
+  {
+   "slug": "potato",
+   "name": "Potato",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "semi-hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beets, carrots, cauliflower, parsley, parsnips, potatoes, and Swiss chard",
+    "note": "Crop list appears under the page heading 'Semi-Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -2,
+    "endWeeks": 0,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 0-2 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the semi-hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": null,
+   "daysToHarvest": {
+    "min": 125,
+    "max": 125,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Potatoes 45° 12-15” 4-6” 125",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column. Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": null,
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Semi-hardy vegetables grow with minimum daytime temperatures of 40°F to 50°F but are less tolerant of a frosty night.",
+    "note": "CSU states a DAYTIME minimum for the semi-hardy category, not a night temperature; source gives a range of 40-50°F; value is the lower bound",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Plant four inches deep once morning soil temperature is above 50°F.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Plant four inches deep when soil temperatures rise above 50°F at 8 a.m.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Start with certified seed potatoes to reduce disease.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "The use of certified seed helps reduce disease problems.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Hill soil around plants within four weeks of planting.",
+     "url": "https://extension.usu.edu/yardandgarden/research/potatoes-in-the-garden",
+     "quote": "It is best to hill around the plants within 4 weeks of planting.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Watch for yellowing in August; running out of nitrogen is the most common problem.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Running out of nitrogen by August is the most common potato problem.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Keep moisture even: soggy soil rots tubers, dry soil makes them knobby.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "If the soil is too wet or has poor drainage, tubers will rot. If the soil becomes overly dry, tubers will develop knobs.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature",
+    "cold-damage temperature"
+   ]
+  },
+  {
+   "slug": "pumpkin",
+   "name": "Pumpkin",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "very tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: lima beans, cantaloupe, eggplant, pepper, pumpkin, winter squash and pumpkins, tomato, and watermelon",
+    "note": "Crop list appears under the page heading 'Very Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 2,
+    "endWeeks": null,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Typically 2+ weeks after the average last spring frost date.",
+    "note": "CSU #720 planting time for the very tender category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 2,
+    "max": 4,
+    "relativeTo": "transplant date",
+    "note": "CSU #719 vine-crops section; direct seeding is preferred.",
+    "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+    "quote": "If using transplants, they should be small, never more than two to four weeks old.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 70,
+    "max": 120,
+    "url": "https://hgic.clemson.edu/factsheet/pumpkins-winter-squash/",
+    "quote": "Maturity of pumpkins varies from 70 to 120 days, depending on growing conditions.",
+    "note": "Clemson (South Carolina) figure.",
+    "sourceName": "Clemson Cooperative Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Very tender plants may be stunted, damaged, or killed at temperatures between 50 °F–32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). Source says stunting/damage can begin anywhere from 50°F down to 32°F; value is the frost end of that range.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 60,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "They need daytime temperatures above 60°F, and prefer temperatures of 70°F to 95°F.",
+    "note": "CSU states a DAYTIME minimum for the very tender category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Needs a long, warm season; most productive below about 5,000 feet elevation in Colorado.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Melons, pumpkins, and winter squash require a long, warm growing season and are most productive at elevations below 5,000 feet.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Plant once soil reaches 65°F or frost danger has passed.",
+     "url": "https://extension.usu.edu/yardandgarden/research/pumpkins-in-the-garden",
+     "quote": "Pumpkins should be planted when soils are 65ºF or after frost danger has past.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "If few bees are around, hand-pollinate to improve fruit set.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "When bee activity is limited, increase yields by hand pollination.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Harvest when the skin is hard and resists a fingernail.",
+     "url": "https://extension.usu.edu/yardandgarden/research/pumpkins-in-the-garden",
+     "quote": "Harvest pumpkins when the skin is hard and not easily broken when pressure is applied with a fingernail.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Vines sprawl; steer them away from garden paths.",
+     "url": "https://extension.colostate.edu/resource/sample-planting-guide-for-raised-bed-garden/",
+     "quote": "Some may spread outside of the raised beds, so you should direct vines to grow away from pathways.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "radish",
+   "name": "Radish",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: broccoli, cabbage, kohlrabi, onions, lettuce, peas, radish, spinach, turnips",
+    "note": "Crop list appears under the page heading 'Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": -2,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 2-4 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": null,
+   "daysToHarvest": {
+    "min": 25,
+    "max": 45,
+    "url": "https://extension.usu.edu/yardandgarden/research/radishes-in-the-garden",
+    "quote": "Generally roots are mature 25-45 days from seeding depending on variety.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Vegetables that can withstand heavy frost (below 28°F) include spinach, onions, garlic, leeks, rhubarb, rutabaga, broccoli, kohlrabi, kale, cabbage, collards, Brussels sprouts, corn salad, arugula, fava beans, radish, mustard greens, Austrian winter pea and turnip.",
+    "note": "Tolerance statement, not a kill temperature: source says the crop withstands heavy frost BELOW 28°F; no exact damage temperature given.",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Hardy vegetables grow with daytime temperatures as low as 40°F and may survive a frosty nip.",
+    "note": "CSU states a DAYTIME minimum for the hardy category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Heat and over-maturity make radishes hot and pithy; grow them in cool weather and pick promptly.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Hot and/or pithy radishes arise from hot weather, hot soil, and/or plants that are past maturity.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Thin seedlings as soon as they emerge.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Thin plants as soon as they pop through the ground!",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Sow again in early September for a fall crop.",
+     "url": "https://extension.usu.edu/yardandgarden/research/radishes-in-the-garden",
+     "quote": "Plant 2-3 weeks before the last frost in spring and again in early September for fall production.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Keep soil moisture consistent.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Consistent soil moisture is necessary!",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "snap-bean",
+   "name": "Snap bean",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beans, celery, corn, cucumbers, New Zealand spinach, summer squash",
+    "note": "Crop list appears under the page heading 'Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 0,
+    "endWeeks": 0,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "From seed: around the date of the average last spring frost",
+    "note": "CSU #720 planting time for the tender category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": null,
+   "daysToHarvest": {
+    "min": 60,
+    "max": 60,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Beans, snap 55° 80° 90° 6” or 4”×12” 1-1½” 6-14 60",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column. Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Tender plants may be significantly damaged or killed at or near 32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). CSU itself only says tender vegetables 'are intolerant of frost'.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 55,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Tender vegetables grow with a daytime temperature above 55°F and are intolerant of frost.",
+    "note": "CSU states a DAYTIME minimum for the tender category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Wait for 50°F soil: on the Front Range, early May in sandy soil to late May in clay.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "For example, along the Colorado Front Range, this is typically early May for well-drained sandy soils to late May for clayey soils.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Beans need the most water while flowering and filling pods.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Beans have the highest water use of any vegetable crop during flowering and fruit production.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Give about an inch of water a week.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Water approximately one inch a week, especially during bean development.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Go easy on nitrogen; too much grows leaves instead of beans.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "heavy nitrogen fertilization will lead to excessive plant growth at the expense of fruiting and increased disease problems.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Do not crowd plants; a closed canopy invites disease.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "The potential for disease explodes once the plant canopy grows to cover over the patch; avoid over-crowding!",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "spinach",
+   "name": "Spinach",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: broccoli, cabbage, kohlrabi, onions, lettuce, peas, radish, spinach, turnips",
+    "note": "Crop list appears under the page heading 'Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": -2,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 2-4 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 5,
+    "max": 6,
+    "relativeTo": "transplant date",
+    "note": "Optional: crop is commonly direct-sown.",
+    "url": "https://extension.usu.edu/yardandgarden/research/spinach-in-the-garden",
+    "quote": "Generally 5-6 weeks are required to grow transplants to this size.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 40,
+    "max": 40,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Spinach 40° 70° 70° 4-6” ½” 6-14 40",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column. Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Vegetables that can withstand heavy frost (below 28°F) include spinach, onions, garlic, leeks, rhubarb, rutabaga, broccoli, kohlrabi, kale, cabbage, collards, Brussels sprouts, corn salad, arugula, fava beans, radish, mustard greens, Austrian winter pea and turnip.",
+    "note": "Tolerance statement, not a kill temperature: source says the crop withstands heavy frost BELOW 28°F; no exact damage temperature given.",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Hardy vegetables grow with daytime temperatures as low as 40°F and may survive a frosty nip.",
+    "note": "CSU states a DAYTIME minimum for the hardy category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Never let it dry out, or leaves turn tough and stringy.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "If the crop gets dry, it will become tough and stringy.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Sow in mid-fall and mulch seedlings for an extra-early spring crop.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "It can also be planted mid-fall for extra-early spring crops.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Aim for fast growth that finishes before summer heat.",
+     "url": "https://extension.usu.edu/yardandgarden/research/spinach-in-the-garden",
+     "quote": "Spinach tastes best when plants grow rapidly and mature before the heat of summer.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Seed can go in once soil reaches 40°F.",
+     "url": "https://extension.usu.edu/yardandgarden/research/spinach-in-the-garden",
+     "quote": "Spinach seed can be sown after soils reach 40 degrees F.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Thin seedlings so plants are not competing for water, light and nutrients.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Thin the crop to reduce competition for nutrients, moisture, light, and space.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "summer-squash",
+   "name": "Summer squash",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beans, celery, corn, cucumbers, New Zealand spinach, summer squash",
+    "note": "Crop list appears under the page heading 'Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 1,
+    "endWeeks": null,
+    "basis": "crop",
+    "note": "CSU fact sheet 7.609 covers cucumbers, pumpkins, squash and melons together.",
+    "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+    "quote": "Delay planting until a week after the average last spring frost date for the area.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 2,
+    "max": 3,
+    "relativeTo": "transplant date",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "If using transplants, select small, young plants, not more than 2-3 weeks from seeding.",
+    "note": "CSU prefers direct seeding for vine crops; this is the maximum transplant age if started indoors.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 50,
+    "max": 65,
+    "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+    "quote": "Cucumbers and summer squash usually require 50 to 65 days for first production.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Tender plants may be significantly damaged or killed at or near 32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). CSU itself only says tender vegetables 'are intolerant of frost'.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 55,
+    "basis": "crop",
+    "note": "CSU GardenNotes #719 vine-crops section (cucumbers, melons, pumpkins, squash); a DAYTIME temperature, not night.",
+    "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+    "quote": "Daytime temperatures should consistently be above 55°F.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Above 5,000 feet, summer squash and cucumbers are the most reliable vine crops because they mature quickly.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Above 5,000 feet, cucumbers and summer squash are most satisfactory because they mature in a relatively short time.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Harvest young, at about 6 inches long, for best quality.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "For summer squash, fruits about 6 inches long are of prime quality.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Early flowers with no fruit are normal: male flowers appear before female ones.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Most varieties produce several male flowers before female flowers appear and fruits are set.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "For the biggest total harvest, do not let fruit get large on the vine.",
+     "url": "https://extension.colostate.edu/resource/sample-planting-guide-for-raised-bed-garden/",
+     "quote": "For maximum yields, do not let cucumbers, zucchini, or summer squash fruit get large on the vine.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Shelter young plants from cool spring winds.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Protect young, tender plants from cool winds.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "sweet-corn",
+   "name": "Sweet corn",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beans, celery, corn, cucumbers, New Zealand spinach, summer squash",
+    "note": "Crop list appears under the page heading 'Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 0,
+    "endWeeks": 0,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "From seed: around the date of the average last spring frost",
+    "note": "CSU #720 planting time for the tender category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": null,
+   "daysToHarvest": {
+    "min": 60,
+    "max": 90,
+    "url": "https://extension.usu.edu/yardandgarden/research/sweet-corn-in-the-garden",
+    "quote": "Corn requires 60-90 days to mature depending on variety.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Tender plants may be significantly damaged or killed at or near 32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). CSU itself only says tender vegetables 'are intolerant of frost'.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 55,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Tender vegetables grow with a daytime temperature above 55°F and are intolerant of frost.",
+    "note": "CSU states a DAYTIME minimum for the tender category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Plant in blocks at least three rows wide so wind can pollinate the ears.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Corn is wind pollinated, so plant in blocks at least three rows wide, preferably four to five rows wide.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "For super-sweet (sh) types, wait until soil reaches 70°F in June.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Delay planting until soil temperatures reach 70ºF in June.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Keep corn watered; drought delays silking and leaves ears with missing kernels.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Water stress will delay silking beyond the time when tassels shed pollen, thereby preventing kernel formation.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Side-dress with nitrogen every three to four weeks through summer.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Side dress with nitrogen fertilizer frequently (every three to four weeks) through the summer to maintain a dark grass-green color.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "For a steady supply, stagger varieties or sow a second planting 20-30 days later.",
+     "url": "https://extension.colostate.edu/resource/sample-planting-guide-for-raised-bed-garden/",
+     "quote": "plant varieties with 20+ days difference until harvest or do a second planting 20-30 days after the first.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "swiss-chard",
+   "name": "Swiss chard",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "semi-hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beets, carrots, cauliflower, parsley, parsnips, potatoes, and Swiss chard",
+    "note": "Crop list appears under the page heading 'Semi-Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -2,
+    "endWeeks": 0,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 0-2 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the semi-hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 5,
+    "max": 6,
+    "relativeTo": "transplant date",
+    "note": "Optional: crop is commonly direct-sown.",
+    "url": "https://extension.usu.edu/yardandgarden/research/swiss-chard-in-the-garden",
+    "quote": "Generally 5-6 weeks are required to grow transplants to this size.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 60,
+    "max": 60,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Swiss Chard 40° 85° 95° 7-9” 1” 7-10 60",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column. Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "crop",
+    "note": "Tolerance statement: not seriously damaged down to 32°F.",
+    "url": "https://extension.usu.edu/yardandgarden/research/swiss-chard-in-the-garden",
+    "quote": "Temperatures down to 32°F do not seriously damage young plants.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Semi-hardy vegetables grow with minimum daytime temperatures of 40°F to 50°F but are less tolerant of a frosty night.",
+    "note": "CSU states a DAYTIME minimum for the semi-hardy category, not a night temperature; source gives a range of 40-50°F; value is the lower bound",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Needs steady water and rich soil for good-quality leaves.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Quality, leafy vegetables need a constant supply of water and rich soils.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Seed can go in once soil reaches 40°F.",
+     "url": "https://extension.usu.edu/yardandgarden/research/swiss-chard-in-the-garden",
+     "quote": "Swiss chard can be sown after soils reach 40°F.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Grows best when temperatures stay at or below 75°F.",
+     "url": "https://extension.usu.edu/yardandgarden/research/swiss-chard-in-the-garden",
+     "quote": "Swiss chard grows best when temperatures do not exceed 75°F.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Cut outer leaves and let plants regrow for a continuous harvest.",
+     "url": "https://extension.colostate.edu/resource/sample-planting-guide-for-raised-bed-garden/",
+     "quote": "Harvest leafy vegetables by cutting off the leaves. Plants will grow back for a continuous harvest.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Thin when seedlings have three to four true leaves.",
+     "url": "https://extension.usu.edu/yardandgarden/research/swiss-chard-in-the-garden",
+     "quote": "Thin stands when plants have 3-4 true leaves.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "tomato",
+   "name": "Tomato",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "very tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: lima beans, cantaloupe, eggplant, pepper, pumpkin, winter squash and pumpkins, tomato, and watermelon",
+    "note": "Crop list appears under the page heading 'Very Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 2,
+    "endWeeks": null,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Typically 2+ weeks after the average last spring frost date.",
+    "note": "CSU #720 planting time for the very tender category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 6,
+    "max": null,
+    "relativeTo": "last frost",
+    "note": "From the tomato section of CSU mountain-gardening fact sheet; \"at least six weeks\", no upper bound given.",
+    "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-the-mountains/",
+    "quote": "Start seeds indoors under grow lights at least six weeks before the last frost date.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 65,
+    "max": 65,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Tomato 4 50° 80° 100° 24” trellised ¼” 6-14 65T 4",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column (T = counted from transplanting). Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": {
+    "value": 52,
+    "basis": "crop",
+    "url": "https://extension.colostate.edu/resource/growing-tomatoes/",
+    "quote": "For optimal growing, tomatoes need warm temperatures: above 52ºF at night and above 60ºF during the day at transplant.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "crop",
+    "note": "Same page: \"They are readily killed by a light frost.\"",
+    "url": "https://extension.colostate.edu/resource/growing-tomatoes/",
+    "quote": "With the forecast of a light frost (28-32 ºF), tomatoes may be protected by covering.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": null,
+   "tips": [
+    {
+     "text": "Along the Front Range, tomatoes usually go out in late May once nights and soil have warmed.",
+     "url": "https://extension.colostate.edu/resource/growing-tomatoes/",
+     "quote": "With these warm temperature requirements, planting time along the Colorado Front Range is typically late May.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Skip overhead watering; wet leaves spread fungal disease.",
+     "url": "https://extension.colostate.edu/resource/growing-tomatoes/",
+     "quote": "Avoid overhead irrigation on tomatoes.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Nights below 55°F stop pollen forming, so early flowers often fail to set fruit.",
+     "url": "https://extension.colostate.edu/resource/growing-tomatoes/",
+     "quote": "If nighttime temperatures drop below 55ºF, pollen fails to develop and flowers that open the following morning will not set fruit.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Lay tall, leggy transplants sideways in a shallow trench; the buried stem will root.",
+     "url": "https://extension.colostate.edu/resource/growing-tomatoes/",
+     "quote": "Plant these taller leggy transplants horizontally.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Black plastic mulch warms the soil and can bring harvest two to three weeks earlier.",
+     "url": "https://extension.colostate.edu/resource/growing-tomatoes/",
+     "quote": "Black plastic mulch is popular for tomatoes, warming the soil and pushing production two to three weeks earlier.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": []
+  },
+  {
+   "slug": "turnip",
+   "name": "Turnip",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: broccoli, cabbage, kohlrabi, onions, lettuce, peas, radish, spinach, turnips",
+    "note": "Crop list appears under the page heading 'Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -4,
+    "endWeeks": -2,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 2-4 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": null,
+   "daysToHarvest": {
+    "min": 50,
+    "max": 50,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Turnips 40° 80° 100° 4-6” ½” 3-10 50",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column. Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Vegetables that can withstand heavy frost (below 28°F) include spinach, onions, garlic, leeks, rhubarb, rutabaga, broccoli, kohlrabi, kale, cabbage, collards, Brussels sprouts, corn salad, arugula, fava beans, radish, mustard greens, Austrian winter pea and turnip.",
+    "note": "Tolerance statement, not a kill temperature: source says the crop withstands heavy frost BELOW 28°F; no exact damage temperature given.",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Hardy vegetables grow with daytime temperatures as low as 40°F and may survive a frosty nip.",
+    "note": "CSU states a DAYTIME minimum for the hardy category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Can be direct-seeded about four weeks before the last frost date.",
+     "url": "https://extension.colostate.edu/resource/vegetable-gardening-in-the-mountains/",
+     "quote": "You can direct-seed frost tolerant plants into the garden four weeks before the last frost date (kale kohlrabi, lettuce, spinach, turnips",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Thin seedlings to three to six inches apart.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-turnips-and-rutabagas",
+     "quote": "Thin turnip seedlings leaving three to six inches between plants.",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Harvest at two to three inches across.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-turnips-and-rutabagas",
+     "quote": "Harvest turnips when they reach a usable size, two to three inches wide.",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Quality drops in hot weather or if roots get too large.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-turnips-and-rutabagas",
+     "quote": "Their quality can be poor when they grow in hot weather, or if they grow too large.",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "watermelon",
+   "name": "Watermelon",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "very tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: lima beans, cantaloupe, eggplant, pepper, pumpkin, winter squash and pumpkins, tomato, and watermelon",
+    "note": "Crop list appears under the page heading 'Very Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 2,
+    "endWeeks": null,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Typically 2+ weeks after the average last spring frost date.",
+    "note": "CSU #720 planting time for the very tender category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 2,
+    "max": 3,
+    "relativeTo": "transplant date",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "If using transplants, select small, young plants, not more than 2-3 weeks from seeding.",
+    "note": "CSU prefers direct seeding for vine crops; this is the maximum transplant age if started indoors.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 80,
+    "max": 95,
+    "note": "Stated for melons generally.",
+    "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+    "quote": "Melons need 80 to 95 days.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Very tender plants may be stunted, damaged, or killed at temperatures between 50 °F–32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). Source says stunting/damage can begin anywhere from 50°F down to 32°F; value is the frost end of that range.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 60,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "They need daytime temperatures above 60°F, and prefer temperatures of 70°F to 95°F.",
+    "note": "CSU states a DAYTIME minimum for the very tender category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Needs a long, warm season; most productive below about 5,000 feet elevation in Colorado.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Melons, pumpkins, and winter squash require a long, warm growing season and are most productive at elevations below 5,000 feet.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Judge ripeness by thumping or by a buttery-yellow ground spot.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Watermelon ripeness can be judged by thumping",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Plant when soil is 65°F or after all frost danger has passed.",
+     "url": "https://extension.usu.edu/yardandgarden/research/watermelon-in-the-garden",
+     "quote": "Plant watermelon when soils are 65°F or after all frost danger has past.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Afternoon wilting is normal; plants still wilted in the morning need water.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Temporary wilting in the heat of the afternoon is common, but wilted plants in the morning is a distress signal",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Pick only when fully ripe.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Harvest watermelons and cantaloupes when fully ripe.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "winter-squash",
+   "name": "Winter squash",
+   "type": "vegetable",
+   "frostCategory": {
+    "value": "very tender",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: lima beans, cantaloupe, eggplant, pepper, pumpkin, winter squash and pumpkins, tomato, and watermelon",
+    "note": "Crop list appears under the page heading 'Very Tender Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 2,
+    "endWeeks": null,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Typically 2+ weeks after the average last spring frost date.",
+    "note": "CSU #720 planting time for the very tender category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 2,
+    "max": 3,
+    "relativeTo": "transplant date",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "If using transplants, select small, young plants, not more than 2-3 weeks from seeding.",
+    "note": "CSU prefers direct seeding for vine crops; this is the maximum transplant age if started indoors.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": {
+    "min": 100,
+    "max": 100,
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Squash, Winter 3 60° 90° 100° 36-48” 1-1½” 6-10 100",
+    "note": "Table row from CSU #720; last number is the 'Typical Days to Harvest' column. Table quote: cells joined by single spaces.",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 32,
+    "basis": "category",
+    "url": "https://extension.usu.edu/yardandgarden/research/starting-vegetable-seeds-indoors-planning",
+    "quote": "Very tender plants may be stunted, damaged, or killed at temperatures between 50 °F–32 °F.",
+    "note": "Category assignment is CSU #720's; the temperature comes from Utah State's definition of the same category term (cross-source). Source says stunting/damage can begin anywhere from 50°F down to 32°F; value is the frost end of that range.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 60,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "They need daytime temperatures above 60°F, and prefer temperatures of 70°F to 95°F.",
+    "note": "CSU states a DAYTIME minimum for the very tender category, not a night temperature",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Needs a long, warm season; most productive below about 5,000 feet elevation in Colorado.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Melons, pumpkins, and winter squash require a long, warm growing season and are most productive at elevations below 5,000 feet.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Harvest only when fully mature, with a hard rind.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "Winter squash and pumpkins are harvested when they are mature.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Mature fruit keeps most of the winter if protected from freezing.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "These mature fruits can be stored most of the winter if protected from freezing.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Sow several seeds per hill, then thin to the two or three strongest seedlings.",
+     "url": "https://extension.colostate.edu/resource/cucumbers-pumpkins-squash-and-melons/",
+     "quote": "After emergence, thin each hill to the two or three strongest seedlings.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Black plastic mulch gives earlier, bigger harvests while controlling weeds and saving water.",
+     "url": "https://extension.colostate.edu/resource/vegetable-garden-hints/",
+     "quote": "Use black plastic mulch for earlier production and higher yields. It also controls weeds and conserves water.",
+     "sourceName": "Colorado State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature"
+   ]
+  },
+  {
+   "slug": "basil",
+   "name": "Basil",
+   "type": "herb",
+   "frostCategory": {
+    "value": "tender",
+    "note": "University of Minnesota calls basil a \"tender annual\" (general horticultural term), not a CSU #720 four-class assignment; basil is not listed in CSU #720.",
+    "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems/growing-basil",
+    "quote": "Since basil is a tender annual, it will not survive the winter in our region.",
+    "sourceName": "University of Minnesota Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": 0,
+    "endWeeks": null,
+    "basis": "crop",
+    "note": "Source says only \"after the last frost\"; no number of weeks.",
+    "url": "https://extension.usu.edu/yardandgarden/research/basil-in-the-garden",
+    "quote": "Plant seeds or transplants after the last frost of the season.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 6,
+    "max": 8,
+    "relativeTo": "transplant date",
+    "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-problems/growing-basil",
+    "quote": "Sow seeds indoors six to eight weeks before planting outside to get a head start on the growing season.",
+    "sourceName": "University of Minnesota Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": null,
+   "nightMinF": {
+    "value": 50,
+    "basis": "crop",
+    "url": "https://hgic.clemson.edu/factsheet/basil/",
+    "quote": "Basil should not be transplanted into the garden until the daytime temperature is consistently in the 70s, and the nighttime temperatures are above 50 ºF.",
+    "sourceName": "Clemson Cooperative Extension",
+    "fetched": "2026-11-11"
+   },
+   "coldToleranceF": null,
+   "minDaytimeTempF": null,
+   "tips": [
+    {
+     "text": "Give basil warmth, full sun and steady moisture.",
+     "url": "https://extension.usu.edu/yardandgarden/research/basil-in-the-garden",
+     "quote": "Basil loves warm weather, lots of sun and plenty of moisture.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Set transplants out only after frosts are over.",
+     "url": "https://extension.usu.edu/yardandgarden/research/basil-in-the-garden",
+     "quote": "Transplants take 4-6 weeks to grow to size and should be planted after frosts in mid to late May.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Water about 1½ inches per week.",
+     "url": "https://extension.usu.edu/yardandgarden/research/basil-in-the-garden",
+     "quote": "Irrigate basil with about 1½ inches of water per week.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Start harvesting once plants have six to eight leaves.",
+     "url": "https://extension.usu.edu/yardandgarden/research/basil-in-the-garden",
+     "quote": "When the plants have 6 to 8 leaves, harvesting can begin",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Full sun gives better flavor than shade.",
+     "url": "https://extension.usu.edu/yardandgarden/research/basil-in-the-garden",
+     "quote": "Basil grown in full sun has more essential oils and better flavor than shade grown basil.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "cold-damage temperature",
+    "days to harvest"
+   ]
+  },
+  {
+   "slug": "chives",
+   "name": "Chives",
+   "type": "herb",
+   "frostCategory": null,
+   "plantWindow": {
+    "startWeeks": 0,
+    "endWeeks": null,
+    "basis": "crop",
+    "note": "Univ. of Minnesota advice for planting rooted clumps (\"planting rooted clumps in spring, after frost danger has passed\"). Utah State says to seed chives \"as early as possible in the spring\".",
+    "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-chives",
+    "quote": "after frost danger has passed.",
+    "sourceName": "University of Minnesota Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 6,
+    "max": 8,
+    "relativeTo": "transplant date",
+    "url": "https://extension.usu.edu/yardandgarden/research/chives-in-the-garden",
+    "quote": "Transplants need 6-8 weeks of growth before planting in the garden.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": null,
+   "nightMinF": null,
+   "coldToleranceF": null,
+   "minDaytimeTempF": null,
+   "tips": [
+    {
+     "text": "Sow seed as early as possible in spring.",
+     "url": "https://extension.usu.edu/yardandgarden/research/chives-in-the-garden",
+     "quote": "Seed chives as early as possible in the spring.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Cut leaves back to 1-2 inches above the soil to harvest.",
+     "url": "https://extension.usu.edu/yardandgarden/research/chives-in-the-garden",
+     "quote": "Harvest chives by cutting the leaves back to within 1-2 inches of the soil.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "A cold-tolerant perennial for full sun and well-drained soil.",
+     "url": "https://extension.usu.edu/yardandgarden/research/chives-in-the-garden",
+     "quote": "Chives are cool-season, cold-tolerant perennials that prefer full sun and fertile, well-drained soils.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Water regularly through the season.",
+     "url": "https://extension.usu.edu/yardandgarden/research/chives-in-the-garden",
+     "quote": "Chives require regular watering throughout growth for best production.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "frost category",
+    "minimum night temperature",
+    "cold-damage temperature",
+    "days to harvest"
+   ]
+  },
+  {
+   "slug": "cilantro",
+   "name": "Cilantro",
+   "type": "herb",
+   "frostCategory": null,
+   "plantWindow": {
+    "startWeeks": 0,
+    "endWeeks": null,
+    "basis": "crop",
+    "note": "Source says only \"after danger of frost has passed\"; no number of weeks.",
+    "url": "https://extension.usu.edu/yardandgarden/research/cilantro-coriander-in-the-garden",
+    "quote": "after danger of frost has passed and mulch around the seedlings as soon as they emerge.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 4,
+    "max": 6,
+    "relativeTo": "transplant date",
+    "url": "https://extension.usu.edu/yardandgarden/research/cilantro-coriander-in-the-garden",
+    "quote": "Cilantro/coriander can also be started indoors 4-6 weeks before transplanting.",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": null,
+   "nightMinF": null,
+   "coldToleranceF": null,
+   "minDaytimeTempF": null,
+   "tips": [
+    {
+     "text": "A cool-season herb for full sun and well-drained soil.",
+     "url": "https://extension.usu.edu/yardandgarden/research/cilantro-coriander-in-the-garden",
+     "quote": "Cilantro/coriander is a cool-season herb that grows best in full sun and fertile, well-drained soils.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "For leaves, pick slow-bolting varieties.",
+     "url": "https://extension.usu.edu/yardandgarden/research/cilantro-coriander-in-the-garden",
+     "quote": "If harvesting for the leaves, choose a cultivar that is slow bolting (Slow Bolting and Leisure).",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "In cooler areas, plant in early spring for summer-to-fall harvest.",
+     "url": "https://extension.usu.edu/yardandgarden/research/cilantro-coriander-in-the-garden",
+     "quote": "plant in the early spring for summer to fall harvest.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Mulch as soon as seedlings emerge to keep weeds down.",
+     "url": "https://extension.usu.edu/yardandgarden/research/cilantro-coriander-in-the-garden",
+     "quote": "Mulch around the plants as soon as they emerge to prevent weeds.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "frost category",
+    "minimum night temperature",
+    "cold-damage temperature",
+    "days to harvest"
+   ]
+  },
+  {
+   "slug": "dill",
+   "name": "Dill",
+   "type": "herb",
+   "frostCategory": null,
+   "plantWindow": {
+    "startWeeks": 0,
+    "endWeeks": null,
+    "basis": "crop",
+    "note": "Source says only \"after the danger of spring frost has passed\"; no number of weeks.",
+    "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-dill",
+    "quote": "Begin sowing seeds after the danger of spring frost has passed.",
+    "sourceName": "University of Minnesota Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": null,
+   "daysToHarvest": {
+    "min": 42,
+    "max": 56,
+    "url": "https://extension.usu.edu/yardandgarden/research/dill-in-the-garden",
+    "quote": "Germination in 7–21 days; harvest generally 6–8 weeks after sowing.",
+    "note": "Source states 6-8 weeks after sowing; converted to days (x7).",
+    "sourceName": "Utah State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "nightMinF": null,
+   "coldToleranceF": null,
+   "minDaytimeTempF": null,
+   "tips": [
+    {
+     "text": "Sow every four to six weeks for a continuous supply of leaves.",
+     "url": "https://extension.usu.edu/yardandgarden/research/dill-in-the-garden",
+     "quote": "For a continuous supply of dill weed, sow seeds every 4 to 6 weeks.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Thin seedlings to about nine inches apart.",
+     "url": "https://extension.usu.edu/yardandgarden/research/dill-in-the-garden",
+     "quote": "After emergence, thin plants to 9 inches apart",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Grow in full sun; it does best direct-sown from seed.",
+     "url": "https://extension.usu.edu/yardandgarden/research/dill-in-the-garden",
+     "quote": "low fertility soils and grows best from seed.",
+     "sourceName": "Utah State University Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Sow through midsummer every two to three weeks for repeat harvests.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-dill",
+     "quote": "by planting seeds every two to three weeks through midsummer.",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "frost category",
+    "minimum night temperature",
+    "cold-damage temperature"
+   ]
+  },
+  {
+   "slug": "parsley",
+   "name": "Parsley",
+   "type": "herb",
+   "frostCategory": {
+    "value": "semi-hardy",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Crops: beets, carrots, cauliflower, parsley, parsnips, potatoes, and Swiss chard",
+    "note": "Crop list appears under the page heading 'Semi-Hardy Vegetables' (CSU GardenNotes #720)",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "plantWindow": {
+    "startWeeks": -2,
+    "endWeeks": 0,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "As early as 0-2 weeks before the date of the average last spring frost.",
+    "note": "CSU #720 planting time for the semi-hardy category",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "indoorStartWeeks": {
+    "min": 6,
+    "max": 8,
+    "relativeTo": "last frost",
+    "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-parsley",
+    "quote": "Start seeds indoors in the late winter six to eight weeks before the last frost date.",
+    "sourceName": "University of Minnesota Extension",
+    "fetched": "2026-11-11"
+   },
+   "daysToHarvest": null,
+   "nightMinF": null,
+   "coldToleranceF": {
+    "value": 28,
+    "basis": "crop",
+    "url": "https://extension.oregonstate.edu/news/plant-cold-hardy-vegetables-now-spring-harvest",
+    "quote": "Semi-hardy crops tolerate light frost (28–32°F), including beets, carrots, parsnip, lettuce, chard, garden pea (before flowering), Chinese cabbage, endive, radicchio, cauliflower, parsley and celery.",
+    "note": "Source says the crop tolerates light frost of 28-32°F; value is the lower bound of what is tolerated (damage expected below it).",
+    "sourceName": "Oregon State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "minDaytimeTempF": {
+    "value": 40,
+    "basis": "category",
+    "url": "https://extension.colostate.edu/resource/vegetable-planting-guide/",
+    "quote": "Semi-hardy vegetables grow with minimum daytime temperatures of 40°F to 50°F but are less tolerant of a frosty night.",
+    "note": "CSU states a DAYTIME minimum for the semi-hardy category, not a night temperature; source gives a range of 40-50°F; value is the lower bound",
+    "sourceName": "Colorado State University Extension",
+    "fetched": "2026-11-11"
+   },
+   "tips": [
+    {
+     "text": "Soak seed in warm water for up to 24 hours to speed slow germination.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-parsley",
+     "quote": "soak the seeds in warm water for up to 24 hours prior to planting.",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Harvest outer stalks first, snipping close to the ground.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-parsley",
+     "quote": "Harvest parsley by snipping off the stalks close to the ground, beginning with the outside stalks.",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Plants keep producing into fall and handle light frosts.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-parsley",
+     "quote": "The plants remain green and productive into fall and can handle light frosts.",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    },
+    {
+     "text": "Water deeply at least once a week.",
+     "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-parsley",
+     "quote": "Water deeply at least once a week.",
+     "sourceName": "University of Minnesota Extension",
+     "fetched": "2026-11-11"
+    }
+   ],
+   "leftOut": [
+    "minimum night temperature",
+    "days to harvest"
+   ]
+  }
+ ]
+}

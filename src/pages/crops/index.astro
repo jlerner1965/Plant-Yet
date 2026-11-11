@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import { crops } from '../../lib/data.mjs';
+const groups = [
+  { title: 'Vegetables', items: crops.filter((c) => c.type !== 'herb') },
+  { title: 'Herbs', items: crops.filter((c) => c.type === 'herb') },
+].filter((g) => g.items.length);
+---
+<Base title="Crops: frost hardiness, planting windows and tips" description={`Frost category, planting window, minimum night temperature and growing tips for ${crops.length} common Front Range vegetables and herbs — every value linked to a university extension source.`}>
+  <h1>Crops</h1>
+  <p class="lede">{crops.length} common Front Range vegetables and herbs. Every number comes from a university extension publication and links to it.</p>
+  {groups.map((g) => (
+    <>
+      <h2>{g.title}</h2>
+      <ul class="croplist">
+        {g.items.map((c) => (
+          <li><a href={`/crops/${c.slug}/`}>{c.name}{c.frostCategory && <small>{c.frostCategory.value}</small>}</a></li>
+        ))}
+      </ul>
+    </>
+  ))}
+  <p class="muted small">To see whether a crop can go in today, <a href="/#towns">pick your town</a>.</p>
+</Base>

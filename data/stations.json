@@ -1,0 +1,2755 @@
+{
+ "about": "NOAA NCEI 1991–2020 U.S. Climate Normals stations used by at least one town. Dates are MM-DD for a 32°F minimum.",
+ "sources": {
+  "normals": {
+   "name": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal by station",
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/",
+   "fetched": "2026-11-11"
+  },
+  "documentation": {
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/doc/Normals_ANN_Documentation_1991-2020.pdf"
+  }
+ },
+ "stations": [
+  {
+   "id": "USC00050109",
+   "name": "AKRON 4 E, CO US",
+   "lat": 40.155,
+   "lon": -103.1417,
+   "elevFt": 4542,
+   "lastSpring": {
+    "p10": "05-22",
+    "p50": "05-08",
+    "p90": "04-27"
+   },
+   "firstFall": {
+    "p10": "09-25",
+    "p50": "10-06",
+    "p90": "10-17"
+   },
+   "years": 27,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00050109.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00050128",
+   "name": "ALAMOSA 1E, CO US",
+   "lat": 37.4703,
+   "lon": -105.8569,
+   "elevFt": 7540,
+   "lastSpring": {
+    "p10": "06-13",
+    "p50": "05-30",
+    "p90": "05-17"
+   },
+   "firstFall": {
+    "p10": "09-04",
+    "p50": "09-17",
+    "p90": "09-27"
+   },
+   "years": 12,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00050128.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00050372",
+   "name": "ASPEN 1SW, CO US",
+   "lat": 39.1853,
+   "lon": -106.8381,
+   "elevFt": 8175,
+   "lastSpring": {
+    "p10": "06-17",
+    "p50": "06-02",
+    "p90": "05-17"
+   },
+   "firstFall": {
+    "p10": "09-12",
+    "p50": "09-23",
+    "p90": "10-04"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00050372.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00050776",
+   "name": "BLANCA 4 NW, CO US",
+   "lat": 37.4786,
+   "lon": -105.5717,
+   "elevFt": 7709,
+   "lastSpring": {
+    "p10": "06-12",
+    "p50": "05-25",
+    "p90": "05-11"
+   },
+   "firstFall": {
+    "p10": "09-10",
+    "p50": "09-22",
+    "p90": "10-03"
+   },
+   "years": 18,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00050776.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00050848",
+   "name": "BOULDER, CO US",
+   "lat": 39.9919,
+   "lon": -105.2667,
+   "elevFt": 5484,
+   "lastSpring": {
+    "p10": "05-18",
+    "p50": "05-06",
+    "p90": "04-24"
+   },
+   "firstFall": {
+    "p10": "09-21",
+    "p50": "10-05",
+    "p90": "10-18"
+   },
+   "years": 26,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00050848.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00050950",
+   "name": "BRIGHTON 3 SE, CO US",
+   "lat": 39.9436,
+   "lon": -104.8361,
+   "elevFt": 5016,
+   "lastSpring": {
+    "p10": "05-16",
+    "p50": "05-03",
+    "p90": "04-22"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-07",
+    "p90": "10-19"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00050950.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051071",
+   "name": "BUENA VISTA 2S, CO US",
+   "lat": 38.8247,
+   "lon": -106.1275,
+   "elevFt": 7954,
+   "lastSpring": {
+    "p10": "06-11",
+    "p50": "05-27",
+    "p90": "05-13"
+   },
+   "firstFall": {
+    "p10": "09-10",
+    "p50": "09-23",
+    "p90": "10-04"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051071.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051121",
+   "name": "BURLINGTON, CO US",
+   "lat": 39.3061,
+   "lon": -102.2608,
+   "elevFt": 4162,
+   "lastSpring": {
+    "p10": "05-19",
+    "p50": "05-06",
+    "p90": "04-23"
+   },
+   "firstFall": {
+    "p10": "09-27",
+    "p50": "10-09",
+    "p90": "10-20"
+   },
+   "years": 29,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051121.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051179",
+   "name": "BYERS 5 ENE, CO US",
+   "lat": 39.7406,
+   "lon": -104.1275,
+   "elevFt": 5101,
+   "lastSpring": {
+    "p10": "05-30",
+    "p50": "05-13",
+    "p90": "04-30"
+   },
+   "firstFall": {
+    "p10": "09-20",
+    "p50": "10-02",
+    "p90": "10-14"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051179.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051186",
+   "name": "CABIN CREEK, CO US",
+   "lat": 39.6553,
+   "lon": -105.7089,
+   "elevFt": 10020,
+   "lastSpring": {
+    "p10": "06-21",
+    "p50": "06-06",
+    "p90": "05-25"
+   },
+   "firstFall": {
+    "p10": "09-05",
+    "p50": "09-19",
+    "p90": "09-30"
+   },
+   "years": 26,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051186.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051268",
+   "name": "CAMPO 7 S, CO US",
+   "lat": 37.0103,
+   "lon": -102.5536,
+   "elevFt": 4105,
+   "lastSpring": {
+    "p10": "05-12",
+    "p50": "04-29",
+    "p90": "04-14"
+   },
+   "firstFall": {
+    "p10": "10-01",
+    "p50": "10-13",
+    "p90": "10-23"
+   },
+   "years": 24,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051268.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051294",
+   "name": "CANON CITY, CO US",
+   "lat": 38.46,
+   "lon": -105.2256,
+   "elevFt": 5378,
+   "lastSpring": {
+    "p10": "05-18",
+    "p50": "05-04",
+    "p90": "04-24"
+   },
+   "firstFall": {
+    "p10": "09-25",
+    "p50": "10-07",
+    "p90": "10-19"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051294.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051401",
+   "name": "CASTLE ROCK, CO US",
+   "lat": 39.4106,
+   "lon": -104.9058,
+   "elevFt": 6185,
+   "lastSpring": {
+    "p10": "05-24",
+    "p50": "05-09",
+    "p90": "04-30"
+   },
+   "firstFall": {
+    "p10": "09-17",
+    "p50": "10-02",
+    "p90": "10-16"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051401.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051458",
+   "name": "CENTER 4 SSW, CO US",
+   "lat": 37.7067,
+   "lon": -106.1444,
+   "elevFt": 7673,
+   "lastSpring": {
+    "p10": "06-08",
+    "p50": "05-24",
+    "p90": "05-09"
+   },
+   "firstFall": {
+    "p10": "09-12",
+    "p50": "09-24",
+    "p90": "10-05"
+   },
+   "years": 15,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051458.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051539",
+   "name": "CHERAW 1 N, CO US",
+   "lat": 38.115,
+   "lon": -103.51,
+   "elevFt": 4147,
+   "lastSpring": {
+    "p10": "05-13",
+    "p50": "04-30",
+    "p90": "04-19"
+   },
+   "firstFall": {
+    "p10": "10-01",
+    "p50": "10-10",
+    "p90": "10-21"
+   },
+   "years": 23,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051539.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051547",
+   "name": "CHERRY CREEK DAM, CO US",
+   "lat": 39.6261,
+   "lon": -104.8319,
+   "elevFt": 5647,
+   "lastSpring": {
+    "p10": "05-21",
+    "p50": "05-07",
+    "p90": "04-26"
+   },
+   "firstFall": {
+    "p10": "09-25",
+    "p50": "10-08",
+    "p90": "10-19"
+   },
+   "years": 13,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051547.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051564",
+   "name": "CHEYENNE WELLS 2NE, CO US",
+   "lat": 38.8575,
+   "lon": -102.3328,
+   "elevFt": 4203,
+   "lastSpring": {
+    "p10": "05-17",
+    "p50": "05-01",
+    "p90": "04-18"
+   },
+   "firstFall": {
+    "p10": "10-01",
+    "p50": "10-14",
+    "p90": "10-25"
+   },
+   "years": 23,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051564.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051609",
+   "name": "CIMARRON, CO US",
+   "lat": 38.4433,
+   "lon": -107.5569,
+   "elevFt": 6890,
+   "lastSpring": {
+    "p10": "07-07",
+    "p50": "06-20",
+    "p90": "06-04"
+   },
+   "firstFall": {
+    "p10": "08-23",
+    "p50": "09-10",
+    "p90": "09-23"
+   },
+   "years": 24,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051609.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051681",
+   "name": "COAL CREEK CANYON, CO US",
+   "lat": 39.8958,
+   "lon": -105.3847,
+   "elevFt": 8950,
+   "lastSpring": {
+    "p10": "06-19",
+    "p50": "06-05",
+    "p90": "05-23"
+   },
+   "firstFall": {
+    "p10": "09-02",
+    "p50": "09-16",
+    "p90": "09-28"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051681.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051713",
+   "name": "COCHETOPA CREEK, CO US",
+   "lat": 38.4431,
+   "lon": -106.7617,
+   "elevFt": 8006,
+   "lastSpring": {
+    "p10": "07-07",
+    "p50": "06-21",
+    "p90": "06-07"
+   },
+   "firstFall": {
+    "p10": "08-21",
+    "p50": "09-05",
+    "p90": "09-16"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051713.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051743",
+   "name": "COLLBRAN 1WSW, CO US",
+   "lat": 39.2367,
+   "lon": -107.9797,
+   "elevFt": 6009,
+   "lastSpring": {
+    "p10": "06-03",
+    "p50": "05-17",
+    "p90": "05-02"
+   },
+   "firstFall": {
+    "p10": "09-18",
+    "p50": "09-30",
+    "p90": "10-12"
+   },
+   "years": 18,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051743.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051886",
+   "name": "CORTEZ, CO US",
+   "lat": 37.3444,
+   "lon": -108.595,
+   "elevFt": 6167,
+   "lastSpring": {
+    "p10": "05-31",
+    "p50": "05-12",
+    "p90": "04-30"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-07",
+    "p90": "10-21"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051886.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051964",
+   "name": "CRESTONE 2 SE, CO US",
+   "lat": 37.9806,
+   "lon": -105.6897,
+   "elevFt": 8004,
+   "lastSpring": {
+    "p10": "06-09",
+    "p50": "05-26",
+    "p90": "05-14"
+   },
+   "firstFall": {
+    "p10": "09-14",
+    "p50": "09-26",
+    "p90": "10-08"
+   },
+   "years": 24,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051964.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051977",
+   "name": "CRIPPLE CREEK 3NNW, CO US",
+   "lat": 38.7956,
+   "lon": -105.2003,
+   "elevFt": 9235,
+   "lastSpring": {
+    "p10": "06-09",
+    "p50": "05-26",
+    "p90": "05-15"
+   },
+   "firstFall": {
+    "p10": "09-13",
+    "p50": "09-26",
+    "p90": "10-07"
+   },
+   "years": 13,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051977.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00051996",
+   "name": "CROOK, CO US",
+   "lat": 40.86,
+   "lon": -102.8031,
+   "elevFt": 3709,
+   "lastSpring": {
+    "p10": "05-23",
+    "p50": "05-11",
+    "p90": "05-01"
+   },
+   "firstFall": {
+    "p10": "09-23",
+    "p50": "10-04",
+    "p90": "10-15"
+   },
+   "years": 19,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00051996.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052184",
+   "name": "DEL NORTE 3ENE, CO US",
+   "lat": 37.6911,
+   "lon": -106.3078,
+   "elevFt": 7845,
+   "lastSpring": {
+    "p10": "06-08",
+    "p50": "05-23",
+    "p90": "05-11"
+   },
+   "firstFall": {
+    "p10": "09-13",
+    "p50": "09-25",
+    "p90": "10-07"
+   },
+   "years": 13,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052184.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052196",
+   "name": "DELTA 3E, CO US",
+   "lat": 38.7539,
+   "lon": -108.0278,
+   "elevFt": 5027,
+   "lastSpring": {
+    "p10": "05-14",
+    "p50": "05-01",
+    "p90": "04-19"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-07",
+    "p90": "10-19"
+   },
+   "years": 21,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052196.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052223",
+   "name": "DENVER WATER DEPT, CO US",
+   "lat": 39.7294,
+   "lon": -105.0083,
+   "elevFt": 5228,
+   "lastSpring": {
+    "p10": "05-13",
+    "p50": "04-30",
+    "p90": "04-15"
+   },
+   "firstFall": {
+    "p10": "09-28",
+    "p50": "10-12",
+    "p90": "10-26"
+   },
+   "years": 22,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052223.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052286",
+   "name": "DINOSAUR NM, CO US",
+   "lat": 40.2442,
+   "lon": -108.9725,
+   "elevFt": 5960,
+   "lastSpring": {
+    "p10": "06-01",
+    "p50": "05-12",
+    "p90": "04-28"
+   },
+   "firstFall": {
+    "p10": "09-23",
+    "p50": "10-05",
+    "p90": "10-19"
+   },
+   "years": 22,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052286.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052342",
+   "name": "DOVE CREEK, CO US",
+   "lat": 37.7672,
+   "lon": -108.9119,
+   "elevFt": 6863,
+   "lastSpring": {
+    "p10": "05-25",
+    "p50": "05-11",
+    "p90": "04-29"
+   },
+   "firstFall": {
+    "p10": "09-29",
+    "p50": "10-12",
+    "p90": "10-25"
+   },
+   "years": 12,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052342.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052441",
+   "name": "DURANGO, CO US",
+   "lat": 37.2911,
+   "lon": -107.8564,
+   "elevFt": 6761,
+   "lastSpring": {
+    "p10": "06-07",
+    "p50": "05-21",
+    "p90": "05-07"
+   },
+   "firstFall": {
+    "p10": "09-19",
+    "p50": "10-02",
+    "p90": "10-15"
+   },
+   "years": 16,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052441.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052446",
+   "name": "EADS, CO US",
+   "lat": 38.4758,
+   "lon": -102.7769,
+   "elevFt": 4212,
+   "lastSpring": {
+    "p10": "05-12",
+    "p50": "04-30",
+    "p90": "04-15"
+   },
+   "firstFall": {
+    "p10": "10-01",
+    "p50": "10-13",
+    "p90": "10-24"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052446.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052631",
+   "name": "ELIZABETH 2NW, CO US",
+   "lat": 39.3803,
+   "lon": -104.6289,
+   "elevFt": 6611,
+   "lastSpring": {
+    "p10": "06-01",
+    "p50": "05-16",
+    "p90": "05-04"
+   },
+   "firstFall": {
+    "p10": "09-18",
+    "p50": "10-02",
+    "p90": "10-16"
+   },
+   "years": 15,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052631.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052668",
+   "name": "ELLICOTT 7S, CO US",
+   "lat": 38.7403,
+   "lon": -104.3994,
+   "elevFt": 5739,
+   "lastSpring": {
+    "p10": "05-28",
+    "p50": "05-06",
+    "p90": "04-21"
+   },
+   "firstFall": {
+    "p10": "09-21",
+    "p50": "10-03",
+    "p90": "10-16"
+   },
+   "years": 10,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052668.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052761",
+   "name": "ESTES PARK 3 SSE, CO US",
+   "lat": 40.3489,
+   "lon": -105.52,
+   "elevFt": 7812,
+   "lastSpring": {
+    "p10": "06-14",
+    "p50": "05-30",
+    "p90": "05-15"
+   },
+   "firstFall": {
+    "p10": "09-03",
+    "p50": "09-17",
+    "p90": "10-01"
+   },
+   "years": 19,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052761.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052816",
+   "name": "FAIRPLAY S PARK RD, CO US",
+   "lat": 39.2219,
+   "lon": -105.9936,
+   "elevFt": 9995,
+   "lastSpring": {
+    "p10": "06-30",
+    "p50": "06-16",
+    "p90": "06-02"
+   },
+   "firstFall": {
+    "p10": "08-21",
+    "p50": "09-09",
+    "p90": "09-24"
+   },
+   "years": 13,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052816.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052932",
+   "name": "FLAGLER 1S, CO US",
+   "lat": 39.2814,
+   "lon": -103.062,
+   "elevFt": 4921,
+   "lastSpring": {
+    "p10": "05-20",
+    "p50": "05-05",
+    "p90": "04-22"
+   },
+   "firstFall": {
+    "p10": "09-27",
+    "p50": "10-08",
+    "p90": "10-18"
+   },
+   "years": 19,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052932.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00052947",
+   "name": "FLEMING 3SW, CO US",
+   "lat": 40.6483,
+   "lon": -102.8594,
+   "elevFt": 4256,
+   "lastSpring": {
+    "p10": "05-16",
+    "p50": "05-04",
+    "p90": "04-21"
+   },
+   "firstFall": {
+    "p10": "09-29",
+    "p50": "10-11",
+    "p90": "10-20"
+   },
+   "years": 21,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00052947.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053005",
+   "name": "FT COLLINS, CO US",
+   "lat": 40.5764,
+   "lon": -105.0858,
+   "elevFt": 5004,
+   "lastSpring": {
+    "p10": "05-14",
+    "p50": "05-02",
+    "p90": "04-18"
+   },
+   "firstFall": {
+    "p10": "09-24",
+    "p50": "10-07",
+    "p90": "10-20"
+   },
+   "years": 29,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053005.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053006",
+   "name": "FT COLLINS 4 E, CO US",
+   "lat": 40.5756,
+   "lon": -105.0236,
+   "elevFt": 4920,
+   "lastSpring": {
+    "p10": "05-15",
+    "p50": "05-03",
+    "p90": "04-21"
+   },
+   "firstFall": {
+    "p10": "09-22",
+    "p50": "10-06",
+    "p90": "10-17"
+   },
+   "years": 29,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053006.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053038",
+   "name": "FT MORGAN, CO US",
+   "lat": 40.2569,
+   "lon": -103.87,
+   "elevFt": 4376,
+   "lastSpring": {
+    "p10": "05-19",
+    "p50": "05-06",
+    "p90": "04-23"
+   },
+   "firstFall": {
+    "p10": "09-24",
+    "p50": "10-06",
+    "p90": "10-18"
+   },
+   "years": 17,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053038.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053146",
+   "name": "FRUITA, CO US",
+   "lat": 39.1444,
+   "lon": -108.7281,
+   "elevFt": 4498,
+   "lastSpring": {
+    "p10": "05-07",
+    "p50": "04-27",
+    "p90": "04-17"
+   },
+   "firstFall": {
+    "p10": "09-28",
+    "p50": "10-11",
+    "p90": "10-25"
+   },
+   "years": 13,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053146.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053258",
+   "name": "GENOA, CO US",
+   "lat": 39.2772,
+   "lon": -103.4944,
+   "elevFt": 5593,
+   "lastSpring": {
+    "p10": "05-22",
+    "p50": "05-08",
+    "p90": "04-25"
+   },
+   "firstFall": {
+    "p10": "09-28",
+    "p50": "10-10",
+    "p90": "10-23"
+   },
+   "years": 17,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053258.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053261",
+   "name": "GEORGETOWN, CO US",
+   "lat": 39.7053,
+   "lon": -105.6997,
+   "elevFt": 8520,
+   "lastSpring": {
+    "p10": "06-14",
+    "p50": "05-30",
+    "p90": "05-17"
+   },
+   "firstFall": {
+    "p10": "09-05",
+    "p50": "09-19",
+    "p90": "09-30"
+   },
+   "years": 27,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053261.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053359",
+   "name": "GLENWOOD SPGS #2, CO US",
+   "lat": 39.5181,
+   "lon": -107.3172,
+   "elevFt": 5895,
+   "lastSpring": {
+    "p10": "05-30",
+    "p50": "05-13",
+    "p90": "04-30"
+   },
+   "firstFall": {
+    "p10": "09-20",
+    "p50": "10-03",
+    "p90": "10-15"
+   },
+   "years": 18,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053359.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053486",
+   "name": "GRAND JUNCTION WFO, CO US",
+   "lat": 39.1197,
+   "lon": -108.5247,
+   "elevFt": 4826,
+   "lastSpring": {
+    "p10": "04-28",
+    "p50": "04-14",
+    "p90": "04-01"
+   },
+   "firstFall": {
+    "p10": "10-11",
+    "p50": "10-23",
+    "p90": "11-06"
+   },
+   "years": 8,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053486.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053500",
+   "name": "GRAND LAKE 6 SSW, CO US",
+   "lat": 40.185,
+   "lon": -105.8667,
+   "elevFt": 8288,
+   "lastSpring": {
+    "p10": "06-28",
+    "p50": "06-13",
+    "p90": "06-01"
+   },
+   "firstFall": {
+    "p10": "08-21",
+    "p50": "09-07",
+    "p90": "09-21"
+   },
+   "years": 27,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053500.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053530",
+   "name": "GRANT, CO US",
+   "lat": 39.4608,
+   "lon": -105.6786,
+   "elevFt": 8675,
+   "lastSpring": {
+    "p10": "06-30",
+    "p50": "06-15",
+    "p90": "06-01"
+   },
+   "firstFall": {
+    "p10": "08-26",
+    "p50": "09-09",
+    "p90": "09-22"
+   },
+   "years": 27,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053530.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053553",
+   "name": "GREELEY UNC, CO US",
+   "lat": 40.4022,
+   "lon": -104.6992,
+   "elevFt": 4715,
+   "lastSpring": {
+    "p10": "05-14",
+    "p50": "05-02",
+    "p90": "04-17"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-08",
+    "p90": "10-21"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053553.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053629",
+   "name": "GROSS RSVR, CO US",
+   "lat": 39.9364,
+   "lon": -105.3503,
+   "elevFt": 7970,
+   "lastSpring": {
+    "p10": "06-10",
+    "p50": "05-24",
+    "p90": "05-11"
+   },
+   "firstFall": {
+    "p10": "09-09",
+    "p50": "09-23",
+    "p90": "10-06"
+   },
+   "years": 16,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053629.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00053867",
+   "name": "HAYDEN, CO US",
+   "lat": 40.4925,
+   "lon": -107.2547,
+   "elevFt": 6467,
+   "lastSpring": {
+    "p10": "06-16",
+    "p50": "06-01",
+    "p90": "05-15"
+   },
+   "firstFall": {
+    "p10": "09-07",
+    "p50": "09-20",
+    "p90": "09-30"
+   },
+   "years": 30,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00053867.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054076",
+   "name": "HOLLY, CO US",
+   "lat": 38.0517,
+   "lon": -102.1317,
+   "elevFt": 3401,
+   "lastSpring": {
+    "p10": "05-14",
+    "p50": "05-01",
+    "p90": "04-18"
+   },
+   "firstFall": {
+    "p10": "09-29",
+    "p50": "10-12",
+    "p90": "10-23"
+   },
+   "years": 20,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054076.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054082",
+   "name": "HOLYOKE, CO US",
+   "lat": 40.5453,
+   "lon": -102.3411,
+   "elevFt": 3780,
+   "lastSpring": {
+    "p10": "05-23",
+    "p50": "05-11",
+    "p90": "04-30"
+   },
+   "firstFall": {
+    "p10": "09-20",
+    "p50": "10-03",
+    "p90": "10-13"
+   },
+   "years": 29,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054082.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054172",
+   "name": "HUGO 1 NW, CO US",
+   "lat": 39.1439,
+   "lon": -103.4897,
+   "elevFt": 5025,
+   "lastSpring": {
+    "p10": "05-25",
+    "p50": "05-10",
+    "p90": "04-30"
+   },
+   "firstFall": {
+    "p10": "09-21",
+    "p50": "10-02",
+    "p90": "10-13"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054172.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054254",
+   "name": "IGNACIO 6ESE, CO US",
+   "lat": 37.0856,
+   "lon": -107.5333,
+   "elevFt": 6548,
+   "lastSpring": {
+    "p10": "06-07",
+    "p50": "05-23",
+    "p90": "05-09"
+   },
+   "firstFall": {
+    "p10": "09-18",
+    "p50": "09-29",
+    "p90": "10-11"
+   },
+   "years": 19,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054254.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054413",
+   "name": "JULESBURG, CO US",
+   "lat": 40.9878,
+   "lon": -102.2653,
+   "elevFt": 3477,
+   "lastSpring": {
+    "p10": "05-18",
+    "p50": "05-07",
+    "p90": "04-23"
+   },
+   "firstFall": {
+    "p10": "09-23",
+    "p50": "10-06",
+    "p90": "10-17"
+   },
+   "years": 24,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054413.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054546",
+   "name": "KIM 10SSE, CO US",
+   "lat": 37.115,
+   "lon": -103.2986,
+   "elevFt": 5257,
+   "lastSpring": {
+    "p10": "05-06",
+    "p50": "04-24",
+    "p90": "04-10"
+   },
+   "firstFall": {
+    "p10": "10-04",
+    "p50": "10-18",
+    "p90": "10-29"
+   },
+   "years": 27,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054546.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054603",
+   "name": "KIT CARSON, CO US",
+   "lat": 38.7625,
+   "lon": -102.7997,
+   "elevFt": 4302,
+   "lastSpring": {
+    "p10": "05-24",
+    "p50": "05-10",
+    "p90": "04-30"
+   },
+   "firstFall": {
+    "p10": "09-20",
+    "p50": "10-01",
+    "p90": "10-12"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054603.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054664",
+   "name": "KREMMLING, CO US",
+   "lat": 40.0575,
+   "lon": -106.3681,
+   "elevFt": 7460,
+   "lastSpring": {
+    "p10": "06-30",
+    "p50": "06-14",
+    "p90": "06-01"
+   },
+   "firstFall": {
+    "p10": "08-26",
+    "p50": "09-05",
+    "p90": "09-16"
+   },
+   "years": 26,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054664.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054724",
+   "name": "LA JUNTA, CO US",
+   "lat": 37.9822,
+   "lon": -103.5439,
+   "elevFt": 4089,
+   "lastSpring": {
+    "p10": "05-09",
+    "p50": "04-26",
+    "p90": "04-10"
+   },
+   "firstFall": {
+    "p10": "10-03",
+    "p50": "10-15",
+    "p90": "10-26"
+   },
+   "years": 24,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054724.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054734",
+   "name": "LAKE CITY, CO US",
+   "lat": 38.0247,
+   "lon": -107.3147,
+   "elevFt": 8667,
+   "lastSpring": {
+    "p10": "06-24",
+    "p50": "06-08",
+    "p90": "05-26"
+   },
+   "firstFall": {
+    "p10": "09-06",
+    "p50": "09-17",
+    "p90": "09-27"
+   },
+   "years": 16,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054734.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054742",
+   "name": "LAKE GEORGE 8 SW, CO US",
+   "lat": 38.9075,
+   "lon": -105.4706,
+   "elevFt": 8550,
+   "lastSpring": {
+    "p10": "06-17",
+    "p50": "06-02",
+    "p90": "05-19"
+   },
+   "firstFall": {
+    "p10": "09-06",
+    "p50": "09-19",
+    "p90": "09-30"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054742.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054762",
+   "name": "LAKEWOOD, CO US",
+   "lat": 39.7489,
+   "lon": -105.1206,
+   "elevFt": 5640,
+   "lastSpring": {
+    "p10": "05-18",
+    "p50": "05-03",
+    "p90": "04-19"
+   },
+   "firstFall": {
+    "p10": "09-24",
+    "p50": "10-07",
+    "p90": "10-21"
+   },
+   "years": 24,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054762.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054770",
+   "name": "LAMAR, CO US",
+   "lat": 38.0936,
+   "lon": -102.6306,
+   "elevFt": 3627,
+   "lastSpring": {
+    "p10": "05-13",
+    "p50": "04-30",
+    "p90": "04-17"
+   },
+   "firstFall": {
+    "p10": "10-01",
+    "p50": "10-10",
+    "p90": "10-21"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054770.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00054834",
+   "name": "LAS ANIMAS, CO US",
+   "lat": 38.0636,
+   "lon": -103.2153,
+   "elevFt": 3890,
+   "lastSpring": {
+    "p10": "05-11",
+    "p50": "04-29",
+    "p90": "04-15"
+   },
+   "firstFall": {
+    "p10": "10-02",
+    "p50": "10-12",
+    "p90": "10-23"
+   },
+   "years": 30,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00054834.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055116",
+   "name": "LONGMONT 2 ESE, CO US",
+   "lat": 40.1694,
+   "lon": -105.0775,
+   "elevFt": 4950,
+   "lastSpring": {
+    "p10": "05-22",
+    "p50": "05-07",
+    "p90": "04-24"
+   },
+   "firstFall": {
+    "p10": "09-23",
+    "p50": "10-05",
+    "p90": "10-16"
+   },
+   "years": 17,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055116.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055236",
+   "name": "LOVELAND 2N, CO US",
+   "lat": 40.435,
+   "lon": -105.085,
+   "elevFt": 5080,
+   "lastSpring": {
+    "p10": "05-22",
+    "p50": "05-10",
+    "p90": "04-30"
+   },
+   "firstFall": {
+    "p10": "09-15",
+    "p50": "10-01",
+    "p90": "10-13"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055236.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055322",
+   "name": "MANASSA, CO US",
+   "lat": 37.1711,
+   "lon": -105.94,
+   "elevFt": 7695,
+   "lastSpring": {
+    "p10": "06-11",
+    "p50": "05-28",
+    "p90": "05-13"
+   },
+   "firstFall": {
+    "p10": "09-09",
+    "p50": "09-21",
+    "p90": "10-01"
+   },
+   "years": 21,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055322.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055327",
+   "name": "MANCOS 1SW, CO US",
+   "lat": 37.335,
+   "lon": -108.3161,
+   "elevFt": 6897,
+   "lastSpring": {
+    "p10": "06-19",
+    "p50": "06-04",
+    "p90": "05-20"
+   },
+   "firstFall": {
+    "p10": "09-09",
+    "p50": "09-24",
+    "p90": "10-04"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055327.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055402",
+   "name": "MARSTON FLTR PLT, CO US",
+   "lat": 39.6211,
+   "lon": -105.0656,
+   "elevFt": 5610,
+   "lastSpring": {
+    "p10": "05-17",
+    "p50": "05-02",
+    "p90": "04-20"
+   },
+   "firstFall": {
+    "p10": "09-27",
+    "p50": "10-11",
+    "p90": "10-23"
+   },
+   "years": 18,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055402.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055427",
+   "name": "MATHESON 8 SE, CO US",
+   "lat": 39.1289,
+   "lon": -103.8456,
+   "elevFt": 5830,
+   "lastSpring": {
+    "p10": "05-26",
+    "p50": "05-12",
+    "p90": "05-01"
+   },
+   "firstFall": {
+    "p10": "09-19",
+    "p50": "10-02",
+    "p90": "10-14"
+   },
+   "years": 14,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055427.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055706",
+   "name": "MONTE VISTA 2W, CO US",
+   "lat": 37.5811,
+   "lon": -106.1867,
+   "elevFt": 7695,
+   "lastSpring": {
+    "p10": "06-25",
+    "p50": "06-11",
+    "p90": "06-01"
+   },
+   "firstFall": {
+    "p10": "09-01",
+    "p50": "09-13",
+    "p90": "09-24"
+   },
+   "years": 26,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055706.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055722",
+   "name": "MONTROSE #2, CO US",
+   "lat": 38.4858,
+   "lon": -107.8792,
+   "elevFt": 5789,
+   "lastSpring": {
+    "p10": "05-12",
+    "p50": "04-28",
+    "p90": "04-13"
+   },
+   "firstFall": {
+    "p10": "10-01",
+    "p50": "10-14",
+    "p90": "10-27"
+   },
+   "years": 22,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055722.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055733",
+   "name": "MONUMENT 3S, CO US",
+   "lat": 39.0564,
+   "lon": -104.8683,
+   "elevFt": 6821,
+   "lastSpring": {
+    "p10": "05-30",
+    "p50": "05-17",
+    "p90": "05-05"
+   },
+   "firstFall": {
+    "p10": "09-19",
+    "p50": "10-01",
+    "p90": "10-12"
+   },
+   "years": 10,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055733.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055734",
+   "name": "MONUMENT, CO US",
+   "lat": 39.1025,
+   "lon": -104.8675,
+   "elevFt": 7080,
+   "lastSpring": {
+    "p10": "05-31",
+    "p50": "05-14",
+    "p90": "05-02"
+   },
+   "firstFall": {
+    "p10": "09-16",
+    "p50": "10-01",
+    "p90": "10-14"
+   },
+   "years": 13,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055734.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055922",
+   "name": "NEW RAYMER, CO US",
+   "lat": 40.6089,
+   "lon": -103.8461,
+   "elevFt": 4783,
+   "lastSpring": {
+    "p10": "05-22",
+    "p50": "05-09",
+    "p90": "04-29"
+   },
+   "firstFall": {
+    "p10": "09-21",
+    "p50": "10-04",
+    "p90": "10-16"
+   },
+   "years": 14,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055922.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00055984",
+   "name": "NORTHGLENN, CO US",
+   "lat": 39.8989,
+   "lon": -105.0133,
+   "elevFt": 5407,
+   "lastSpring": {
+    "p10": "05-14",
+    "p50": "05-02",
+    "p90": "04-18"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-11",
+    "p90": "10-24"
+   },
+   "years": 26,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00055984.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00056012",
+   "name": "NORWOOD, CO US",
+   "lat": 38.1317,
+   "lon": -108.2864,
+   "elevFt": 7020,
+   "lastSpring": {
+    "p10": "06-13",
+    "p50": "05-25",
+    "p90": "05-07"
+   },
+   "firstFall": {
+    "p10": "09-14",
+    "p50": "10-01",
+    "p90": "10-14"
+   },
+   "years": 16,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00056012.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00056131",
+   "name": "ORDWAY 1 ENE, CO US",
+   "lat": 38.2211,
+   "lon": -103.7322,
+   "elevFt": 4312,
+   "lastSpring": {
+    "p10": "05-14",
+    "p50": "05-02",
+    "p90": "04-20"
+   },
+   "firstFall": {
+    "p10": "09-25",
+    "p50": "10-08",
+    "p90": "10-19"
+   },
+   "years": 26,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00056131.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00056205",
+   "name": "OURAY #2, CO US",
+   "lat": 38.0264,
+   "lon": -107.6725,
+   "elevFt": 7718,
+   "lastSpring": {
+    "p10": "05-31",
+    "p50": "05-18",
+    "p90": "05-04"
+   },
+   "firstFall": {
+    "p10": "09-24",
+    "p50": "10-04",
+    "p90": "10-17"
+   },
+   "years": 13,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00056205.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00056266",
+   "name": "PALISADE, CO US",
+   "lat": 39.1136,
+   "lon": -108.3506,
+   "elevFt": 4751,
+   "lastSpring": {
+    "p10": "05-03",
+    "p50": "04-17",
+    "p90": "03-27"
+   },
+   "firstFall": {
+    "p10": "10-12",
+    "p50": "10-26",
+    "p90": "11-10"
+   },
+   "years": 29,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00056266.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00056306",
+   "name": "PAONIA 1SW, CO US",
+   "lat": 38.8522,
+   "lon": -107.6225,
+   "elevFt": 5581,
+   "lastSpring": {
+    "p10": "05-18",
+    "p50": "05-03",
+    "p90": "04-22"
+   },
+   "firstFall": {
+    "p10": "09-27",
+    "p50": "10-12",
+    "p90": "10-25"
+   },
+   "years": 26,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00056306.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00056320",
+   "name": "PARADOX 2N, CO US",
+   "lat": 38.3897,
+   "lon": -108.9494,
+   "elevFt": 5447,
+   "lastSpring": {
+    "p10": "05-29",
+    "p50": "05-11",
+    "p90": "04-29"
+   },
+   "firstFall": {
+    "p10": "09-23",
+    "p50": "10-05",
+    "p90": "10-18"
+   },
+   "years": 14,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00056320.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00056323",
+   "name": "PARKER, CO US",
+   "lat": 39.5144,
+   "lon": -104.7503,
+   "elevFt": 5904,
+   "lastSpring": {
+    "p10": "05-23",
+    "p50": "05-09",
+    "p90": "04-27"
+   },
+   "firstFall": {
+    "p10": "09-21",
+    "p50": "10-03",
+    "p90": "10-15"
+   },
+   "years": 16,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00056323.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00056520",
+   "name": "PLACERVILLE, CO US",
+   "lat": 38.0178,
+   "lon": -108.0514,
+   "elevFt": 7383,
+   "lastSpring": {
+    "p10": "06-06",
+    "p50": "05-26",
+    "p90": "05-14"
+   },
+   "firstFall": {
+    "p10": "09-17",
+    "p50": "09-29",
+    "p90": "10-10"
+   },
+   "years": 12,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00056520.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00056832",
+   "name": "RANGELY 1E, CO US",
+   "lat": 40.0889,
+   "lon": -108.7728,
+   "elevFt": 5277,
+   "lastSpring": {
+    "p10": "06-02",
+    "p50": "05-15",
+    "p90": "05-02"
+   },
+   "firstFall": {
+    "p10": "09-19",
+    "p50": "10-01",
+    "p90": "10-12"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00056832.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057020",
+   "name": "RIDGWAY, CO US",
+   "lat": 38.15,
+   "lon": -107.7583,
+   "elevFt": 7049,
+   "lastSpring": {
+    "p10": "06-30",
+    "p50": "06-11",
+    "p90": "05-27"
+   },
+   "firstFall": {
+    "p10": "09-01",
+    "p50": "09-13",
+    "p90": "09-25"
+   },
+   "years": 19,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057020.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057033",
+   "name": "RIFLE 3ENE, CO US",
+   "lat": 39.5572,
+   "lon": -107.7261,
+   "elevFt": 5469,
+   "lastSpring": {
+    "p10": "06-06",
+    "p50": "05-23",
+    "p90": "05-09"
+   },
+   "firstFall": {
+    "p10": "09-13",
+    "p50": "09-25",
+    "p90": "10-06"
+   },
+   "years": 11,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057033.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057050",
+   "name": "RIO GRANDE RSVR, CO US",
+   "lat": 37.7219,
+   "lon": -107.2667,
+   "elevFt": 9492,
+   "lastSpring": {
+    "p10": "06-30",
+    "p50": "06-15",
+    "p90": "06-02"
+   },
+   "firstFall": {
+    "p10": "08-27",
+    "p50": "09-11",
+    "p90": "09-23"
+   },
+   "years": 21,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057050.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057167",
+   "name": "ROCKY FORD 2 SE, CO US",
+   "lat": 38.0383,
+   "lon": -103.6947,
+   "elevFt": 4170,
+   "lastSpring": {
+    "p10": "05-14",
+    "p50": "05-01",
+    "p90": "04-20"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-08",
+    "p90": "10-19"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057167.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057249",
+   "name": "ROXBOROUGH SP, CO US",
+   "lat": 39.4286,
+   "lon": -105.0703,
+   "elevFt": 6117,
+   "lastSpring": {
+    "p10": "06-01",
+    "p50": "05-16",
+    "p90": "05-02"
+   },
+   "firstFall": {
+    "p10": "09-17",
+    "p50": "10-01",
+    "p90": "10-15"
+   },
+   "years": 24,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057249.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057287",
+   "name": "RUSH 1N, CO US",
+   "lat": 38.8611,
+   "lon": -104.0939,
+   "elevFt": 6054,
+   "lastSpring": {
+    "p10": "05-22",
+    "p50": "05-09",
+    "p90": "04-29"
+   },
+   "firstFall": {
+    "p10": "09-21",
+    "p50": "10-04",
+    "p90": "10-16"
+   },
+   "years": 12,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057287.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057317",
+   "name": "RYE 1SW, CO US",
+   "lat": 37.9136,
+   "lon": -104.9483,
+   "elevFt": 7141,
+   "lastSpring": {
+    "p10": "05-20",
+    "p50": "05-05",
+    "p90": "04-22"
+   },
+   "firstFall": {
+    "p10": "09-27",
+    "p50": "10-10",
+    "p90": "10-23"
+   },
+   "years": 22,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057317.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057337",
+   "name": "SAGUACHE, CO US",
+   "lat": 38.0858,
+   "lon": -106.1444,
+   "elevFt": 7701,
+   "lastSpring": {
+    "p10": "05-31",
+    "p50": "05-16",
+    "p90": "05-05"
+   },
+   "firstFall": {
+    "p10": "09-18",
+    "p50": "09-28",
+    "p90": "10-11"
+   },
+   "years": 15,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057337.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057370",
+   "name": "SALIDA, CO US",
+   "lat": 38.5328,
+   "lon": -106.0158,
+   "elevFt": 7160,
+   "lastSpring": {
+    "p10": "06-12",
+    "p50": "05-29",
+    "p90": "05-15"
+   },
+   "firstFall": {
+    "p10": "09-08",
+    "p50": "09-20",
+    "p90": "09-30"
+   },
+   "years": 16,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057370.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057430",
+   "name": "SAN LUIS 1 S, CO US",
+   "lat": 37.1953,
+   "lon": -105.4244,
+   "elevFt": 7943,
+   "lastSpring": {
+    "p10": "06-14",
+    "p50": "05-31",
+    "p90": "05-14"
+   },
+   "firstFall": {
+    "p10": "09-10",
+    "p50": "09-23",
+    "p90": "10-05"
+   },
+   "years": 15,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057430.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057515",
+   "name": "SEDGWICK 5 S, CO US",
+   "lat": 40.8658,
+   "lon": -102.5161,
+   "elevFt": 3996,
+   "lastSpring": {
+    "p10": "05-18",
+    "p50": "05-06",
+    "p90": "04-24"
+   },
+   "firstFall": {
+    "p10": "09-24",
+    "p50": "10-07",
+    "p90": "10-19"
+   },
+   "years": 30,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057515.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057519",
+   "name": "SEIBERT, CO US",
+   "lat": 39.295,
+   "lon": -102.8678,
+   "elevFt": 4706,
+   "lastSpring": {
+    "p10": "05-17",
+    "p50": "05-04",
+    "p90": "04-22"
+   },
+   "firstFall": {
+    "p10": "09-25",
+    "p50": "10-11",
+    "p90": "10-22"
+   },
+   "years": 15,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057519.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057582",
+   "name": "SHERIDAN LAKE, CO US",
+   "lat": 38.4683,
+   "lon": -102.2967,
+   "elevFt": 4070,
+   "lastSpring": {
+    "p10": "05-10",
+    "p50": "04-27",
+    "p90": "04-13"
+   },
+   "firstFall": {
+    "p10": "10-02",
+    "p50": "10-15",
+    "p90": "10-26"
+   },
+   "years": 6,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057582.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057936",
+   "name": "STEAMBOAT SPRINGS, CO US",
+   "lat": 40.4883,
+   "lon": -106.8233,
+   "elevFt": 6866,
+   "lastSpring": {
+    "p10": "06-24",
+    "p50": "06-09",
+    "p90": "05-25"
+   },
+   "firstFall": {
+    "p10": "08-31",
+    "p50": "09-12",
+    "p90": "09-24"
+   },
+   "years": 23,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057936.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00057950",
+   "name": "STERLING, CO US",
+   "lat": 40.6278,
+   "lon": -103.2083,
+   "elevFt": 3974,
+   "lastSpring": {
+    "p10": "05-12",
+    "p50": "04-30",
+    "p90": "04-16"
+   },
+   "firstFall": {
+    "p10": "09-28",
+    "p50": "10-09",
+    "p90": "10-20"
+   },
+   "years": 13,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00057950.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058008",
+   "name": "STRATTON, CO US",
+   "lat": 39.3047,
+   "lon": -102.6003,
+   "elevFt": 4399,
+   "lastSpring": {
+    "p10": "05-17",
+    "p50": "05-06",
+    "p90": "04-24"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-09",
+    "p90": "10-21"
+   },
+   "years": 17,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058008.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058157",
+   "name": "TACONY 13 SE, CO US",
+   "lat": 38.3422,
+   "lon": -104.0567,
+   "elevFt": 4882,
+   "lastSpring": {
+    "p10": "05-16",
+    "p50": "05-05",
+    "p90": "04-23"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-06",
+    "p90": "10-17"
+   },
+   "years": 27,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058157.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058184",
+   "name": "TAYLOR PARK, CO US",
+   "lat": 38.8183,
+   "lon": -106.6086,
+   "elevFt": 9179,
+   "lastSpring": {
+    "p10": "07-02",
+    "p50": "06-20",
+    "p90": "06-07"
+   },
+   "firstFall": {
+    "p10": "08-25",
+    "p50": "09-08",
+    "p90": "09-19"
+   },
+   "years": 26,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058184.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058429",
+   "name": "TRINIDAD, CO US",
+   "lat": 37.1786,
+   "lon": -104.4869,
+   "elevFt": 6030,
+   "lastSpring": {
+    "p10": "05-11",
+    "p50": "04-30",
+    "p90": "04-16"
+   },
+   "firstFall": {
+    "p10": "10-01",
+    "p50": "10-15",
+    "p90": "10-29"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058429.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058436",
+   "name": "TRINIDAD LAKE, CO US",
+   "lat": 37.1503,
+   "lon": -104.5567,
+   "elevFt": 6310,
+   "lastSpring": {
+    "p10": "05-25",
+    "p50": "05-11",
+    "p90": "04-29"
+   },
+   "firstFall": {
+    "p10": "09-22",
+    "p50": "10-04",
+    "p90": "10-17"
+   },
+   "years": 23,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058436.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058560",
+   "name": "URAVAN, CO US",
+   "lat": 38.3761,
+   "lon": -108.7422,
+   "elevFt": 5021,
+   "lastSpring": {
+    "p10": "05-08",
+    "p50": "04-26",
+    "p90": "04-10"
+   },
+   "firstFall": {
+    "p10": "10-06",
+    "p50": "10-18",
+    "p90": "10-31"
+   },
+   "years": 21,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058560.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058575",
+   "name": "VAIL, CO US",
+   "lat": 39.6394,
+   "lon": -106.3539,
+   "elevFt": 8304,
+   "lastSpring": {
+    "p10": "07-09",
+    "p50": "06-21",
+    "p90": "06-08"
+   },
+   "firstFall": {
+    "p10": "08-26",
+    "p50": "09-07",
+    "p90": "09-20"
+   },
+   "years": 24,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058575.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058781",
+   "name": "WALSENBURG 1 NW, CO US",
+   "lat": 37.6303,
+   "lon": -104.7956,
+   "elevFt": 6292,
+   "lastSpring": {
+    "p10": "05-20",
+    "p50": "05-06",
+    "p90": "04-24"
+   },
+   "firstFall": {
+    "p10": "09-23",
+    "p50": "10-04",
+    "p90": "10-17"
+   },
+   "years": 29,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058781.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058793",
+   "name": "WALSH 1 W, CO US",
+   "lat": 37.3822,
+   "lon": -102.2986,
+   "elevFt": 3978,
+   "lastSpring": {
+    "p10": "05-12",
+    "p50": "04-30",
+    "p90": "04-17"
+   },
+   "firstFall": {
+    "p10": "10-01",
+    "p50": "10-14",
+    "p90": "10-24"
+   },
+   "years": 30,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058793.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058931",
+   "name": "WESTCLIFFE, CO US",
+   "lat": 38.1314,
+   "lon": -105.4661,
+   "elevFt": 7873,
+   "lastSpring": {
+    "p10": "06-28",
+    "p50": "06-11",
+    "p90": "05-29"
+   },
+   "firstFall": {
+    "p10": "08-28",
+    "p50": "09-09",
+    "p90": "09-23"
+   },
+   "years": 27,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058931.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058992",
+   "name": "WFO PUEBLO, CO US",
+   "lat": 38.2797,
+   "lon": -104.5214,
+   "elevFt": 4653,
+   "lastSpring": {
+    "p10": "05-12",
+    "p50": "04-30",
+    "p90": "04-16"
+   },
+   "firstFall": {
+    "p10": "09-28",
+    "p50": "10-09",
+    "p90": "10-22"
+   },
+   "years": 9,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058992.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00058995",
+   "name": "WHEAT RIDGE 2, CO US",
+   "lat": 39.775,
+   "lon": -105.1169,
+   "elevFt": 5398,
+   "lastSpring": {
+    "p10": "05-18",
+    "p50": "05-05",
+    "p90": "04-24"
+   },
+   "firstFall": {
+    "p10": "09-20",
+    "p50": "10-05",
+    "p90": "10-18"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00058995.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00059096",
+   "name": "WILLIAMS FORK DAM, CO US",
+   "lat": 40.0375,
+   "lon": -106.2039,
+   "elevFt": 7618,
+   "lastSpring": {
+    "p10": "06-25",
+    "p50": "06-12",
+    "p90": "05-31"
+   },
+   "firstFall": {
+    "p10": "08-31",
+    "p50": "09-10",
+    "p90": "09-21"
+   },
+   "years": 26,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00059096.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00059213",
+   "name": "WOODROW 6NNE, CO US",
+   "lat": 40.075,
+   "lon": -103.5678,
+   "elevFt": 4374,
+   "lastSpring": {
+    "p10": "05-28",
+    "p50": "05-15",
+    "p90": "05-03"
+   },
+   "firstFall": {
+    "p10": "09-21",
+    "p50": "10-01",
+    "p90": "10-12"
+   },
+   "years": 10,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00059213.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00059243",
+   "name": "WRAY, CO US",
+   "lat": 40.0819,
+   "lon": -102.2069,
+   "elevFt": 3553,
+   "lastSpring": {
+    "p10": "05-19",
+    "p50": "05-07",
+    "p90": "04-25"
+   },
+   "firstFall": {
+    "p10": "09-25",
+    "p50": "10-06",
+    "p90": "10-16"
+   },
+   "years": 29,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00059243.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00059265",
+   "name": "YAMPA, CO US",
+   "lat": 40.1564,
+   "lon": -106.9108,
+   "elevFt": 7857,
+   "lastSpring": {
+    "p10": "06-28",
+    "p50": "06-14",
+    "p90": "06-01"
+   },
+   "firstFall": {
+    "p10": "08-29",
+    "p50": "09-11",
+    "p90": "09-23"
+   },
+   "years": 23,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00059265.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00059278",
+   "name": "YELLOW JACKET 4NE, CO US",
+   "lat": 37.5594,
+   "lon": -108.6636,
+   "elevFt": 7090,
+   "lastSpring": {
+    "p10": "05-31",
+    "p50": "05-15",
+    "p90": "04-30"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-08",
+    "p90": "10-22"
+   },
+   "years": 12,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00059278.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00059295",
+   "name": "YUMA, CO US",
+   "lat": 40.1236,
+   "lon": -102.7217,
+   "elevFt": 4134,
+   "lastSpring": {
+    "p10": "05-13",
+    "p50": "05-01",
+    "p90": "04-16"
+   },
+   "firstFall": {
+    "p10": "09-30",
+    "p50": "10-12",
+    "p90": "10-23"
+   },
+   "years": 29,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00059295.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USC00481547",
+   "name": "CARPENTER 3N, WY US",
+   "lat": 41.0844,
+   "lon": -104.3789,
+   "elevFt": 5437,
+   "lastSpring": {
+    "p10": "05-27",
+    "p50": "05-14",
+    "p90": "05-04"
+   },
+   "firstFall": {
+    "p10": "09-12",
+    "p50": "09-26",
+    "p90": "10-08"
+   },
+   "years": 13,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USC00481547.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00003013",
+   "name": "LAMAR MUNI AP, CO US",
+   "lat": 38.07,
+   "lon": -102.6881,
+   "elevFt": 3704,
+   "lastSpring": {
+    "p10": "05-17",
+    "p50": "05-02",
+    "p90": "04-19"
+   },
+   "firstFall": {
+    "p10": "09-28",
+    "p50": "10-07",
+    "p90": "10-19"
+   },
+   "years": 20,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00003013.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00003016",
+   "name": "RIFLE GARFIELD CO AP, CO US",
+   "lat": 39.5264,
+   "lon": -107.7264,
+   "elevFt": 5530,
+   "lastSpring": {
+    "p10": "05-27",
+    "p50": "05-11",
+    "p90": "04-28"
+   },
+   "firstFall": {
+    "p10": "09-23",
+    "p50": "10-04",
+    "p90": "10-17"
+   },
+   "years": 23,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00003016.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00003017",
+   "name": "DENVER INTL AP, CO US",
+   "lat": 39.8328,
+   "lon": -104.6575,
+   "elevFt": 5414,
+   "lastSpring": {
+    "p10": "05-19",
+    "p50": "05-05",
+    "p90": "04-23"
+   },
+   "firstFall": {
+    "p10": "09-27",
+    "p50": "10-09",
+    "p90": "10-20"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00003017.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00003026",
+   "name": "BURLINGTON CARSON AP, CO US",
+   "lat": 39.2447,
+   "lon": -102.2842,
+   "elevFt": 4192,
+   "lastSpring": {
+    "p10": "05-16",
+    "p50": "05-02",
+    "p90": "04-19"
+   },
+   "firstFall": {
+    "p10": "09-27",
+    "p50": "10-10",
+    "p90": "10-22"
+   },
+   "years": 21,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00003026.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00003028",
+   "name": "SPRINGFIELD COMANCHE, CO US",
+   "lat": 37.2833,
+   "lon": -102.6139,
+   "elevFt": 4383,
+   "lastSpring": {
+    "p10": "05-17",
+    "p50": "05-03",
+    "p90": "04-20"
+   },
+   "firstFall": {
+    "p10": "09-29",
+    "p50": "10-10",
+    "p90": "10-21"
+   },
+   "years": 19,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00003028.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00023062",
+   "name": "DENVER-STAPLETON, CO US",
+   "lat": 39.7633,
+   "lon": -104.8694,
+   "elevFt": 5286,
+   "lastSpring": {
+    "p10": "05-16",
+    "p50": "05-04",
+    "p90": "04-20"
+   },
+   "firstFall": {
+    "p10": "09-25",
+    "p50": "10-08",
+    "p90": "10-20"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00023062.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00024015",
+   "name": "AKRON WASHINGTON CO AP, CO US",
+   "lat": 40.1667,
+   "lon": -103.2167,
+   "elevFt": 4663,
+   "lastSpring": {
+    "p10": "05-19",
+    "p50": "05-06",
+    "p90": "04-24"
+   },
+   "firstFall": {
+    "p10": "09-27",
+    "p50": "10-08",
+    "p90": "10-20"
+   },
+   "years": 28,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00024015.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00024030",
+   "name": "SIDNEY MUNI AP, NE US",
+   "lat": 41.1014,
+   "lon": -102.9847,
+   "elevFt": 4309,
+   "lastSpring": {
+    "p10": "05-30",
+    "p50": "05-15",
+    "p90": "05-04"
+   },
+   "firstFall": {
+    "p10": "09-15",
+    "p50": "09-30",
+    "p90": "10-12"
+   },
+   "years": 23,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00024030.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00024046",
+   "name": "CRAIG MOFFAT CO AP, CO US",
+   "lat": 40.4953,
+   "lon": -107.5211,
+   "elevFt": 6186,
+   "lastSpring": {
+    "p10": "06-24",
+    "p50": "06-06",
+    "p90": "05-21"
+   },
+   "firstFall": {
+    "p10": "08-31",
+    "p50": "09-12",
+    "p90": "09-25"
+   },
+   "years": 22,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00024046.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00093010",
+   "name": "LIMON WSMO, CO US",
+   "lat": 39.1894,
+   "lon": -103.7158,
+   "elevFt": 5364,
+   "lastSpring": {
+    "p10": "06-04",
+    "p50": "05-21",
+    "p90": "05-07"
+   },
+   "firstFall": {
+    "p10": "09-14",
+    "p50": "09-26",
+    "p90": "10-06"
+   },
+   "years": 25,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00093010.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00093013",
+   "name": "MONTROSE RGNL AP, CO US",
+   "lat": 38.505,
+   "lon": -107.8975,
+   "elevFt": 5759,
+   "lastSpring": {
+    "p10": "05-17",
+    "p50": "05-02",
+    "p90": "04-19"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-08",
+    "p90": "10-22"
+   },
+   "years": 24,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00093013.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00093037",
+   "name": "COLORADO SPRINGS MUNI AP, CO US",
+   "lat": 38.81,
+   "lon": -104.6883,
+   "elevFt": 6181,
+   "lastSpring": {
+    "p10": "05-15",
+    "p50": "05-03",
+    "p90": "04-22"
+   },
+   "firstFall": {
+    "p10": "09-26",
+    "p50": "10-08",
+    "p90": "10-19"
+   },
+   "years": 30,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00093037.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00093067",
+   "name": "DENVER CENTENNIAL AP, CO US",
+   "lat": 39.5703,
+   "lon": -104.8489,
+   "elevFt": 5883,
+   "lastSpring": {
+    "p10": "05-17",
+    "p50": "05-05",
+    "p90": "04-24"
+   },
+   "firstFall": {
+    "p10": "09-25",
+    "p50": "10-08",
+    "p90": "10-20"
+   },
+   "years": 20,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00093067.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00093073",
+   "name": "ASPEN PITKIN CO AP, CO US",
+   "lat": 39.2231,
+   "lon": -106.8683,
+   "elevFt": 7720,
+   "lastSpring": {
+    "p10": "06-14",
+    "p50": "05-31",
+    "p90": "05-16"
+   },
+   "firstFall": {
+    "p10": "09-11",
+    "p50": "09-23",
+    "p90": "10-03"
+   },
+   "years": 21,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00093073.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00094050",
+   "name": "MEEKER AP, CO US",
+   "lat": 40.0489,
+   "lon": -107.8853,
+   "elevFt": 6390,
+   "lastSpring": {
+    "p10": "06-13",
+    "p50": "05-30",
+    "p90": "05-14"
+   },
+   "firstFall": {
+    "p10": "09-10",
+    "p50": "09-22",
+    "p90": "10-03"
+   },
+   "years": 22,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00094050.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00094074",
+   "name": "NUNN 7 NNE, CO US",
+   "lat": 40.8067,
+   "lon": -104.7553,
+   "elevFt": 5390,
+   "lastSpring": {
+    "p10": "05-27",
+    "p50": "05-13",
+    "p90": "05-02"
+   },
+   "firstFall": {
+    "p10": "09-14",
+    "p50": "09-27",
+    "p90": "10-09"
+   },
+   "years": 17,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00094074.csv",
+   "fetched": "2026-11-11"
+  },
+  {
+   "id": "USW00094075",
+   "name": "BOULDER 14 W, CO US",
+   "lat": 40.0353,
+   "lon": -105.5408,
+   "elevFt": 9828,
+   "lastSpring": {
+    "p10": "07-04",
+    "p50": "06-21",
+    "p90": "06-07"
+   },
+   "firstFall": {
+    "p10": "08-17",
+    "p50": "09-02",
+    "p90": "09-15"
+   },
+   "years": 17,
+   "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00094075.csv",
+   "fetched": "2026-11-11"
+  }
+ ]
+}
