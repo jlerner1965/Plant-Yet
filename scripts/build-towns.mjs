@@ -18,6 +18,8 @@ const sep = lines[0].includes('|') ? '|' : '\t';
 const cols = lines[0].split(sep).map((c) => c.trim());
 const rows = lines.slice(1).map((l) => Object.fromEntries(l.split(sep).map((v, i) => [cols[i], v.trim()])));
 
+// The Census lists the City of Central as "Central"; everyone, including the city, calls it Central City.
+const DISPLAY_NAME = { Central: "Central City" };
 const KIND = { 25: 'city', 43: 'town' };
 const places = rows.filter((r) => r.USPS === 'CO' && KIND[r.LSAD]);
 
@@ -28,7 +30,8 @@ const seen = new Set();
 
 const towns = places.map((r) => {
   const kind = KIND[r.LSAD];
-  const name = r.NAME.replace(new RegExp(` ${kind}$`), '');
+  const base = r.NAME.replace(new RegExp(` ${kind}$`), "");
+  const name = DISPLAY_NAME[base] || base;
   const slug = slugify(name);
   if (seen.has(slug)) throw new Error(`Duplicate slug ${slug}`);
   seen.add(slug);

@@ -10,11 +10,13 @@ const range = (o) => (o.min === o.max ? `${o.min}` : `${o.min}–${o.max}`);
 const facts = [
   crop.frostCategory && { label: 'Frost category', value: crop.frostCategory.value.charAt(0).toUpperCase() + crop.frostCategory.value.slice(1), src: crop.frostCategory },
   crop.plantWindow && { label: 'Plant outdoors', value: windowText(crop.plantWindow), src: crop.plantWindow },
-  crop.indoorStartWeeks && { label: 'Start seeds indoors', value: `${range(crop.indoorStartWeeks)} weeks before typical last frost`, src: crop.indoorStartWeeks },
-  crop.minNightTempF && { label: 'Plant when nights stay above', value: `${crop.minNightTempF.value}°F`, src: crop.minNightTempF },
-  crop.damageThresholdF && { label: 'Cover at or below', value: `${crop.damageThresholdF.value}°F`, src: crop.damageThresholdF },
+  crop.indoorStartWeeks && { label: 'Start seeds indoors', value: `${crop.indoorStartWeeks.max === null ? `At least ${crop.indoorStartWeeks.min}` : range(crop.indoorStartWeeks)} weeks before ${crop.indoorStartWeeks.relativeTo === 'transplant date' ? 'planting out' : 'typical last frost'}`, src: crop.indoorStartWeeks },
+  crop.nightMinF && { label: 'Plant out when nights stay above', value: `${crop.nightMinF.value}°F`, src: crop.nightMinF },
+  crop.coldToleranceF && { label: 'Cover at or below', value: `${crop.coldToleranceF.value}°F`, src: crop.coldToleranceF },
+  crop.minDaytimeTempF && { label: 'Grows once daytime temperatures reach', value: `${crop.minDaytimeTempF.value}°F`, src: crop.minDaytimeTempF },
   crop.daysToHarvest && { label: 'Days to harvest', value: range(crop.daysToHarvest), src: crop.daysToHarvest },
 ].filter(Boolean);
+const gate = crop.nightMinF?.value ?? crop.coldToleranceF?.value ?? null;
 const sources = [...new Map([...facts.map((f) => f.src), ...crop.tips].map((s) => [s.url, s])).values()];
 ---
 <Base title={`${crop.name}: when to plant in Colorado`} description={`When to plant ${lower} in Colorado: frost category, planting window relative to last frost, minimum night temperature and growing tips, each with its university extension source.`}>
@@ -53,6 +55,17 @@ const sources = [...new Map([...facts.map((f) => f.src), ...crop.tips].map((s) =
       </ul>
     </>
   )}
+
+  <h2>How the answer uses this</h2>
+  <p>
+    {crop.plantWindow
+      ? <>The planting window opens {windowText(crop.plantWindow).toLowerCase().replace(/^from /, '')} in your town{crop.daysToHarvest ? <> and stays open while a planting still has {crop.daysToHarvest.max} days to mature before the typical first fall frost</> : crop.plantWindow.endWeeks === null ? <>; no source gives a last planting date, so it runs to the typical first fall frost</> : null}.</>
+      : <>No planting window is sourced, so no answer is given.</>}
+    {gate !== null
+      ? <> Inside the window the answer is <strong>Plant</strong> when the coldest of the next 7 nights stays above {gate}°F{crop.nightMinF ? '' : ' (no source gives a minimum night temperature, so the cold-damage temperature is used)'}.</>
+      : <> No source gives a cold limit for {lower}, so it never gets a Plant answer — only its dates.</>}
+    {crop.coldToleranceF && <> <strong>Cover tonight</strong> shows when tonight's low is {crop.coldToleranceF.value}°F or colder while {lower} is normally in the ground.</>}
+  </p>
 
   <h2>Sources</h2>
   <ul class="small">

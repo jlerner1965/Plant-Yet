@@ -26,10 +26,11 @@ export const STATUS = {
   wait: { label: 'Wait', cls: 's-wait' },
   cover: { label: 'Cover tonight', cls: 's-cover' },
   off: { label: 'Off-season', cls: 's-off' },
+  nodata: { label: 'No answer', cls: 's-off' },
   unavailable: { label: 'Forecast unavailable', cls: 's-unavailable' },
   norecord: { label: 'No nearby frost record', cls: 's-norecord' },
 };
-export const ORDER = ['cover', 'plant', 'wait', 'off'];
+export const ORDER = ['cover', 'plant', 'wait', 'nodata', 'off'];
 
 const tz = site.timeZone;
 export const fmtTime = (iso) =>

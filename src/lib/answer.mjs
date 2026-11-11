@@ -41,17 +41,25 @@ export function cropSeason(crop, station, year) {
     const a = w.startWeeks;
     const b = w.endWeeks ?? w.startWeeks;
     open = last + 7 * Math.min(a, b);
+    const sourcedEnd = last + 7 * Math.max(a, b);
     if (crop.daysToHarvest) {
       // Last day a planting still has time to mature before the typical first fall frost.
-      close = first - crop.daysToHarvest.max;
-      closeBasis = 'harvest';
-    }
-    const sourcedEnd = last + 7 * Math.max(a, b);
-    if (close === null || close < sourcedEnd) {
+      close = Math.max(sourcedEnd, first - crop.daysToHarvest.max);
+      closeBasis = close === sourcedEnd ? 'source' : 'harvest';
+    } else if (w.endWeeks !== null && w.endWeeks !== undefined) {
       close = sourcedEnd;
       closeBasis = 'source';
+    } else {
+      // The source gives only a start ("after last frost") and there is no sourced days-to-harvest:
+      // we don't invent a cut-off, so the window runs to the typical first fall frost.
+      close = first;
+      closeBasis = 'none';
     }
   }
+  // Seed-starting weeks are counted back from last frost, or from the transplant date
+  // (= the day the window opens) when that is how the source words it.
+  const iw = crop.indoorStartWeeks;
+  const base = iw && (iw.relativeTo === 'transplant date' ? open : last);
   return {
     year,
     lastFrost: last,
@@ -60,8 +68,8 @@ export function cropSeason(crop, station, year) {
     close,
     closeBasis,
     // Seeds are started "min–max weeks before last frost": the earliest sensible day is max weeks before.
-    indoorFrom: crop.indoorStartWeeks ? last - 7 * crop.indoorStartWeeks.max : null,
-    indoorTo: crop.indoorStartWeeks ? last - 7 * crop.indoorStartWeeks.min : null,
+    indoorFrom: iw && base !== null ? base - 7 * (iw.max ?? iw.min) : null,
+    indoorTo: iw && base !== null ? base - 7 * iw.min : null,
     // After this date a freeze has normally already happened (9 years in 10): the season is over.
     seasonEnd: dayNum(`${year}-${station.firstFall.p90}`),
   };
@@ -72,7 +80,7 @@ const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 
 /**
  * Answer for one crop in one town.
- * Returns { s: 'cover'|'plant'|'wait'|'off', r: reason/sentence, next?: ISO date of the next action }.
+ * Returns { s: 'cover'|'plant'|'wait'|'off'|'nodata', r: reason/sentence, next?: ISO date of the next action }.
  */
 export function cropAnswer({ crop, station, forecast, today }) {
   const year = new Date(today * DAY).getUTCFullYear();
@@ -82,28 +90,32 @@ export function cropAnswer({ crop, station, forecast, today }) {
 
   const tonight = forecast.tonight;
   const min7 = forecast.min7;
-  const minNight = crop.minNightTempF?.value ?? null;
-  const damage = crop.damageThresholdF?.value ?? null;
+  // nightMin: an explicit minimum NIGHT temperature for planting out (few crops have one sourced).
+  // tolerance: the coldest temperature the source says the crop takes without serious damage.
+  const nightMin = crop.nightMinF?.value ?? null;
+  const damage = crop.coldToleranceF?.value ?? null;
+  const gate = nightMin ?? damage;
+  const needs = nightMin !== null ? `needs nights above ${nightMin}°F` : `is at risk at ${damage}°F or colder`;
   const name = plural(crop.name).toLowerCase();
 
   // COVER TONIGHT — only while the crop is normally in the ground.
   if (damage !== null && today >= cur.open && today <= cur.seasonEnd && tonight.lowF <= damage) {
     return {
       s: 'cover',
-      r: `${tonight.lowF}°F forecast ${nightLabel(tonight)}. ${cap(name)} can be damaged at ${damage}°F or colder — cover what is already planted.`,
+      r: `${tonight.lowF}°F forecast ${nightLabel(tonight)}. ${cap(name)} is at risk at ${damage}°F or colder — cover what is already planted.`,
     };
   }
 
   // Inside the planting window.
   if (today >= cur.open && today <= cur.close) {
     const windowText = `Planting window here is ${fmtDay(cur.open)}–${fmtDay(cur.close)}`;
-    if (minNight === null) {
-      return { s: 'wait', r: `${windowText}, but there is no sourced minimum night temperature for ${name}, so the forecast can't be checked.` };
+    if (gate === null) {
+      return { s: 'nodata', r: `${windowText}, but no extension source gives a cold limit for ${name}, so we can't check the forecast for it.` };
     }
-    if (min7.lowF > minNight) {
-      return { s: 'plant', r: `${windowText} and the coldest of the next 7 nights is ${min7.lowF}°F (needs nights above ${minNight}°F).` };
+    if (min7.lowF > gate) {
+      return { s: 'plant', r: `${windowText}. Coldest of the next 7 nights: ${min7.lowF}°F (${name} ${needs}).` };
     }
-    return { s: 'wait', r: `${min7.lowF}°F forecast ${nightLabel(min7)}; ${name} needs nights above ${minNight}°F.` };
+    return { s: 'wait', r: `${min7.lowF}°F forecast ${nightLabel(min7)}; ${name} ${needs}.` };
   }
 
   // Before this year's window.

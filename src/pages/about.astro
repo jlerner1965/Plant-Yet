@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import { towns, crops, answers, site, frostRule, townSources, stationSources, cropsMeta, fmtShortDate } from '../lib/data.mjs';
+const noRecord = towns.filter((t) => answers.towns[t.slug].headline.s === 'norecord').length;
+const withNight = crops.filter((c) => c.nightMinF).map((c) => c.name.toLowerCase());
+const noLimit = crops.filter((c) => !c.nightMinF && !c.coldToleranceF).map((c) => c.name.toLowerCase());
+const noEnd = crops.filter((c) => c.plantWindow && c.plantWindow.endWeeks === null && !c.daysToHarvest).map((c) => c.name.toLowerCase());
+const join = (a) => (a.length > 1 ? a.slice(0, -1).join(', ') + ' and ' + a.at(-1) : a[0]);
+---
+<Base title="How Plant Yet? decides: data sources and method" description="Where Plant Yet? gets its forecast, frost dates and crop numbers, and exactly how it decides between plant, wait and cover tonight. Guidance only.">
+  <h1>How the answer is decided</h1>
+  <p class="lede">
+    Plant Yet? answers one question for every incorporated town in Colorado, once a day: should I plant, wait, or cover tonight?
+    It is guidance only — not a guarantee about your garden.
+  </p>
+
+  <h2>Guidance only</h2>
+  <p>
+    Frost dates are 30-year averages from a weather station that may be miles from your yard. Forecasts change during the day and we fetch them once, early in the morning.
+    Cold air pools in low spots, and a sheltered south wall can be a week ahead of an open field. Use the answer as a starting point, look at the numbers under it, and check the
+    <a href="https://www.weather.gov/">National Weather Service</a> forecast before a cold night.
+  </p>
+
+  <h2>The four answers</h2>
+  <dl class="facts card">
+    <div><dt>Plant</dt><dd>Today is inside the crop's planting window for your town, <em>and</em> the coldest of the next 7 nights stays above the crop's cold limit.</dd></div>
+    <div><dt>Wait</dt><dd>Anything else in spring (from March 1). We always say why: “typical last frost here is May 12” or “28°F forecast Thursday night”.</dd></div>
+    <div><dt>Cover tonight</dt><dd>Tonight's forecast low is at or below the crop's cold-damage temperature, during the weeks that crop is normally in the ground. This outranks Plant and Wait.</dd></div>
+    <div><dt>Off-season</dt><dd>“Start seeds indoors on [date]” or “Next planting window opens [date]”.</dd></div>
+  </dl>
+  <p>The big answer at the top of a town page is the most urgent one among its crops: Cover tonight first, then Plant, then Wait, then off-season.</p>
+
+  <h3>The details</h3>
+  <ul>
+    <li><strong>Typical last and first frost</strong> are the dates with a 50% chance of a later (spring) or earlier (fall) 32°F night at the town's matched station.</li>
+    <li><strong>Planting window opens</strong> the sourced number of weeks before or after typical last frost — for example CSU's “2–4 weeks before” for hardy crops opens 4 weeks before.</li>
+    <li><strong>Planting window closes</strong> on the last day a planting could still mature before typical first fall frost (first frost minus the crop's sourced days to harvest), or at the end of the sourced range if that is later.
+      {noEnd.length > 0 && <> For {join(noEnd)} no source gives days to harvest or a last planting date, so we don't invent one: the window runs to the typical first fall frost.</>}</li>
+    <li><strong>Cold limit for Plant.</strong> Where an extension source states a minimum <em>night</em> temperature for planting out ({join(withNight)}), we use it. For every other crop no such number is published, so the check is the crop's sourced cold-damage temperature instead.
+      {noLimit.length > 0 && <> {join(noLimit).replace(/^./, (m) => m.toUpperCase())} have neither, so they show their dates but never a Plant answer.</>}</li>
+    <li><strong>In the ground</strong> means from the day the window opens until the date by which 9 falls in 10 have had a freeze. Outside those weeks there is no Cover tonight.</li>
+    <li><strong>Seed-starting dates</strong> count back from typical last frost, or from the day the window opens when the source says “weeks before transplanting”.</li>
+    <li><strong>Tonight</strong> is the first night period in the forecast; the 7-night low is the coldest night period of the {`7`} we store.</li>
+  </ul>
+
+  <h2>Stale forecasts</h2>
+  <p>
+    If a town's forecast can't be fetched, we keep its last good one and show the time it was fetched. Once a forecast is more than {site.staleAfterHours} hours old the page shows
+    <strong>Forecast unavailable</strong> instead of an answer — a stale Plant or Cover is never shown as current. The page checks this in your browser too, so it holds even if our daily update stops.
+  </p>
+
+  <h2>No nearby frost record</h2>
+  <p>
+    Each town uses the nearest NOAA station that has complete freeze data, is within {frostRule.maxMiles} miles, <em>and</em> is within {frostRule.maxElevDiffFt} feet of the town's elevation.
+    If no station qualifies, the town shows “No nearby frost record” and gets no planting dates — we never borrow a far-away or much lower station.
+    Today that is {noRecord} of {towns.length} towns, mostly in the mountains.
+  </p>
+
+  <h2>Data sources</h2>
+  <dl class="facts card">
+    <div>
+      <dt>Towns and coordinates</dt>
+      <dd>Every incorporated Colorado city and town ({towns.length}) from the <a href={townSources.list.url}>{townSources.list.name}</a>, fetched {fmtShortDate(townSources.list.fetched)}. The location is the Census “internal point” of the town.</dd>
+    </div>
+    <div>
+      <dt>Elevation</dt>
+      <dd><a href="https://apps.nationalmap.gov/epqs/">USGS Elevation Point Query Service</a> at that point. Each town page links its own query.</dd>
+    </div>
+    <div>
+      <dt>Frost history</dt>
+      <dd><a href={stationSources.normals.url}>NOAA NCEI 1991–2020 U.S. Climate Normals</a>, annual/seasonal station files: probability of the last spring and first fall 32°F minimum at 10%, 50% and 90% (<a href={stationSources.documentation.url}>documentation</a>). Fetched {fmtShortDate(stationSources.normals.fetched)}.</dd>
+    </div>
+    <div>
+      <dt>Forecast</dt>
+      <dd><a href="https://www.weather.gov/documentation/services-web-api">National Weather Service API</a> (api.weather.gov) 7-day forecast for each town's grid cell, fetched once a day around 4:30 am Denver time. Every town page shows its fetch time.</dd>
+    </div>
+    <div>
+      <dt>Crops</dt>
+      <dd>{crops.length} vegetables and herbs. Every value links to the <a href="/crops/">university extension page</a> it comes from (Colorado State University Extension first, then other land-grant universities), last checked {fmtShortDate(cropsMeta.checked)}. Values we couldn't source are left out, not estimated.</dd>
+    </div>
+  </dl>
+
+  <h2>What this site doesn't do</h2>
+  <p>No accounts, no ads, no tracking scripts, no cookies, and no AI at runtime: the pages are plain files rebuilt once a day from public data. The code and all the data are in a public repository.</p>
+</Base>
