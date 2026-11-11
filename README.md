@@ -3,7 +3,7 @@
 A free static site with one page for every incorporated town in Colorado, answering one question every day:
 **should I plant, wait, or cover tonight?**
 
-Live at <https://plantyet.insidethetowns.com>. Costs $0 to run: no paid APIs, no database, no sign-in, no AI at runtime.
+Live at <https://insidesummitcounty.com> (temporary domain; set `url` in `config/site.json` to change it). Costs $0 to run: no paid APIs, no database, no sign-in, no AI at runtime.
 
 ## How it works
 
@@ -54,7 +54,7 @@ Settings live in `config/site.json`. The NWS contact email comes from `nwsContac
 
 ## Deploy
 
-Import the repository in Vercel (framework preset: Astro), add the domain `plantyet.insidethetowns.com`, and point a CNAME record at Vercel.
+Import the repository in Vercel (framework preset: Astro), add the domain from `config/site.json`, and create the DNS record Vercel shows you.
 Keep the repository public so GitHub Actions minutes stay free.
 
 Guidance only — see `/about/`.

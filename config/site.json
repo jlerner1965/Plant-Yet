@@ -1,8 +1,8 @@
 {
   "name": "Plant Yet?",
-  "url": "https://plantyet.insidethetowns.com",
+  "url": "https://insidesummitcounty.com",
   "timeZone": "America/Denver",
-  "nwsContactEmail": "",
+  "nwsContactEmail": "lernerlegacy@gmail.com",
   "staleAfterHours": 36,
   "maxFailureShare": 0.1,
   "stationMaxMiles": 25,
