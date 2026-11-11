@@ -21,6 +21,18 @@ export async function writeJson(path, value) {
   await writeFile(path, JSON.stringify(value, null, 1) + '\n');
 }
 
+/**
+ * Like writeJson, but each entry of value[key] goes on one line. Keeps the files that change
+ * every day small and their git diffs to one line per town.
+ */
+export async function writeJsonLines(path, value, key) {
+  const { [key]: entries, ...rest } = value;
+  const head = JSON.stringify(rest, null, 1).replace(/\n}$/, '');
+  const lines = Object.entries(entries).map(([k, v]) => `  ${JSON.stringify(k)}: ${JSON.stringify(v)}`);
+  await mkdir(dirname(path), { recursive: true });
+  await writeFile(path, `${head},\n ${JSON.stringify(key)}: {\n${lines.join(',\n')}\n }\n}\n`);
+}
+
 export const site = JSON.parse(await readFile(resolve(ROOT, 'config', 'site.json'), 'utf8'));
 
 /** User-Agent for bulk one-off downloads (Census, USGS, NCEI). */

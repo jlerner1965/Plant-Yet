@@ -2562,15 +2562,7 @@
     "sourceName": "Clemson Cooperative Extension",
     "fetched": "2026-11-11"
    },
-   "coldToleranceF": {
-    "value": 50,
-    "basis": "crop",
-    "url": "https://extension.illinois.edu/herbs/basil",
-    "quote": "Cold soil and air temperatures can stunt basil growth and can even cause damage and blackened leaves at 50 degrees.",
-    "note": "Chilling damage threshold (not frost); Clemson adds that the first fall frost kills basil.",
-    "sourceName": "University of Illinois Extension",
-    "fetched": "2026-11-11"
-   },
+   "coldToleranceF": null,
    "minDaytimeTempF": null,
    "tips": [
     {
@@ -2610,6 +2602,7 @@
     }
    ],
    "leftOut": [
+    "cold-damage temperature",
     "days to harvest"
    ]
   },

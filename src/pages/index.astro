@@ -12,7 +12,7 @@ const items = towns.map((t) => ({ slug: t.slug, name: t.name, s: answers.towns[t
 <Base
   title="Can I plant yet? Colorado planting answers, town by town"
   description={`Should you plant, wait, or cover tonight? A daily answer for all ${towns.length} incorporated Colorado towns, from the National Weather Service forecast and NOAA 30-year frost dates.`}
-  staleAt={staleAt(answers.generatedAt)}
+  staleAt={staleAt(forecastsMeta.lastRun)}
 >
   <h1>Can I plant yet?</h1>
   <p class="lede">One answer a day for every town in Colorado: plant, wait, or cover tonight.</p>
@@ -38,7 +38,7 @@ const items = towns.map((t) => ({ slug: t.slug, name: t.name, s: answers.towns[t
       </p>
     </div>
     <p class="stale-only card s-unavailable">
-      <strong>Forecast unavailable.</strong> Our last update was {fmtTime(answers.generatedAt)}, more than {site.staleAfterHours} hours ago, so today's counts aren't shown.
+      <strong>Forecast unavailable.</strong> Our last update was {fmtTime(forecastsMeta.lastRun)}, more than {site.staleAfterHours} hours ago, so today's counts aren't shown.
     </p>
   </section>
 

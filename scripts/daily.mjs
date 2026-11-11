@@ -1,6 +1,6 @@
 // The daily job: fetch every town's NWS forecast, compute today's answers, write JSON.
 //
-//   node scripts/daily.mjs [--limit N] [--only slug,slug] [--allow-no-email]
+//   node scripts/daily.mjs [--limit N] [--only slug,slug] [--no-fetch]
 //
 // Rules:
 //  - Each town's gridpoint is looked up once and cached in data/gridpoints.json.
@@ -10,7 +10,7 @@
 //    (stdout, $GITHUB_STEP_SUMMARY, daily-failure.md) and the process exits 1.
 import { appendFile, writeFile, rm } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import { ROOT, dataPath, readJson, writeJson, sleep, site } from './lib/util.mjs';
+import { ROOT, dataPath, readJson, writeJson, writeJsonLines, sleep, site } from './lib/util.mjs';
 import { nwsUserAgent, fetchGridpoint, fetchForecast } from './lib/nws.mjs';
 import { buildAnswers } from '../src/lib/answer.mjs';
 
@@ -18,7 +18,7 @@ const args = process.argv.slice(2);
 const flag = (name) => args.includes(name);
 const opt = (name) => (args.includes(name) ? args[args.indexOf(name) + 1] : undefined);
 
-const ua = nwsUserAgent({ allowNoEmail: flag('--allow-no-email') });
+const ua = nwsUserAgent({ allowNoEmail: flag('--allow-no-email') || flag('--no-fetch') });
 const now = new Date();
 const { towns: allTowns } = await readJson(dataPath('towns.json'));
 const only = opt('--only')?.split(',');
@@ -48,7 +48,8 @@ async function forecastFor(town) {
   }
 }
 
-for (const [i, town] of towns.entries()) {
+// --no-fetch recomputes answers from the forecasts already on disk (used after editing crop data).
+for (const [i, town] of flag('--no-fetch') ? [] : towns.entries()) {
   try {
     forecasts[town.slug] = await forecastFor(town);
   } catch (err) {
@@ -90,16 +91,16 @@ const { crops } = await readJson(dataPath('crops.json'));
 const answers = buildAnswers({ towns: allTowns, frost: frost.towns, stations, crops, forecasts, now, site });
 
 gridpoints.about = 'NWS forecast grid cell for each town (api.weather.gov/points). Looked up once and cached.';
-await writeJson(dataPath('gridpoints.json'), gridpoints);
-await writeJson(dataPath('forecasts.json'), {
+await writeJsonLines(dataPath('gridpoints.json'), gridpoints, 'points');
+await writeJsonLines(dataPath('forecasts.json'), {
   about: 'Night lows from the National Weather Service 7-day forecast for each town. A town whose latest fetch failed keeps its last good entry and its original fetchedAt.',
   source: { name: 'National Weather Service API', url: 'https://api.weather.gov' },
-  lastRun: now.toISOString(),
+  lastRun: flag('--no-fetch') ? previous.lastRun : now.toISOString(),
   partialRun: partial || undefined,
-  failedThisRun: failures.map((f) => f.slug),
+  failedThisRun: flag('--no-fetch') ? previous.failedThisRun : failures.map((f) => f.slug),
   towns: forecasts,
-});
-await writeJson(dataPath('answers.json'), answers);
+}, 'towns');
+await writeJsonLines(dataPath('answers.json'), answers, 'towns');
 
 const c = answers.summary;
 await summary(

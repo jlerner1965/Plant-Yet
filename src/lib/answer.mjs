@@ -234,6 +234,8 @@ export function buildAnswers({ towns, frost, stations, crops, forecasts, now, si
     for (const crop of crops) cropAnswers[crop.slug] = cropAnswer({ crop, station, forecast, today });
     const headline = townHeadline({ crops, cropAnswers, forecast, station, today });
     summary[headline.s === 'off' ? 'offseason' : headline.s]++;
+    // "next" is only needed to pick the headline; keep the committed file small.
+    for (const a of Object.values(cropAnswers)) delete a.next;
     out[town.slug] = { headline, crops: cropAnswers };
   }
   return {
