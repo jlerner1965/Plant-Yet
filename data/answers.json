@@ -1,7 +1,7 @@
 {
  "about": "Computed by scripts/daily.mjs from forecasts.json, frost.json, stations.json and crops.json. See /about/ for the rules.",
- "date": "2026-11-19",
- "generatedAt": "2026-11-19T19:35:30.479Z",
+ "date": "2026-11-20",
+ "generatedAt": "2026-11-20T19:13:54.717Z",
  "staleAfterHours": 36,
  "summary": {
   "plant": 0,
